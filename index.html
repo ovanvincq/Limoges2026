@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+		/>
+
+		<title>Determination of the modal properties of optical fibers</title>
+
+		<link rel="stylesheet" href="dist/reset.css" />
+		<link rel="stylesheet" href="dist/reveal.css" />
+		<link rel="stylesheet" href="dist/theme/white-contrast.css" />
+		<link rel="stylesheet" href="perso.css" />
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="dist/plugin/highlight/monokai.css" />
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+			
+				<!--<section data-title="" style="text-align: center;">
+					entete
+				</section>-->
+			
+				<div class="slide-header" id="slide-header"></div>
+				<div class="slide-footer" id="slide-footer">
+					<span id="footer-title"></span>
+					<span id="footer-page"></span>
+				</div>
+				
+	<!-- -----------------------------------------------------------------EN TEST--------------------------------------------------------------- -->	
+				<section data-title="Graded-index fiber - Leaky modes" style="text-align:left;">
+					
+				</section>
+				
+
+				
+
+				
+	<!-- -----------------------------------------------------------------DEBUT--------------------------------------------------------------- -->			
+	
+			
+				<section data-title="Introduction - Uniform medium with refactive index n">
+					<div>
+						<video id="uniform_medium_video" muted data-autoplay loop playsinline tabindex="-1" width="70%">
+							<source src="uniform_medium_animation.mp4" type="video/mp4">
+						</video>
+					</div>
+					<div class="r-stack">
+						<div class="fragment fade-out" data-fragment-index="0" >
+							<p style="text-align: left;">
+								Wave vectors: $\vec{k_1}=k_t\vec{e_x}+\beta\vec{e_z}$ and $\vec{k_2}=-k_t\vec{e_x}+\beta\vec{e_z}$
+							</p>
+							<ul>
+								<li>Norm: $k_1=k_2=k=k_0 n=\frac{2\pi}{\lambda} n$</li>
+								<li>Components: $\beta=k\cos(\theta)$ and $k_t=k\sin(\theta)$</li>
+								<li>$\beta^2+k_t^2=k^2$</li>
+							</ul>
+							<p style="text-align: left;">
+								Plane waves
+							</p>
+							<ul>
+								<li>$\underline{E}_1(x,z,t)=E_0\exp\left(i\left(k_tx+\beta z-\omega t\right)\right)$</li>
+								<li>$\underline{E}_2(x,z,t)=E_0\exp\left(i\left(-k_tx+\beta z-\omega t\right)\right)$</li>
+							</ul>
+						</div>
+						<div class="fragment current-visible" data-fragment-index="0">
+							<p style="text-align: left;">
+							When the two waves overlap:
+							$$\underline{E}^{\theta,+}(x,z,t)=\underline{E}_1(x,z,t)+\underline{E}_2(x,z,t)=2E_0\cos(k_tx)\exp\left(i\left(\beta z-\omega t\right)\right)$$
+							</p>
+							<ul>
+								<li>Propagation in the z-direction with the wave vector $\beta \vec{e_z}$</li>
+								<li>Stationary field in the x-direction, fringe spacing: $d=\frac{\lambda}{2n\sin(\theta)}$</li>
+							</ul>
+						</div>
+						<div class="fragment" data-fragment-index="1">
+							<p style="text-align: left;">
+							Resulting wave obtained by subtracting the two plane waves:
+							$$\underline{E}^{\theta,-}(x,z,t)=\underline{E}_1(x,z,t)-\underline{E}_2(x,z,t)=2iE_0\sin(k_tx)\exp\left(i\left(\beta z-\omega t\right)\right)$$
+							</p>
+							<ul>
+								<li>Propagation in the z-direction with the wave vector $\beta \vec{e_z}$</li>
+								<li>Stationary field in the x-direction, fringe spacing: $d=\frac{\lambda}{2n\sin(\theta)}$</li>
+							</ul>
+						</div>
+					</div>
+					
+				
+				  
+				</section>
+				
+				<section data-title="Introduction - Uniform medium with refactive index n" style="text-align: left;">
+					A wave propagating along the z-axis can be decomposed on the basis $\underline{E}^{\theta,\pm}$ that are called <b>modes</b>.<br/><br/>
+					The EM field of a mode can be written as $\begin{pmatrix} \vec{\underline{E}}(x,y,z,t)\\\vec{\underline{H}}(x,y,z,t)\\\end{pmatrix}=\begin{pmatrix}\vec{\underline{e}}(x,y)\\\vec{\underline{h}}(x,y)\end{pmatrix}\exp\left(i\left(\beta z-\omega t\right)\right)$ and each mode is characterized by:<br/>
+					<ul>
+						<li>its <b>electric/magnetic field distribution</b> $\vec{\underline{e}}(x,y)/\vec{\underline{h}}(x,y)$ in the transverse plane</li>
+						<li>its <b>propagation constant</b> $\beta$ or by its <b>effective index</b> defined as: $\boxed{n_{\text{eff}}=\frac{\beta}{k_0}}$</li>
+					</ul><br/><br/>
+					For a 2D uniform medium:<br/>
+					<ul>
+						<li>$e(x,y)=\cos(k_0\sqrt{n^2-n_{\text{eff}}^2}x)$ or $e(x,y)=\sin(k_0\sqrt{n^2-n_{\text{eff}}^2}x)$</li>
+						<li> $n_{\text{eff}}=n\cos(\theta) \leq n$ and $\theta$ can take on any value
+					</ul>
+					<p class="fragment current-visible" data-fragment-index="0">
+					There are also <b>evanescent modes</b> for which $\beta$ and $n_{\text{eff}}$ are purely imaginary<br/>
+					</p>
+					<div class="r-stack" style="text-align: center;">
+						<img src="spectre_milieu_infini1.svg" alt="Figure" style="width: 50%;" class="fragment fade-out" data-fragment-index="0">
+						<img src="spectre_milieu_infini.svg" alt="Figure" style="width: 50%;" class="fragment current-visible" data-fragment-index="0">
+					</div>
+				</section>
+				
+				<section data-title="Introduction - Uniform medium with refactive index n" style="text-align: left;">
+					<div class="r-stack">
+						<div style="width:100%; display:flex; align-items: center;justify-content: space-between;" class="fragment fade-out" data-fragment-index="0">
+							<p>
+							$$\Delta \underline{E} +k_0^2n^2 \underline {E} = 0$$
+							$$\left(\Delta_t + k_0^2n^2\right)\underline{e}=\beta^2\underline{e}$$
+							$\Longrightarrow \beta^2$ and $\underline{e}$ are respectively the eigenvalue and the eigenfunction of the differential operator $\Delta_t + k_0^2n^2$
+							</p>
+							<img src="mode_milieu_infini.svg" alt="Figure" style="width: 40%;">
+						</div>
+						<div style="text-align: center;" class="fragment current-visible" data-fragment-index="0">
+							<video data-autoplay loop playsinline tabindex="-1" width="100%">
+								<source src="mode_uniforme_medium.mp4" type="video/mp4">
+							</video>
+						</div>
+					</div>
+					<div style="text-align: center;">
+						<img src="spectre_milieu_infini.svg" alt="Figure" style="width: 60%;">
+					</div>
+				</section>
+				
+				<section data-title="Introduction - Metallic waveguide" style="text-align: left;">
+					<h3 style="text-align: center;">Example of TE modes</h3>
+					<div class="r-stack" style="text-align: center;">
+						<img src="metallic1.png" alt="Figure" style="width: 70%;" class="fragment fade-out" data-fragment-index="0">
+						<img src="metallic2.png" alt="Figure" style="width: 70%;" class="fragment current-visible" data-fragment-index="0">
+						<img src="metallic3.png" alt="Figure" style="width: 70%;" class="fragment" data-fragment-index="1">
+						<img src="metallic4.png" alt="Figure" style="width: 70%;" class="fragment" data-fragment-index="2">
+						<img src="metallic5.png" alt="Figure" style="width: 70%;" class="fragment" data-fragment-index="3">
+					</div>
+					<p class="fragment" data-fragment-index="3">
+					The waveguide width is $2a=p\frac{\lambda}{2n\sin(\theta)}$ with $p\in \mathbb{N}^*$ so that:
+					$$\theta=\arcsin\left(\frac{p\lambda}{4na}\right),\text{ } p\le\frac{4na}{\lambda}$$
+					</p>
+				</section>
+				
+				<section data-title="Introduction - Metallic waveguide">
+					<div class="r-stack">
+						<div style="width:100%;" class="fragment fade-out" data-fragment-index="0">
+							<img src="mode_guide_metallique.svg" alt="Figure" style="width: 50%;">
+							$$\text{OPD}=(AB)-(CD)+\lambda=4na\sin(\theta)+\lambda=p\lambda$$
+							$$n_{\text{eff}}^2=n^2\left[1-\left(\frac{p\lambda}{4na}\right)^2\right]\text{ with } p\in \mathbb{N}$$
+						</div>
+						<div style="text-align: center;" class="fragment current-visible" data-fragment-index="0">
+							<video data-autoplay loop playsinline tabindex="-1" width="100%">
+								<source src="modes_guide_metallique.mp4" type="video/mp4">
+							</video>
+						</div>
+					</div>
+					<div style="text-align: center;">
+						<img src="spectre_guide_metallique.svg" alt="Figure" style="width: 60%;">
+					</div>
+					<aside class="notes">
+					Test note
+					</aside>
+				</section>
+				
+				<section data-title="Introduction - Dielectric waveguide" style="text-align: left;">
+					<div style="text-align: center;">
+						<img src="mode_guide_dielectrique.svg" alt="Figure" style="width: 60%;">
+					</div>
+					A mode is guided if:<br/>
+					<ul>
+						<li>Total internal reflexion (TIR) at the interface core/cladding: $i\ge \arcsin\left(\frac{n_2}{n_1}\right) \Longrightarrow \frac{n_2}{n_1}\le \cos(\theta)\le 1 \Longrightarrow n_2\le n_{\text{eff}}\le n_1$</li>
+						<li>$\text{OPD}=4n_1a\sin(\theta)+2\frac{\phi_r}{k_0}=p\lambda \text{ with } p\in \mathbb{N}$</li>
+					</ul><br/></br>
+					NB: $\phi_r$ is given by the Fresnel's coefficient of reflection and depends on $n_1$, $n_2$, $\theta$ and the polarization state
+				</section>
+				
+				<section data-title="Introduction - Dielectric waveguide">
+					<div class="r-stack">
+						<div style="width:100%;" class="fragment fade-out" data-fragment-index="0">
+							<img src="mode_radiation_fibre.svg" alt="Figure" style="width: 35%;">
+							<img src="mode_guide_fibre.svg" alt="Figure" style="width: 35%;">
+						</div>
+						<div style="text-align: center;" class="fragment current-visible" data-fragment-index="0">
+							<video data-autoplay loop playsinline tabindex="-1" width="100%">
+								<source src="modes_guide_dielectrique.mp4" type="video/mp4">
+							</video>
+						</div>
+					</div>
+					<div style="text-align: center;">
+						<img src="spectre_guide_dielectrique.svg" alt="Figure" style="width: 60%;">
+					</div>
+				</section>
+				
+				<!--<section data-title="Modes orthogonality" style="text-align: left;">
+					<b>The modes are all orthogonal to one another</b><br/><br/>
+					Orthogonality relation between mode $m$ and mode $n$:
+					$$\boxed{\iint\left(\vec{\underline{e}}_m\wedge\vec{\underline{h}}_n\right).\vec{e}_z dx dy=N_m\delta_{m,n}}$$
+					In case of a scalar field:
+					$$\boxed{\iint\underline{e}_{m}\underline{e}_{n} dx dy=N_m\delta_{m,n}}$$
+					<br/>
+					<b>Modes orthogonality $\Longrightarrow$ Each mode propagates independently of the others</b>
+				</section>-->
+				
+				<section data-title="Introduction - Modes orthogonality" style="text-align: left;">
+					<ul>
+						<li> The modes are <b>all orthogonal</b> to one another $\Longrightarrow$ each mode <b>propagates independently</b> of the others</li>
+						<li>The set of eigenfunctions of the differential operator (guided modes + radiation modes + evanescent modes) constitutes <b>a complete orthogonal basis of solutions of Maxwell's equations</b></li>
+					</ul><br/><br/>
+					At a given wavelength, we can project the field at $z = 0 $ on the modes basis:
+					$$\underline{E}(x,y,z=0)=\sum_{\substack{\text{guided} \\ \text{modes}}}A_m\underline{e}_{m}(x,y)+\int_{\substack{\text{continuous} \\ \text{spectrum}}}A(\beta)\underline{e}_{\beta}(x,y)d\beta$$
+					where $A_m=\iint\underline{E}(x,y,z=0)\underline{e}_{m}(x,y) dx dy$ (idem for $A(\beta)$).<br/><br/>
+					To obtain the field at $z=L$, each component must be multiplied by its phase term which is due to the propagation:
+					$$\underline{E}(x,y,z=L)=\sum_{\substack{\text{guided} \\ \text{modes}}}A_m\underline{e}_{m}(x,y)e^{i\beta_m L}+\int_{\substack{\text{continuous} \\ \text{spectrum}}}A(\beta)\underline{e}_{\beta}(x,y)e^{i\beta L}d\beta$$
+				</section>
+				
+				<section data-title="Introduction - Leaky modes" style="text-align: center;">
+					<img src="leaky3.svg" alt="Figure" style="width: 30%;"><img src="implication1.svg" alt="Figure" style="width: 30%;">
+					<img src="leaky1.svg" alt="Figure" style="width: 30%;" class="fragment fade-in" data-fragment-index="0">
+					<p class="fragment fade-in" data-fragment-index="0">
+					$\Longrightarrow$ the mode propagates whilst being attenuated due to partial reflection
+					</p>
+					<img src="leaky3.svg" alt="Figure" style="width: 30%;" class="fragment fade-in" data-fragment-index="1"><img src="implication2.svg" alt="Figure" style="width: 30%;" class="fragment fade-in" data-fragment-index="1">
+					<img src="leaky2.svg" alt="Figure" style="width: 30%;" class="fragment fade-in" data-fragment-index="2">
+					<p class="fragment fade-in" class="fragment fade-in" data-fragment-index="2">
+					$\Longrightarrow$ the mode propagates whilst being attenuated due to the tunnel effect (frustrated reflection)
+					</p>
+				</section>
+				
+				<section data-title="Introduction - Leaky modes" style="text-align: left;">
+					<ul>
+						<li>Leaky modes propagate with attenuation: their propagation constant $\beta$ is complex. Their linear losses are $\alpha=2\text{Im}(\beta)$ (in m<sup>-1</sup>)</li>
+						<li>They form a discrete but infinite set of solutions<br>
+						<p style="text-align: center;"><img src="spectre_leaky.svg" alt="Figure" style="width: 80%;"></p></li>
+					</ul>
+					<p class="fragment fade-in" data-fragment-index="0" style="text-align: center;">
+					<video data-autoplay loop playsinline tabindex="-1" width="35%">
+						<source src="mode_leaky.mp4" type="video/mp4">
+					</video>
+					</p>
+				</section>
+				
+				<section data-title="Introduction - Leaky modes" style="text-align: left;">
+				<ul>						
+					<li>Leaky modes do not belong to the spectrum of the differential operator (because they are not bounded)</li>
+					<li>Leaky modes are solutions of Maxwell’s equations and can be decomposed on the continuum of modes</li>
+					</ul>
+				<p><br/>
+				An electric field propagating in the fiber can be decomposed as:
+					$$E(x,y,z)=\underbrace{\sum_{n=1}^{N}a_n e_n(x,y)\exp(i\beta_n z)}_{\text{Guided modes}}+\underbrace{\sum_{m=1}^{\infty}a_m e_m(x,y)\exp(i\beta_m z)}_{\text{Leaky modes}}+E_{res}$$
+					The residual field can be decomposed on the continuum of modes: $E_{res}=\int\varepsilon_{\beta} e_{\beta}(x,y)\exp(i\beta z) d\beta$
+				</p><br/><br/>
+				<p>When modeling wave propagation in an optical fiber, the most important modes are the <b>guided modes</b> and the <b>leaky modes with low losses.</b></p>
+				<br/><br/>
+				</section>
+				
+				<section data-title="Introduction - What is a mode solver" style="text-align: left;">
+				<p>A mode solver makes it possible to determine <b>the effectif index and the modal field distribution</b> $\left(\vec{e},\vec{h}\right)$ of the modes for a given wavelength and a given transverse Refractive Index Profile (RIP that generally depends on wavelength due to material dispersion).<br/>
+				<br/>Using these two properties, we can also determine:
+				<ul>
+					<li>The effective area $A_{\text{eff}}=\frac{\left(\iint \vert e \vert^2 dS\right)^2}{\iint \vert e \vert^4 dS}$ and the non-linear coefficient</li>
+					<li>The group velocity $v_g=\left(\frac{\partial \beta}{\partial \omega}\right)^{-1}$</li>
+					<li>The modal/chromatic/polarization dispersion</li>
+					<li>The propagation losses : confinement losses $2\text{Im}(\beta)$, bend losses, surface scattering losses</li>
+					<li>Cut-off wavelength</li>
+					<li>Overlap with the core (for fiber amplifiers)</li>
+					<li>Fiber-coupling efficiency</li>
+					<li>Evolution of a beam during the propagation (in a graded-index fiber used in a mode field adapter for example)</li>
+					<li>etc.</li>
+				</ul><br/>
+				</p>
+				<p style="text-align: center;">
+				<b>How do you calculate the modes?</b>
+				</p>
+				</section>
+				
+				<section data-title="Step-index fiber - Introduction" style="text-align: left;">
+					<div style="width:100%; display:flex; align-items: center;justify-content: space-between;">
+						<ul>
+							<li>Linear, homogeneous and isotropic medium for the core an cladding</li>
+							<li>No absorption, no magnetic properties ($\mu_r=1$)</li>
+							<li>Core: radius $a$, refractive index $n_1$</li>
+							<li>Cladding: infinite radius, refractive index $n_2$</li>
+							<li>Symmetry of revolution around the axis of the fiber $Oz$ and invariance by translation along $Oz$ (straight fiber)</li>
+							<li>Use of the cylindrical coordinate system $\left(r,\theta,z\right)$</li>
+						</ul>
+						<img src="fig2bis.svg" alt="Figure" style="width: 40%;">
+					</div>
+					<p>
+					Method to compute modes:
+					<ol>
+						<li> Solve the equation of propagation of the EM field in each layer</li>
+						<li> Link the two solutions using the interface conditions</li>
+					</ol>
+				</section>
+				
+				<section data-title="Step-index fiber - Vector modes" style="text-align: left;">
+					<ul>
+						<li>Vector modes are the exact solutions of the Maxwell's equations.</li>
+						<li>For these modes, the fields are generally not transverse: $e_z$ and/or $h_z$ are different form zero</li>
+						<li> In each layer, the EM field satisfies the following equations of propagation:
+						$$\left\{\begin{array}{ll} \Delta\vec{E}(\vec{r})+k_0^2n^2\vec{E}(\vec{r})=\vec{0} \\ \Delta\vec{H}(\vec{r})+k_0^2n^2\vec{H}(\vec{r})=\vec{0} \end{array}\right.$$</li>
+					</ul>
+					<p> We only need to determine $e_z$ and $h_z$, since the other components of the fields are related to them by:
+					$$\begin{array}{ll}
+					&e_r=\frac{i}{n^2k_0^2-\beta^2}\left(\beta\frac{\partial e_z}{\partial r}+\sqrt{\frac{\mu_0}{\varepsilon_0}}\frac{k_0}{r}\frac{\partial h_z}{\partial \theta}\right)\\
+					&e_{\theta}=\frac{i}{n^2k_0^2-\beta^2}\left(\frac{\beta}{r}\frac{\partial e_z}{\partial \theta}-\sqrt{\frac{\mu_0}{\varepsilon_0}}k_0\frac{\partial h_z}{\partial r}\right)\\
+					&h_r=\frac{i}{n^2k_0^2-\beta^2}\left(\beta\frac{\partial h_z}{\partial r}-\sqrt{\frac{\varepsilon_0}{\mu_0}}\frac{k_0n^2}{r}\frac{\partial e_z}{\partial \theta}\right)\\
+					&h_\theta=\frac{i}{n^2k_0^2-\beta^2}\left(\frac{\beta}{r}\frac{\partial h_z}{\partial \theta}+\sqrt{\frac{\varepsilon_0}{\mu_0}}k_0n^2\frac{\partial e_z}{\partial r}\right)
+					\end{array}$$
+					$\Longrightarrow$ We will choose $e_z$ and $h_z$ purely imaginary such that $e_r$, $e_{\theta}$, $h_r$ and $h_{\theta}$ are real.<br/><br/>
+					</p>	
+				</section>
+				
+				<section data-title="Step-index fiber - Vector modes" style="text-align: left;">
+					<p>
+					$2\pi$−periodicity in $\theta$ and interface conditions imply that ($\nu \in \mathbb{N}$ is the azimuthal number of the mode):
+					$$e_z=\psi_e(r)\begin{pmatrix} \cos(\nu\theta)\\ \sin(\nu\theta) \end{pmatrix}\text{ and } h_z=\psi_h(r)\begin{pmatrix} -\sin(\nu\theta)\\ \cos(\nu\theta) \end{pmatrix}$$
+					The functions $\psi$ satisfy <b>the differential Bessel equation</b>:
+					$$\boxed{\frac{\partial^2\psi(r)}{\partial r^2}+\frac{1}{r}\frac{\partial\psi(r)}{\partial r}+\left((k_0^2n^2-\beta^2)-\frac{\nu^2}{r^2}\right)\psi(r)=0}$$
+					</p>
+					<div class="r-stack" style="width:100%;">
+					  <div class="fragment fade-out" data-fragment-index="0" style="width:100%;">
+						<p style="text-align:left;">
+						  If $(k_0^2n^2-\beta^2)>0$, solutions are the Bessel functions $J_{\nu}$ and $Y_{\nu}$.
+						</p>
+						<div style="display:flex; justify-content:center; gap:40px;">
+						  <img src="besselj.svg" alt="Figure" style="width: 20%;"><img src="bessely.svg" alt="Figure" style="width: 20%;">
+						</div>
+					  </div>
+					  <div class="fragment current-visible" data-fragment-index="0" style="width:100%;">
+						<p style="text-align:left;">
+						  If $(k_0^2n^2-\beta^2)<0$, solutions are the modified Bessel functions $I_{\nu}$ and $K_{\nu}$.
+						</p>
+						<div style="display:flex; justify-content:center; gap:40px;">
+						  <img src="besseli.svg" alt="Figure" style="width: 20%;"><img src="besselk.svg" alt="Figure" style="width: 20%;">
+						</div>
+					  </div>
+					</div>
+				</section>
+				
+				<section data-title="Step-index fiber - Vector modes" style="text-align: left;">
+					<p> Guided modes:</p>
+					<ul>
+						<li>Core: $\psi(r)=AJ_\nu\left(\frac{Ur}{a}\right)$ with $U=k_0a\sqrt{n_1^2-n_{\text{eff}}^2}$</li>
+						<li>Cladding: $\psi(r)=BK_\nu\left(\frac{Wr}{a}\right)$ with $W=k_0a\sqrt{n_{\text{eff}}^2-n_2^2}$</li>
+					</ul>
+					<p>Interface conditions give:
+						$$\boxed{\left(\nu n_{\text{eff}}\right)^2\left(\frac{V}{UW}\right)^4=\left(\frac{n_1^2J'_\nu(U)}{UJ_\nu(U)}+\frac{n_2^2K'_\nu(W)}{WK_\nu(W)}\right)\left(\frac{J'_\nu(U)}{UJ_\nu(U)}+\frac{K'_\nu(W)}{WK_\nu(W)}\right)}$$
+						where $V$ is the normalized frequency defined as: $$\boxed{V=k_0a\sqrt{n_1^2-n_2^2}=\sqrt{U^2+W^2}}$$
+						$\Longrightarrow$ We must determine the roots of this equation to find the effective indices of the guided modes.</p>
+				</section>
+				
+				<section data-title="Step-index fiber - Vector modes" style="text-align: center;">
+				Be careful, because a change in sign can indicate either a zero (and thus a mode) or a discontinuity.<br/>
+				<img src="delta.svg" alt="Figure" style="width: 80%;">
+				</section>
+				
+				<section data-title="Step-index fiber - Vector modes" style="text-align: left;">
+				<div style="width:100%; display:flex; align-items: center;justify-content: space-between;">
+					<table style="text-align: center;">
+						<thead>
+							<tr>
+							  <th scope="col" style="text-align: center;">$\nu$</th>
+							  <th scope="col" style="text-align: center;">Mode</th>
+							  <th scope="col" style="text-align: center;">Degeneracy</th>
+							  <th scope="col" style="text-align: center;">Cut-off</th>
+							</tr>
+						</thead>	
+						<tbody>
+							<tr>
+							  <td style="text-align: center;">0</td>
+							  <td style="text-align: center;">TE$_{0,\nu}$</td>
+							  <td  style="text-align: center;">1</td>
+							  <td style="text-align: center;">$J_0(V)=0$, $V\neq 0$</td>
+							</tr>
+							<tr>
+							  <td style="text-align: center;">0</td>
+							  <td style="text-align: center;">TM$_{0,\nu}$</td>
+							  <td style="text-align: center;">1</td>
+							  <td style="text-align: center;">$J_0(V)=0$, $V\neq 0$</td>
+							</tr>
+							<tr>
+							  <td style="text-align: center;">1</td>
+							  <td style="text-align: center;">HE$_{1\mu}$</td>
+							  <td style="text-align: center;">2</td>
+							  <td style="text-align: center;">$J_1(V)=0$</td>
+							</tr>
+							<tr>
+							  <td style="text-align: center;">1</td>
+							  <td style="text-align: center;">EH$_{1\mu}$</td>
+							  <td style="text-align: center;">2</td>
+							  <td style="text-align: center;">$J_1(V)=0$, $V\neq 0$</td>
+							</tr>
+							<tr>
+							  <td style="text-align: center;">>1</td>
+							  <td style="text-align: center;">HE$_{\nu\mu}$</td>
+							  <td style="text-align: center;">2</td>
+							  <td style="text-align: center;">$\frac{VJ_{\nu-2}(V)}{(\nu-1)J_{\nu-1}(V)}=\frac{-2\Delta}{1-2\Delta}$, $1-2\Delta=n_2^2/n_1^2$</td>
+							</tr>
+							<tr>
+							  <td style="text-align: center;">>1</td>
+							  <td style="text-align: center;">EH$_{\nu\mu}$</td>
+							  <td style="text-align: center;">2</td>
+							  <td style="text-align: center;">$J_{\nu}(V)=0$, $V\neq 0$</td>
+							</tr>
+						</tbody>
+					</table>
+					<img src="modes_vectoriels_neff_V.svg" alt="Figure" style="width: 40%;">
+				</div>
+				<ul>
+					<li>The fiber is single-mode if $V<2.405$</li>
+					<li>Fudamental mode $\equiv$ HE$_{11}$</li>
+				</ul>
+				</section>
+				
+				<section data-title="Step-index fiber - Scalar modes" style="text-align: left;">
+					<ul>
+						<li>The LP modes are <b>approximate modes</b> of the fiber when using the <b>weak guidance approximation</b>: $\Delta n=n_1-n_2 \ll n_2$</li>
+						<li>The LP modes are determined by the assuming that $e_z = h_z = 0$ (which is exact in the case of a uniform medium). $e_x$ and $e_y$ are then independent and the modes can be chosen  <b>L</b>inearly <b>P</b>olarized along $x$ or $y$.</li>
+						<li>For LP modes, the interface conditions impose the continuity of $e$ and $\frac{\partial e}{\partial r}$.</li>
+					</ul>
+					<p>
+					As with vector modes, symmetry requires $e(r,\theta)=\psi(r)\begin{pmatrix} \cos(\ell\theta) \\ \sin(\ell\theta) \end{pmatrix}$ and $\psi$ satisfies the Bessel differential equation:
+					$$\frac{\partial^2\psi(r)}{\partial r^2}+\frac{1}{r}\frac{\partial\psi(r)}{\partial r}+\left((k_0^2n^2-\beta^2)-\frac{\ell^2}{r^2}\right)\psi(r)=0$$
+					For a guided mode:
+					<ul>
+						<li>In the core: $\psi(r)=AJ_{\ell}\left(\frac{Ur}{a}\right)$</li>
+						<li>In the cladding: $\psi(r)=BK_{\ell}\left(\frac{Wr}{a}\right)$</li>
+					</ul><br/><br/>
+					Interface conditions $\Longrightarrow$ $\boxed{U\frac{J'_\ell(U)}{J_\ell(U)}=W\frac{K'_\ell(W)}{K_\ell(W)}}$
+					</p>
+				</section>
+				
+				<section data-title="Step-index fiber - Scalar modes" style="text-align: left;">
+				<div style="width:100%; display:flex; align-items: center;justify-content: space-between;">
+					<table style="text-align: center;">
+						<thead>
+							<tr>
+							  <th scope="col" style="text-align: center;">$\ell$</th>
+							  <th scope="col" style="text-align: center;">Mode</th>
+							  <th scope="col" style="text-align: center;">Degeneracy</th>
+							  <th scope="col" style="text-align: center;">Cut-off</th>
+							</tr>
+						</thead>	
+						<tbody>
+							<tr>
+							  <td style="text-align: center;">0</td>
+							  <td style="text-align: center;">LP$_{0,m}$</td>
+							  <td  style="text-align: center;">2</td>
+							  <td style="text-align: center;">$J_1(V)=0$</td>
+							</tr>
+							<tr>
+							  <td style="text-align: center;">$\ge 1$</td>
+							  <td style="text-align: center;">LP$_{\ell,m}$</td>
+							  <td style="text-align: center;">4</td>
+							  <td style="text-align: center;">$J_{\ell-1}(V)=0$, $V\neq 0$</td>
+							</tr>
+						</tbody>
+					</table>
+					<img src="modes_scalaires.svg" alt="Figure" style="width: 40%;">
+				</div>
+				<ul>
+					<li>The fiber is single-mode if $V<2.405$</li>
+					<li>Fudamental mode $\equiv$ LP$_{01}$</li>
+				</ul>
+				</section>
+				
+				<section data-title="Step-index fiber - Scalar modes" style="text-align: left;">
+					<p>In the weak guidance approximation, vector modes degenerate into LP modes and LP modes are therefore linear combinations of vector modes</p>
+					<table style="text-align: center;">
+						<thead>
+							<tr>
+							  <th scope="col" style="text-align: center;">Scalar Modes</th>
+							  <th scope="col" style="text-align: center;">Vector Modes</th>
+							</tr>
+						</thead>	
+						<tbody>
+							<tr>
+							  <td style="text-align: center;">LP$_{0,m}$</td>
+							  <td style="text-align: center;">HE$_{1,m}$</td>
+							</tr>
+							<tr>
+							  <td style="text-align: center;">LP$_{1,m}$</td>
+							  <td style="text-align: center;">HE$_{2,m}$, TE$_{0,m}$ and TM$_{0,m}$</td>
+							</tr>
+							<tr>
+							  <td style="text-align: center;">LP$_{\ell,m}$</td>
+							  <td style="text-align: center;">HE$_{(\ell+1),m}$ and EH$_{(\ell-1),m}$</td>
+							</tr>
+						</tbody>
+					</table>
+					<p style="text-align: center;">
+						<img src="step_scalar_vector.svg" alt="Figure" style="width: 80%;">
+					</p>
+				</section>
+				
+				<section data-title="Step-index fiber - Scalar modes" style="text-align: left;">
+					<p>For a leaky mode:
+					<ul>
+						<li>In the core: $\psi(r)=AJ_{\ell}\left(\frac{Ur}{a}\right)$</li>
+						<li>In the cladding: $\psi(r)=BH^{(1)}_{\ell}\left(\frac{U'r}{a}\right)$ with $U'=k_0a\sqrt{n_2^2-n_{\text{eff}}^2}$ and $H^{(1)}_{\ell}(x)=J_{\ell}(x)+iY_{\ell}(x)$ is a Hankel function</li>
+					</ul><br/><br/>
+					Interface conditions $\Longrightarrow$ $\boxed{U\frac{J'_\ell(U)}{J_\ell(U)}=U'\frac{H^{(1)'}_\ell(U')}{H^{(1)}_\ell(U')}}$</br></br>
+					To find roots in the complex plane, you can use:
+					<ol>
+						<li>Classical root finding methods in 2D space: Newton-Raphson, Müller, etc.</li>
+						<li>Complex analysis-based root finding methods (which use Cauchy's argument principle): Delves-Lyness method, Global complex Roots and Poles Finding algorithm, etc.</li>
+					</ol>
+					</p>
+				</section>
+				
+				<section data-title="Step-index fiber - Scalar modes" style="text-align: left;">
+					<div style="width:100%; display:flex; align-items: center;justify-content: space-between;">
+						<img src="LP_real.svg" alt="Figure" style="width: 33%;">
+						<img src="LP_imag.svg" alt="Figure" style="width: 33%;">
+						<img src="step_LP11_leaky.png" alt="Figure" style="width: 33%;">
+					</div><br/><br/>
+					<ul>
+						<li>For a step-index fiber, the confinement losses of leaky modes are very high</li>
+						<li>$\text{Im}(n_{\text{eff}})=10^{-6}$ at $\lambda=1$ µm corresponds to $\alpha\simeq 8.6$ dB/m</li>
+					</ul>
+				</section>
+
+				<section data-title="Multistep-index fiber" style="text-align: left;">
+					<div style="width:100%; display:flex; align-items: center;justify-content: space-between;">
+						<img src="multistep.svg" alt="Figure" style="width: 50%;">
+						<ul>
+							<li>Guided modes: $n_N < n_{\text{eff}} < \max(n_i)$&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+							<li>Leaky modes: $\text{Re}(n_{\text{eff}}) < n_N$ </li>
+						</ul>
+					</div>
+					<p>
+						Method:
+						<ol>
+							<li>In the core: $E\backsim J_{\ell}\left(\frac{U_1r}{a_1}\right)$<!--- if $n_{\text{eff}} < n_1$ or  $E\backsim I_{\ell}\left(\frac{W_1r}{a_1}\right)$ if $n_{\text{eff}} > n_1$</li>--->
+							<li>Compute the field in layers 2 to N-1 with interface conditions</li>
+							<li>In the cladding: $E\backsim K_{\ell}\left(\frac{W_Nr}{a_{N-1}}\right)$ (guided mode) or $E\backsim H^{(1)}_{\ell}\left(\frac{U_Nr}{a_{N-1}}\right)$ (leaky mode)</li>
+							<li>The interface condition applied at $r=a_{N-1}$ gives an equation that can be used to determine $n_{\text{eff}}$
+						</ol>
+						<br/><br/>
+						<u>Note</u>: the process to find the root may take a long time if there are many layers, especially for leaky modes $\Longrightarrow$ it is best to have an approximate value for the effective index to reduce computation time.
+					</p>
+				</section>
+				
+				<section data-title="Multistep-index fiber" style="text-align: center;">
+					<p>
+						<img src="trench.svg" alt="Figure" style="width: 75%;">
+						<div class="r-stack" style="width: 100%;">
+							<div class="fragment fade-out" data-fragment-index="0" style="width: 100%;">
+								Example: mode LP<sub>02</sub>, $[n_1, n_2, n_3]=[1.44, 1.41, 1.43]$, $[a_1, a_2]=[4, 14]$ µm and $\lambda=1.6$ µm<br/>
+								<img src="trench1_field.svg" alt="Figure" style="width: 30%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="trench2_field.svg" alt="Figure" style="width: 30%;">
+							</div>
+							<div class="fragment current-visible" data-fragment-index="0" style="width: 100%;">
+								Confinment losses decrease as the depth or thickness of the trench increases.<br/>
+								<img src="pertes_trench_depth.svg" alt="Figure" style="width: 22%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="pertes_trench_thickness.svg" alt="Figure" style="width: 22%;">
+							</div>
+						</div>
+					</p>
+				</section>
+
+				<section data-title="Graded-index fiber" style="text-align:center;">
+					<div style="width:100%; display:flex; align-items: center;justify-content: space-between;">
+						<div class="r-stack" style="width:30%;">
+							<div style="width:100%;" class="fragment fade-out" data-fragment-index="0" >
+								<img src="fiber_graded.svg" alt="Figure" style="width: 100%;">
+							</div>
+							<div style="width:100%;" class="fragment current-visible" data-fragment-index="0">
+								<img src="fiber_graded_discret.svg" alt="Figure" style="width: 100%;">
+							</div>
+						</div>
+						<div style="width:65%;">
+							<p style="margin-bottom:0.5em;"><strong>Maxwell's equations</strong></p>
+							<ul>
+								<li>$\text{curl}\left( \vec{E}\right)=-\frac{\partial \vec{B}}{\partial t}$</li>
+								<li>$\text{div} \left(\varepsilon \vec{E}\right)=0 \Longrightarrow \text{div} \left( \vec{E}\right)=-\text{grad} \left(\ln(\varepsilon) \right)\cdot\vec{E}$</li>
+								<li>$\text{curl}\left( \vec{B}\right)=\mu_0\varepsilon \frac{\partial \vec{E}}{\partial t}$</li>
+								<li>$\text{div}\left( \vec{B}\right)=0$</li>
+							</ul>
+						</div>
+					</div>
+					<div style="text-align:left;" class="fragment current-visible" data-fragment-index="0">
+						<p> 
+						<u>First method:</u><br/><br/>
+						Discretize the core in layers which constant refractive index to obtain a multi-step index fiber. This method requires a large number of layers and is limited by the accuracy of the Bessel functions<br/><br/>
+						There are, however, many other methods
+						</p>
+					</div>
+				</section>
+				
+				
+				<section data-title="Graded-index fiber - Vector modes" style="text-align:left;">
+					<p>
+					$e_z=\psi_e(r)\begin{pmatrix} \cos(\nu\theta)\\ \sin(\nu\theta) \end{pmatrix}\text{ and } h_z=\psi_h(r)\begin{pmatrix} -\sin(\nu\theta)\\ \cos(\nu\theta) \end{pmatrix}$ where $\psi_e$ and $\psi_h$ satistify a system of coupled differential equations:
+					$$\left\{\begin{array}{ll} \frac{d^2 \psi_e}{d r^2}=\psi_e\left(\frac{\nu^2}{r^2}-k_0^2n^2+\beta^2\right)+\frac{d \psi_e}{d r}\left(\frac{2\beta^2}{\left(k_0^2n^2-\beta^2\right)n}\frac{d n}{dr}-\frac{1}{r}\right)-\psi_h\sqrt{\frac{\mu_0}{\varepsilon_0}}\frac{2\nu\beta k_0}{r\left(k_0^2n^2-\beta^2\right)n}\frac{dn}{dr} \\ \frac{d^2 \psi_h}{d r^2}=\psi_h\left(\frac{\nu^2}{r^2}-k_0^2n^2+\beta^2\right)+\frac{d \psi_h}{d r}\left(\frac{2k_0^2n}{k_0^2n^2-\beta^2}\frac{d n}{dr}-\frac{1}{r}\right)-\psi_e\sqrt{\frac{\varepsilon_0}{\mu_0}}\frac{2\nu\beta k_0 n}{r\left(k_0^2n^2-\beta^2\right)}\frac{dn}{dr} \end{array}\right.$$
+					Shooting method to find guided and leaky modes:	</p>
+					<ul>
+						<li>The coupled equations is expressed in a linear first order differential equation: $\begin{pmatrix} \psi_e \\ \psi'_e \\ \psi_h \\ \psi'_h \end{pmatrix} = A(r,\beta) \begin{pmatrix} \psi_e \\ \psi'_e \\ \psi_h \\ \psi'_h \end{pmatrix}$</li>
+						<li>To begin with, we use a thin layer between $r=0$ and $r=\epsilon\ll a$ with a constant refractive index: $\psi_e=J_{\nu}\left(\frac{Ur}{\epsilon}\right)$ and $\psi_h=\alpha J_{\nu}\left(\frac{Ur}{\epsilon}\right)$</li>
+						<li>A value of $n_{\text{eff}}$ is chosen and the system of differential equations is solved between $r=\epsilon$ and $r=a$ with a RK method for two values of $\alpha$ (generally 0 and 1).</li>
+						<li>By applying the interface conditions, we find a matching function that is zero if the value of neff corresponds to a mode</li>
+					</ul>
+					<!---<p>
+					<br/>Drawback: differential equations must be solved twice for each value of neff, so modal analysis can be slow, particularly for leaky modes 
+					</p>--->
+				</section>
+						
+				<section data-title="Graded-index fiber - Vector modes" style="text-align:left;">
+					<p>
+						$h_r=A_r(r)\begin{pmatrix} \cos(\nu\theta)\\ \sin(\nu\theta)\end{pmatrix}$ and $h_{\theta}=A_{\theta}(r)\begin{pmatrix} \sin(\nu\theta)\\ \cos(\nu\theta)\end{pmatrix}$ where $A_r$ and $A_{\theta}$ satistify a system of coupled differential equations:
+						$$\left\{\begin{array}{ll} \frac{1}{r}\frac{d}{dr}\left(r\frac{dA_r}{dr}\right)-\frac{1+\nu^2}{r^2}A_r+k_0^2n^2A_r\pm\frac{2\nu}{r^2}A_{\theta}=\beta^2A_r \\ \frac{1}{r}\frac{d}{dr}\left(r\frac{d A_{\theta}}{dr}\right)-\frac{1}{r}\frac{d \ln(n^2)}{dr}\frac{d}{dr}\left(rA_{\theta}\right)-\frac{1+\nu^2}{r^2}A_{\theta}+k_0^2n^2A_{\theta}\pm \nu\left(\frac{1}{r}\frac{d \ln(n^2)}{dr}+\frac{2}{r^2}\right)A_r=\beta^2A_{\theta} \end{array}\right.$$
+						Discrete Hankel transform to find guided modes:</p>
+						<ul>
+						<li>$A_r$ and $A_{\theta}$ are expanded in a finite Fourier-Bessel series: $$f(r)=\sum_{i=1}^{N} f_iJ_n\left(\frac{j_{ni}r}{R}\right)$$
+						where $j_{ni}$ is the i-th root of $J_n$ and we assume that the field is zero for $r=R>a$ </li>
+						<li>Apply the Hankel transform on the system of equations: $H\left(f(r)\right)=F(k)=\int_0^{\infty}rf(r)J_n\left(k r\right) dr$</li>
+						<li>This gives us an eigenvalue problem $Ax=\beta^2x$, which be solved to determine the modes
+					</ul>
+					</p>
+				</section>
+				
+				<section data-title="Graded-index fiber - Scalar modes" style="text-align:left;">
+					<p>
+						$e(r,\theta)=\psi(r)\begin{pmatrix} \cos(\ell\theta) \\ \sin(\ell\theta) \end{pmatrix}$ where $\psi$ satisfies the following differential equation:
+						$$\frac{\partial^2\psi(r)}{\partial r^2}+\frac{1}{r}\frac{\partial\psi(r)}{\partial r}+\left((k_0^2n^2\textcolor{red}{(r)}-\beta^2)-\frac{\ell^2}{r^2}\right)\psi(r)=0$$
+						<br/>
+						$\Longrightarrow$ analytical solution: if $n^2$ is parabolic, it is possible to perform a change of variables to reduce this equation to Kummer's equation whose solutions are confluent hypergeometric functions.
+						<br/><br/>
+						Otherwise:
+					</p>
+					<ul>
+						<li>Shooting method</li>
+						<li>Hankel transform</li>
+						<li>Finite difference or finite element method</li>
+					</ul>
+				</section>
+				
+				<section data-title="Graded-index fiber - Scalar modes" style="text-align:left;">
+					<p><u>Finite difference method</u>:<br/>
+					$\Longrightarrow$ discretize the space with a step $h$ between $r=0$ and $r=R < a$ (for guided modes, we assume $E(R)=0$)
+					$$\frac{\partial\psi}{\partial r}(r_i)\simeq \frac{\psi_{i+1}-\psi_{i-1}}{2h}\text{ and } \frac{\partial^2\psi}{\partial r^2}(r_i)\simeq \frac{\psi_{i+1}+\psi_{i-1}-2\psi_i}{h^2}$$
+					Take into account the boundary conditions at $r=0$: 
+					</p>
+					<ul>
+						<li>For $\ell=0$, $\psi(r=0)=1$ and $\frac{\partial \psi}{\partial r}(0)=0$</li>
+						<li>For $\ell\neq 0$, $\psi(r=0)=0$ and $\frac{\partial \psi}{\partial r}(0)=1$</li>
+					</ul>
+					<p>
+					And this gives an eigenvalue problem: $$\begin{pmatrix}
+a_1 & b_1 & 0   & \cdots & 0\\
+c_2 & a_2 & b_2 & \ddots & \vdots\\
+0   & c_3 & a_3 & \ddots & 0\\
+\vdots & \ddots & \ddots & \ddots & b_{N-1}\\
+0 & \cdots & 0 & c_N & a_N
+\end{pmatrix}\begin{pmatrix} \psi_1 \\ \vdots \\ \psi_N \end{pmatrix}=\beta^2\begin{pmatrix} \psi_1 \\ \vdots \\ \psi_N \end{pmatrix}\text{ with }\left\{\begin{array}{lll} a_i=-\frac{2}{h^2}+k_0^2n^2(r_i)-\frac{\ell}{r_i^2} \\ b_i=\frac{1}{h^2}+\frac{1}{2hr_i} \\ c_i=\frac{1}{h^2}-\frac{1}{2hr_i}\end{array}\right.$$
+					</p>
+				</section>
+				
+				<section data-title="Graded-index fiber - Scalar modes" style="text-align:left;">
+					<p><u>Finite element method</u>:<br/>
+					By multiplying the equation satisfied by $\psi$ by $rv(r)$ where $v(r)$ is a test function ($v\in V=\left\{v\in H^1_r(0,R) \vert v(R)=0\right\}$), we obtain:
+					$$\int_0^R\frac{\partial}{\partial r}\left(r\frac{\partial\psi}{\partial r}\right)v(r)dr+\int_0^R\left(k_0n^2(r)r-\frac{\ell^2}{r}\right)\psi(r)v(r)dr=\beta^2\int_0^Rr\psi(r)v(r)dr$$
+					By integrating the first term in parts, we obtain the weak formulation:
+					$$-\int_0^R r\frac{\partial\psi}{\partial r}\frac{\partial v}{\partial r}dr+\left[r\frac{\partial\psi}{\partial r}v(r)\right]_0^R+\int_0^R\left(k_0n^2(r)r-\frac{\ell^2}{r}\right)\psi(r)v(r)dr=\beta^2\int_0^R r\psi(r)v(r)dr$$
+					Since v(R)=0, the boundary term is zero:
+					$$-\int_0^R r\frac{\partial\psi}{\partial r}\frac{\partial v}{\partial r}dr+\int_0^R\left(k_0n^2(r)r-\frac{\ell^2}{r}\right)\psi(r)v(r)dr=\beta^2\int_0^R r\psi(r)v(r)dr$$
+					Then we apply the finite element method: in each element, $u=\sum_j u_j N_j(r)$ and $v=u_i(r)$ where $u_i$ are the shape functions (generally Lagrange polynomials). This gives a generalized eigenvalue problem:
+					$$Au=\beta^2Bu$$
+					</p>
+				</section>
+
+				<section data-title="Graded-index fiber - Scalar modes" style="text-align:left;">
+				<p>In both cases, we have to solve an eigenvalue problem:</p>
+				<ul>
+					<li>$Au=\beta^2u$ for the finite difference method</li>
+					<li>$Au=\beta^2Bu$ for the finite element method</li>
+				</ul>
+				<p>$A$ and $B$ are very large sparse matrices, and we don't need all the eigenvalues, but only those that correspond to the guided modes. There are various algorithms for computing eigenvalues close to an approximate value $\sigma$: </p>
+				<ul>
+					<li>IRAM (Implicitly Restarted Arnoldi Method) used by Lumerical, Comsol Multiphysics, RSoft, Optiwave, FreeFEM++, eigs function of scipy (they use the ARPACK library)</li>
+					<li>Krylov-Schur used by eigs function of Matlab (since R2017b), ArnoldiMethod.jl package in Julia and SLEPc library (used by FEniCS)</li>
+					<li>Jacobi-Davidson implemented in SLEPc library</li>
+				</ul>
+				<p><br/>At each iteration, these algorithms need to solve $(A-\sigma I)x=0$ and generally use the LU factorization of the matrix $(A-\sigma I)$. There are also various algorithms/libraries for doing this: LAPACK, UMFPACK, MUMPS, PARDISO, CUDSS (for NVIDIA GPUs), etc.</p>
+				<p style="text-align:center;"><br/>But how do we calculate the leaky modes?</p>
+				
+				</section>
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<!-- -----------------------------------------------------------------FIN--------------------------------------------------------------- -->	
+				<section data-title="Uniform medium with refactive index n">
+					<h2>Graphique y = f(x)</h2>
+					<div id="monGraphique" style="width:800px; height:450px; margin:auto;"></div>
+				</section>
+			
+			
+			
+			</div>		
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="dist/plugin/notes.js"></script>
+		<script src="dist/plugin/markdown.js"></script>
+		<script src="dist/plugin/highlight.js"></script>
+		<script src="dist/plugin/math.js"></script>
+		
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: false,
+				navigationMode: 'default',
+				fragmentInURL: false,
+				hash: false,
+				width: 1920,
+				height: 1080,
+				margin: 0.02,
+				minScale: 0.2,
+				maxScale: 2.0,
+				center: false,
+				disableLayout: false,
+				plugins: [RevealMarkdown, RevealHighlight, RevealNotes,RevealMath.KaTeX],
+			});
+		</script>
+		<script>
+			function updateFooter() {
+				const indices = Reveal.getIndices();
+				const total = document.querySelectorAll('.reveal .slides > section').length;
+				document.getElementById("footer-page").textContent =`${indices.h} / ${total}`;
+			}
+			Reveal.on('ready', updateFooter);
+			Reveal.on('slidechanged', updateFooter);
+		</script>
+		<script>
+			function updateHeader() {
+				const slide = Reveal.getCurrentSlide();
+				const title = slide.dataset.title || "";	
+				document.getElementById("slide-header").textContent = title;
+			}
+			Reveal.on("ready", updateHeader);
+			Reveal.on("slidechanged", updateHeader);
+		</script>
+		<!--<script>
+			function updateHeaderFooter() {
+				const indices = Reveal.getIndices();
+				const firstSlide = (indices.h === 0 && indices.v === 0);
+				document.getElementById("slide-header").style.display =firstSlide ? "none" : "block";
+				document.getElementById("slide-footer").style.display =firstSlide ? "none" : "block";
+				//console.log(document.getElementById("slide-header"));
+			}
+			Reveal.on("ready", updateHeaderFooter);
+			Reveal.on("slidechanged", updateHeaderFooter);
+		</script>-->
+		
+		<script>
+		Reveal.on('fragmentshown', event => {
+		  const video = document.getElementById("uniform_medium_video");
+		  const step = event.fragment.dataset.fragmentIndex;
+		  if (step === "1") {
+			video.src = "uniform_medium_animation2.mp4";
+			video.load();
+			video.play();
+		  }
+		});
+		Reveal.on('fragmenthidden', event => {
+		  const video = document.getElementById("uniform_medium_video");
+		  const step = event.fragment.dataset.fragmentIndex;
+		  if (step === "1") {
+			video.src = "uniform_medium_animation.mp4";
+			video.load();
+			video.play();
+		  }
+		});
+		</script>
+		
+		
+		
+		<script src="dist/plotly-3.6.0.min.js"></script>
+					<script>
+    
+    let data = null;
+    let chartInitialise = false;
+
+    // Chargement du fichier JSON
+    fetch('data.json')
+      .then(res => res.json())
+      .then(json => {
+        data = json;
+        // Si la slide du graphique est déjà visible au moment où les données arrivent
+        if (document.querySelector('.present #monGraphique')) {
+          initChart();
+        }
+      })
+      .catch(err => console.error('Erreur de chargement du JSON :', err));
+
+    function initChart() {
+      if (chartInitialise || !data) return;
+
+      const trace = {
+        x: data.x,
+        y: data.y,
+        type: 'scatter',
+        mode: 'lines+markers',
+        line: { color: 'rgb(75, 192, 192)' }
+      };
+
+      const layout = {
+        margin: { t: 20, r: 20, b: 40, l: 50 },
+        xaxis: { title: 'x' },
+        yaxis: { title: 'y' }
+      };
+
+      Plotly.newPlot('monGraphique', [trace], layout, { responsive: true });
+      chartInitialise = true;
+    }
+
+    Reveal.on('slidechanged', event => {
+      if (event.currentSlide.querySelector('#monGraphique')) {
+        initChart();
+        setTimeout(() => Plotly.Plots.resize('monGraphique'), 200);
+      }
+    });
+
+    Reveal.on('ready', event => {
+      if (event.currentSlide.querySelector('#monGraphique')) {
+        initChart();
+      }
+    });
+  </script>
+	</body>
+</html>

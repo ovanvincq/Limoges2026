@@ -1,0 +1,90 @@
+.reveal section {
+  font-size: 32px;
+}
+
+.reveal h2 {
+  text-transform: none;
+}
+
+.reveal h1 {
+  text-transform: none;
+}
+
+.reveal h3 {
+  text-transform: none;
+}
+
+.reveal .slide-header {
+  top: 0;
+  width: 100%;
+  background: #003366;
+  color: white;
+  padding: 10px 16px;
+  font-size: 48px;
+  border-bottom: 4px solid #00aaff;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.reveal .slide-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #003366;
+  color: white;
+  padding: 10px 16px;
+  font-size: 48px;
+  border-top: 4px solid #00aaff;
+  box-sizing: border-box;
+  margin-top: 20px;
+  text-align: right;
+  padding-right: 120px;
+}
+
+
+
+.reveal .slides section {
+    width: 1920px;
+  height: 1080px;
+
+  box-sizing: border-box;
+  
+  padding: 0px 0px 0px 0px; /* header + footer safe zone */
+  overflow: hidden;
+}
+
+.slide-content {
+  width: 100%;
+  height: calc(100% - 130px); /* header + footer */
+  
+  display: flex;
+  gap: 40px;
+}
+
+.reveal table {
+  margin: auto;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.reveal th,
+.reveal td {
+  text-align: center;
+  border: 1px solid #000;
+}
+
+.reveal th {
+  border: 1px solid #000;
+  text-align: center;
+  background: #444;
+  color: white;
+}
+
+.reveal table tbody tr:last-child > * {
+  border-bottom: 1px solid #000 !important;
+}
+
+
+
+
+

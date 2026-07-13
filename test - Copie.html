@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mermaid Progressif - Solution Ultime</title>
+
+  <!-- reveal.js CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/black.min.css">
+
+  <!-- Mermaid JS (pour générer les SVGs) -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
+    // Initialise Mermaid pour générer les SVGs
+    mermaid.initialize({ startOnLoad: false });
+  </script>
+
+  <style>
+    .mermaid-svg {
+      display: block;
+      margin: 20px auto;
+      text-align: center;
+    }
+    .fragment {
+      display: none;
+    }
+    .fragment.visible {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <!-- Slide 1 -->
+      <section>
+        <h2>Graphique 1</h2>
+        <!-- Conteneur pour les étapes du graphique 1 -->
+        <div id="graph-1-container">
+          <!-- Étape 0 (affichée par défaut) -->
+          <div class="fragment visible" data-fragment-index="0">
+            <div class="mermaid-svg" id="graph-1-step-0"></div>
+          </div>
+          <!-- Étape 1 -->
+          <div class="fragment" data-fragment-index="1">
+            <div class="mermaid-svg" id="graph-1-step-1"></div>
+          </div>
+          <!-- Étape 2 -->
+          <div class="fragment" data-fragment-index="2">
+            <div class="mermaid-svg" id="graph-1-step-2"></div>
+          </div>
+        </div>
+        <div class="fragment" data-fragment-index="0"><p>Étape 1 : Début</p></div>
+        <div class="fragment" data-fragment-index="1"><p>Étape 2 : Ajout de l'étape 1</p></div>
+        <div class="fragment" data-fragment-index="2"><p>Étape 3 : Ajout de l'étape 2</p></div>
+      </section>
+
+      <!-- Slide 2 -->
+      <section>
+        <h2>Graphique 2</h2>
+        <!-- Conteneur pour les étapes du graphique 2 -->
+        <div id="graph-2-container">
+          <!-- Étape 0 -->
+          <div class="fragment visible" data-fragment-index="0">
+            <div class="mermaid-svg" id="graph-2-step-0"></div>
+          </div>
+          <!-- Étape 1 -->
+          <div class="fragment" data-fragment-index="1">
+            <div class="mermaid-svg" id="graph-2-step-1"></div>
+          </div>
+        </div>
+        <div class="fragment" data-fragment-index="0"><p>Étape A</p></div>
+        <div class="fragment" data-fragment-index="1"><p>Étape B</p></div>
+      </section>
+	  
+	  <section>
+        <h2>Mes résultats</h2>
+
+    <div id="graph" style="width:100%;height:500px;"></div>
+
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+	<script>
+    const data = await fetch("data.json").then(r => r.json());
+
+    const trace = {
+        x: data.x,
+        y: data.y,
+        mode: "lines",
+        type: "scatter",
+        name: "Mesure"
+    };
+
+    const layout = {
+        xaxis: {
+            title: "Temps (s)"
+        },
+        yaxis: {
+            title: "Amplitude"
+        },
+        margin: {
+            l: 70,
+            r: 20,
+            t: 20,
+            b: 60
+        }
+    };
+
+    Plotly.newPlot("graph", [trace], layout, {
+        responsive: true,
+        displayModeBar: false
+    });
+    </script>
+	  
+    </div>
+  </div>
+  
+  
+
+  <!-- reveal.js JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.js"></script>
+
+  <!-- Script pour générer les SVGs -->
+  <script>
+    // Fonction pour générer un SVG Mermaid et l'insérer dans un conteneur
+    function renderMermaidSvg(containerId, graphDefinition) {
+      const container = document.getElementById(containerId);
+      container.innerHTML = graphDefinition;
+      mermaid.init(undefined, container);
+      // Récupère le SVG généré
+      const svg = container.querySelector("svg");
+      if (svg) {
+        return svg.outerHTML;
+      }
+      return "";
+    }
+
+    // Prérend tous les SVGs au chargement de la page
+    document.addEventListener("DOMContentLoaded", function() {
+      // Graphique 1
+      const graph1Step0 = renderMermaidSvg("temp-container", "graph TD; A[Début];");
+      const graph1Step1 = renderMermaidSvg("temp-container", "graph TD; A[Début] --> B[Étape 1];");
+      const graph1Step2 = renderMermaidSvg("temp-container", "graph TD; A[Début] --> B[Étape 1]; B --> C[Étape 2];");
+
+      // Graphique 2
+      const graph2Step0 = renderMermaidSvg("temp-container", "graph LR; X[Start];");
+      const graph2Step1 = renderMermaidSvg("temp-container", "graph LR; X[Start] --> Y[End];");
+
+      // Insère les SVGs dans les conteneurs finaux
+      document.getElementById("graph-1-step-0").innerHTML = graph1Step0;
+      document.getElementById("graph-1-step-1").innerHTML = graph1Step1;
+      document.getElementById("graph-1-step-2").innerHTML = graph1Step2;
+
+      document.getElementById("graph-2-step-0").innerHTML = graph2Step0;
+      document.getElementById("graph-2-step-1").innerHTML = graph2Step1;
+
+      // Initialise reveal.js
+      Reveal.initialize({
+        fragments: true,
+        hash: true,
+      });
+    });
+  </script>
+
+  <!-- Conteneur temporaire pour générer les SVGs (caché) -->
+  <div id="temp-container" style="display: none;"></div>
+</body>
+</html>

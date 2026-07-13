@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+		/>
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css" />
+		<link rel="stylesheet" href="dist/reveal.css" />
+		<link rel="stylesheet" href="dist/theme/white.css" />
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="dist/plugin/highlight/monokai.css" />
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section id="slide-graph" >
+					<h2>Mes résultats</h2>
+
+					<div id="graph" style="width:960px;height:400px;background:white;"></div>
+
+					
+				</section>
+			</div>
+			
+						
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="dist/plugin/notes.js"></script>
+		<script src="dist/plugin/markdown.js"></script>
+		<script src="dist/plugin/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+			});
+		</script>
+		<script src="https://cdn.plot.ly/plotly-2.30.0.min.js"></script>
+					<script>
+async function draw() {
+    const data = await fetch("data.json").then(r => r.json());
+
+    console.log("DATA:", data);
+
+    Plotly.newPlot("graph", [{
+        x: data.x,
+        y: data.y,
+        mode: "lines+markers",
+        type: "scatter"
+    }], {
+        margin: { t: 20 }
+    });
+}
+
+window.addEventListener("load", draw);
+</script>
+	</body>
+</html>

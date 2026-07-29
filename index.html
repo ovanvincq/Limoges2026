@@ -1332,7 +1332,16 @@ c_2 & a_2 & b_2 & \ddots & \vdots\\
 				disableLayout: false,
 				math: { katex: 'plugin/katex/katex.min.js'  },
 				plugins: [RevealMarkdown, RevealHighlight, RevealNotes,RevealMath.KaTeX],
-			});
+			})
+			window.addEventListener("orientationchange", () => {
+    setTimeout(() => {
+        Reveal.layout();
+
+        if (Reveal.getPlugin("math")) {
+            Reveal.getPlugin("math").typeset();
+        }
+    }, 500);
+});
 		</script>
 		<script>
 			function updateFooter() {

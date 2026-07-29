@@ -1,0 +1,4090 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="18.200001cm"
+   height="6.5cm"
+   viewBox="0 0 909.30219 324.68074"
+   id="svg311"
+   sodipodi:docname="pml_rectangulaire.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs311" />
+  <sodipodi:namedview
+     id="namedview311"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="cm"
+     inkscape:zoom="1.524343"
+     inkscape:cx="297.83322"
+     inkscape:cy="199.10217"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg311" />
+  <title
+     id="title1" />
+  <g
+     stroke-dashoffset="0"
+     stroke-linejoin="miter"
+     stroke-dasharray="none"
+     stroke-width="1"
+     stroke-linecap="square"
+     stroke-miterlimit="10"
+     id="g311"
+     transform="translate(-255.1062,-243.16587)">
+    <g
+       id="misc" />
+    <!-- misc -->
+    <g
+       id="layer0">
+      <clipPath
+         id="clip6daab183-c6d7-4fdd-abe0-537fbcb5cfa3">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path1" />
+      </clipPath>
+      <g
+         clip-path="url(#clip1)"
+         id="g3">
+        <g
+           fill="#993300"
+           fill-rule="evenodd"
+           fill-opacity="0.098039"
+           stroke="none"
+           id="g2">
+          <path
+             d="m 309,314 50,50 h 300 l 50,-50 z"
+             id="path2" />
+          <title
+             id="title2">QuadrilatÃ¨re q1</title>
+          <desc
+             id="desc2">QuadrilatÃ¨re q1: Polygone A, E, H, D</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip1 -->
+      <clipPath
+         id="clipc73ecebd-5e1e-4f57-b318-111fc262092e">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path3" />
+      </clipPath>
+      <g
+         clip-path="url(#clip2)"
+         id="g5">
+        <g
+           fill="#993300"
+           fill-rule="evenodd"
+           fill-opacity="0.098039"
+           stroke="none"
+           id="g4">
+          <path
+             d="m 659,364 v 100 l 50,50 V 314 Z"
+             id="path4" />
+          <title
+             id="title4">QuadrilatÃ¨re q2</title>
+          <desc
+             id="desc4">QuadrilatÃ¨re q2: Polygone H, G, C, D</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip2 -->
+      <clipPath
+         id="clip5b614bab-ea9b-47dc-8c55-556205f3a213">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path5" />
+      </clipPath>
+      <g
+         clip-path="url(#clip3)"
+         id="g7">
+        <g
+           fill="#993300"
+           fill-rule="evenodd"
+           fill-opacity="0.098039"
+           stroke="none"
+           id="g6">
+          <path
+             d="m 309,514 50,-50 h 300 l 50,50 z"
+             id="path6" />
+          <title
+             id="title6">QuadrilatÃ¨re q3</title>
+          <desc
+             id="desc6">QuadrilatÃ¨re q3: Polygone B, F, G, C</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip3 -->
+      <clipPath
+         id="clip16212bc9-c4e8-414c-9a3b-aa67c2d76c14">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path7" />
+      </clipPath>
+      <g
+         clip-path="url(#clip4)"
+         id="g9">
+        <g
+           fill="#993300"
+           fill-rule="evenodd"
+           fill-opacity="0.098039"
+           stroke="none"
+           id="g8">
+          <path
+             d="M 309,514 V 314 l 50,50 v 100 z"
+             id="path8" />
+          <title
+             id="title8">QuadrilatÃ¨re q4</title>
+          <desc
+             id="desc8">QuadrilatÃ¨re q4: Polygone B, A, E, F</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip4 -->
+      <clipPath
+         id="clip8b871d03-f323-4881-a0b1-6590ebcc0094">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path9" />
+      </clipPath>
+      <g
+         clip-path="url(#clip5)"
+         id="g11">
+        <g
+           stroke-opacity="0.69804"
+           stroke-linejoin="round"
+           stroke-width="2.5"
+           fill="none"
+           stroke="#000000"
+           stroke-linecap="round"
+           id="g10">
+          <path
+             d="M 309,314 H 709"
+             id="path10" />
+          <title
+             id="title10">Segment f</title>
+          <desc
+             id="desc10">Segment f: Segment [AD]</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip5 -->
+      <clipPath
+         id="clip28ae3270-8a7f-4d9a-816c-9dc6179efceb">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path11" />
+      </clipPath>
+      <g
+         clip-path="url(#clip6)"
+         id="g13">
+        <g
+           stroke-opacity="0.69804"
+           stroke-linejoin="round"
+           stroke-width="2.5"
+           fill="none"
+           stroke="#000000"
+           stroke-linecap="round"
+           id="g12">
+          <path
+             d="M 709,514 V 314"
+             id="path12" />
+          <title
+             id="title12">Segment g</title>
+          <desc
+             id="desc12">Segment g: Segment [CD]</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip6 -->
+      <clipPath
+         id="clipf86a1feb-67f5-4bed-b38f-5a990491bc87">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path13" />
+      </clipPath>
+      <g
+         clip-path="url(#clip7)"
+         id="g15">
+        <g
+           stroke-opacity="0.69804"
+           stroke-linejoin="round"
+           stroke-width="2.5"
+           fill="none"
+           stroke="#000000"
+           stroke-linecap="round"
+           id="g14">
+          <path
+             d="M 709,514 H 309"
+             id="path14" />
+          <title
+             id="title14">Segment h</title>
+          <desc
+             id="desc14">Segment h: Segment [CB]</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip7 -->
+      <clipPath
+         id="clip64f4337b-963a-4ddd-9210-ca43be950a8b">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path15" />
+      </clipPath>
+      <g
+         clip-path="url(#clip8)"
+         id="g17">
+        <g
+           stroke-opacity="0.69804"
+           stroke-linejoin="round"
+           stroke-width="2.5"
+           fill="none"
+           stroke="#000000"
+           stroke-linecap="round"
+           id="g16">
+          <path
+             d="M 309,514 V 314"
+             id="path16" />
+          <title
+             id="title16">Segment i</title>
+          <desc
+             id="desc16">Segment i: Segment [BA]</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip8 -->
+      <clipPath
+         id="clip8daeafb8-e058-4d6a-920b-4e2ac96c471c">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path17" />
+      </clipPath>
+      <g
+         clip-path="url(#clip9)"
+         id="g19">
+        <g
+           stroke-opacity="0.69804"
+           stroke-linejoin="round"
+           stroke-width="2.5"
+           fill="none"
+           stroke="#000000"
+           stroke-linecap="round"
+           id="g18">
+          <path
+             d="M 359,364 V 464"
+             id="path18" />
+          <title
+             id="title18">Segment j</title>
+          <desc
+             id="desc18">Segment j: Segment [EF]</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip9 -->
+      <clipPath
+         id="clip6006df2d-6fad-4df4-aa25-c58504d8a3c1">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path19" />
+      </clipPath>
+      <g
+         clip-path="url(#clip10)"
+         id="g21">
+        <g
+           stroke-opacity="0.69804"
+           stroke-linejoin="round"
+           stroke-width="2.5"
+           fill="none"
+           stroke="#000000"
+           stroke-linecap="round"
+           id="g20">
+          <path
+             d="M 359,464 H 659"
+             id="path20" />
+          <title
+             id="title20">Segment k</title>
+          <desc
+             id="desc20">Segment k: Segment [FG]</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip10 -->
+      <clipPath
+         id="clip089a9e83-1829-42f5-a444-1fb0e4eff030">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path21" />
+      </clipPath>
+      <g
+         clip-path="url(#clip11)"
+         id="g23">
+        <g
+           stroke-opacity="0.69804"
+           stroke-linejoin="round"
+           stroke-width="2.5"
+           fill="none"
+           stroke="#000000"
+           stroke-linecap="round"
+           id="g22">
+          <path
+             d="M 659,464 V 364"
+             id="path22" />
+          <title
+             id="title22">Segment l</title>
+          <desc
+             id="desc22">Segment l: Segment [GH]</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip11 -->
+      <clipPath
+         id="clipa36b9ad7-4914-431e-9a05-b60ac6faf529">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path23" />
+      </clipPath>
+      <g
+         clip-path="url(#clip12)"
+         id="g25">
+        <g
+           stroke-opacity="0.69804"
+           stroke-linejoin="round"
+           stroke-width="2.5"
+           fill="none"
+           stroke="#000000"
+           stroke-linecap="round"
+           id="g24">
+          <path
+             d="M 659,364 H 359"
+             id="path24" />
+          <title
+             id="title24">Segment m</title>
+          <desc
+             id="desc24">Segment m: Segment [HE]</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip12 -->
+      <clipPath
+         id="clip61531978-265a-4aa8-a61b-a06cd5e859db">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path25" />
+      </clipPath>
+      <g
+         clip-path="url(#clip13)"
+         id="g27">
+        <g
+           fill="#000000"
+           fill-rule="nonzero"
+           fill-opacity="0.69804"
+           stroke="none"
+           id="g26">
+          <path
+             d="m 742,409.75 v 3 H 259 c -0.69,0 -1.25,0.56 -1.25,1.25 0,0.69 0.56,1.25 1.25,1.25 h 483 v 3 L 759,414 Z"
+             id="path26" />
+          <title
+             id="title26">Vecteur u</title>
+          <desc
+             id="desc26">Vecteur u: Vecteur(I, J)</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip13 -->
+      <clipPath
+         id="clip5a556577-b89f-40ce-bd4e-5e3973edb326">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path27" />
+      </clipPath>
+      <g
+         clip-path="url(#clip14)"
+         id="g29">
+        <g
+           fill="#000000"
+           fill-rule="nonzero"
+           fill-opacity="0.69804"
+           stroke="none"
+           id="g28">
+          <path
+             d="m 509,264 -4.25,17 h 3 v 283 c 0,0.69 0.56,1.25 1.25,1.25 0.69,0 1.25,-0.56 1.25,-1.25 V 281 h 3 z"
+             id="path28" />
+          <title
+             id="title28">Vecteur v</title>
+          <desc
+             id="desc28">Vecteur v: Vecteur(K, L)</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip14 -->
+      <clipPath
+         id="clipc04b8d4f-32c4-4881-a2ed-d26d0a9fcd69">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path29" />
+      </clipPath>
+      <g
+         clip-path="url(#clip15)"
+         id="g31">
+        <g
+           fill="#000000"
+           fill-rule="nonzero"
+           fill-opacity="0.69804"
+           stroke="none"
+           id="g30">
+          <path
+             d="m 342,359.75 v 3 h -33 c -0.69,0 -1.25,0.56 -1.25,1.25 0,0.69 0.56,1.25 1.25,1.25 h 33 v 3 L 359,364 Z"
+             id="path30" />
+          <title
+             id="title30">Vecteur w</title>
+          <desc
+             id="desc30">Vecteur w: Vecteur(N, E)</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip15 -->
+      <clipPath
+         id="clipbe663832-f089-49ee-bc00-13a096deea6b">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path31" />
+      </clipPath>
+      <g
+         clip-path="url(#clip16)"
+         id="g33">
+        <g
+           fill="#000000"
+           fill-rule="nonzero"
+           fill-opacity="0.69804"
+           stroke="none"
+           id="g32">
+          <path
+             d="m 326,359.75 -17,4.25 17,4.25 v -3 h 33 c 0.69,0 1.25,-0.56 1.25,-1.25 0,-0.69 -0.56,-1.25 -1.25,-1.25 h -33 z"
+             id="path32" />
+          <title
+             id="title32">Vecteur a</title>
+          <desc
+             id="desc32">Vecteur a: Vecteur(E, N)</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip16 -->
+      <clipPath
+         id="clipdd196b2e-8f1b-43e0-9547-fae61963f880">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path33" />
+      </clipPath>
+      <g
+         clip-path="url(#clip17)"
+         id="g35">
+        <g
+           fill="#000000"
+           fill-rule="nonzero"
+           fill-opacity="0.69804"
+           stroke="none"
+           id="g34">
+          <path
+             d="m 359,314 -4.25,17 h 3 v 33 c 0,0.69 0.56,1.25 1.25,1.25 0.69,0 1.25,-0.56 1.25,-1.25 v -33 h 3 z"
+             id="path34" />
+          <title
+             id="title34">Vecteur b</title>
+          <desc
+             id="desc34">Vecteur b: Vecteur(E, M)</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip17 -->
+      <clipPath
+         id="clipb12099e8-130e-4c8b-91d4-1b1c92cc8a42">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path35" />
+      </clipPath>
+      <g
+         clip-path="url(#clip18)"
+         id="g37">
+        <g
+           fill="#000000"
+           fill-rule="nonzero"
+           fill-opacity="0.69804"
+           stroke="none"
+           id="g36">
+          <path
+             d="m 359,312.75 c -0.69,0 -1.25,0.56 -1.25,1.25 v 33 c 0,0 0,0 0,0 h -3 l 4.25,17 4.25,-17 h -3 c 0,0 0,0 0,0 v -33 c 0,-0.69 -0.56,-1.25 -1.25,-1.25 z"
+             id="path36" />
+          <title
+             id="title36">Vecteur c</title>
+          <desc
+             id="desc36">Vecteur c: Vecteur(M, E)</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip18 -->
+      <clipPath
+         id="clip320f18b9-938e-4693-9aa1-480300864942">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path37" />
+      </clipPath>
+      <g
+         clip-path="url(#clip19)"
+         id="g39">
+        <g
+           fill="#000000"
+           fill-rule="nonzero"
+           fill-opacity="1"
+           stroke="none"
+           id="g38">
+          <path
+             d="m 662.09,430 3,-4.28 -2.87,-4.02 h 2.69 l 1.47,2.28 1.54,-2.28 h 2.58 l -2.81,3.92 3.06,4.38 h -2.69 l -1.68,-2.58 -1.71,2.58 z"
+             id="path38" />
+          <title
+             id="title38">x_{PML}</title>
+          <desc
+             id="desc38">texte1 = âx_{PML}â</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip19 -->
+      <clipPath
+         id="clipc1dbce4e-2f18-43d7-a5c2-c71ffec45a06">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path39" />
+      </clipPath>
+      <g
+         clip-path="url(#clip20)"
+         id="g41">
+        <g
+           fill="#000000"
+           fill-rule="nonzero"
+           fill-opacity="1"
+           stroke="none"
+           id="g40">
+          <path
+             d="m 671.91,437 v -10.02 h 3.25 q 1.85,0 2.41,0.14 0.86,0.24 1.44,0.99 0.59,0.75 0.59,1.95 0,0.92 -0.34,1.55 -0.33,0.62 -0.85,0.98 -0.51,0.36 -1.06,0.49 -0.72,0.14 -2.09,0.14 h -1.31 V 437 Z m 2.04,-8.33 v 2.85 h 1.1 q 1.19,0 1.6,-0.16 0.4,-0.16 0.62,-0.48 0.24,-0.35 0.24,-0.79 0,-0.54 -0.33,-0.9 -0.31,-0.36 -0.81,-0.46 -0.36,-0.06 -1.46,-0.06 z m 7.27,8.33 v -10.02 h 3.03 l 1.83,6.83 1.8,-6.83 h 3.03 V 437 h -1.88 v -7.89 l -2,7.89 h -1.93 l -1.99,-7.89 V 437 Z m 11.76,0 v -9.94 h 2.01 v 8.25 h 5.03 V 437 Z"
+             id="path40" />
+          <title
+             id="title40">x_{PML}</title>
+          <desc
+             id="desc40">texte1 = âx_{PML}â</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip20 -->
+      <clipPath
+         id="clipf1be086f-4f3e-4515-a3a8-527db7aacf04">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path41" />
+      </clipPath>
+      <g
+         clip-path="url(#clip21)"
+         id="g43">
+        <g
+           fill="#000000"
+           fill-rule="nonzero"
+           fill-opacity="1"
+           stroke="none"
+           id="g42">
+          <path
+             d="m 362.91,423.94 v -2.19 h 4.31 v 2.19 z m 4.51,3.06 3,-4.28 -2.87,-4.02 h 2.68 l 1.47,2.28 1.55,-2.28 h 2.58 l -2.81,3.92 3.06,4.38 h -2.69 L 371.7,424.42 370,427 Z"
+             id="path42" />
+          <title
+             id="title42">-x_{PML}</title>
+          <desc
+             id="desc42">texte2 = â-x_{PML}â</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip21 -->
+      <clipPath
+         id="clipcd813d5f-6962-4885-a301-4349715d469f">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path43" />
+      </clipPath>
+      <g
+         clip-path="url(#clip22)"
+         id="g45">
+        <g
+           fill="#000000"
+           fill-rule="nonzero"
+           fill-opacity="1"
+           stroke="none"
+           id="g44">
+          <path
+             d="m 377.24,434 v -10.02 h 3.25 q 1.85,0 2.41,0.14 0.86,0.24 1.44,0.99 0.59,0.75 0.59,1.95 0,0.92 -0.34,1.55 -0.33,0.62 -0.85,0.98 -0.51,0.36 -1.06,0.49 -0.72,0.14 -2.09,0.14 h -1.32 V 434 Z m 2.03,-8.33 v 2.85 h 1.11 q 1.19,0 1.6,-0.16 0.4,-0.16 0.62,-0.48 0.24,-0.35 0.24,-0.79 0,-0.54 -0.33,-0.9 -0.31,-0.36 -0.81,-0.46 -0.36,-0.06 -1.46,-0.06 z m 7.28,8.33 v -10.02 h 3.03 l 1.83,6.83 1.8,-6.83 h 3.03 V 434 h -1.88 v -7.89 l -2,7.89 h -1.94 l -1.98,-7.89 V 434 Z m 11.75,0 v -9.94 h 2.02 v 8.25 h 5.03 V 434 Z"
+             id="path44" />
+          <title
+             id="title44">-x_{PML}</title>
+          <desc
+             id="desc44">texte2 = â-x_{PML}â</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip22 -->
+      <clipPath
+         id="clip7c3a14ad-ef27-40f8-908a-0f7e27cf59b6">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path45" />
+      </clipPath>
+      <g
+         clip-path="url(#clip23)"
+         id="g47">
+        <g
+           fill="#000000"
+           fill-rule="nonzero"
+           fill-opacity="1"
+           stroke="none"
+           id="g46">
+          <path
+             d="m 514.91,454.94 v -2.19 h 4.31 v 2.19 z m 4.53,-5.24 h 2.34 l 1.99,5.89 1.93,-5.89 h 2.27 l -2.92,7.99 -0.53,1.45 q -0.29,0.72 -0.55,1.09 -0.27,0.39 -0.61,0.63 -0.33,0.25 -0.83,0.37 -0.5,0.15 -1.12,0.15 -0.63,0 -1.24,-0.15 l -0.2,-1.71 q 0.51,0.1 0.94,0.1 0.76,0 1.12,-0.45 0.38,-0.45 0.56,-1.14 z"
+             id="path46" />
+          <title
+             id="title46">-y_{PML}</title>
+          <desc
+             id="desc46">texte3 = â-y_{PML}â</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip23 -->
+      <clipPath
+         id="clipa3de0893-9455-45c0-b4bb-6526a8649de8">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path47" />
+      </clipPath>
+      <g
+         clip-path="url(#clip24)"
+         id="g49">
+        <g
+           fill="#000000"
+           fill-rule="nonzero"
+           fill-opacity="1"
+           stroke="none"
+           id="g48">
+          <path
+             d="m 529.24,465 v -10.02 h 3.25 q 1.85,0 2.41,0.14 0.86,0.24 1.44,0.99 0.59,0.75 0.59,1.95 0,0.92 -0.34,1.55 -0.33,0.62 -0.85,0.98 -0.51,0.36 -1.06,0.49 -0.72,0.14 -2.09,0.14 h -1.32 V 465 Z m 2.03,-8.33 v 2.85 h 1.11 q 1.19,0 1.6,-0.16 0.4,-0.16 0.62,-0.48 0.24,-0.35 0.24,-0.79 0,-0.54 -0.33,-0.9 -0.31,-0.36 -0.81,-0.46 -0.36,-0.06 -1.46,-0.06 z m 7.28,8.33 v -10.02 h 3.03 l 1.83,6.83 1.8,-6.83 h 3.03 V 465 h -1.88 v -7.89 l -2,7.89 h -1.94 l -1.98,-7.89 V 465 Z m 11.75,0 v -9.94 h 2.02 v 8.25 h 5.03 V 465 Z"
+             id="path48" />
+          <title
+             id="title48">-y_{PML}</title>
+          <desc
+             id="desc48">texte3 = â-y_{PML}â</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip24 -->
+      <clipPath
+         id="clip7d10819d-24e9-45d1-86b2-e493083c049e">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path49" />
+      </clipPath>
+      <g
+         clip-path="url(#clip25)"
+         id="g51">
+        <g
+           fill="#000000"
+           fill-rule="nonzero"
+           fill-opacity="1"
+           stroke="none"
+           id="g50">
+          <path
+             d="m 514.11,370.7 h 2.34 l 1.99,5.89 1.94,-5.89 h 2.26 l -2.92,7.99 -0.53,1.45 q -0.28,0.72 -0.55,1.09 -0.26,0.39 -0.61,0.63 -0.33,0.25 -0.83,0.37 -0.5,0.15 -1.12,0.15 -0.63,0 -1.24,-0.15 l -0.2,-1.71 q 0.52,0.1 0.94,0.1 0.76,0 1.12,-0.45 0.38,-0.45 0.57,-1.14 z"
+             id="path50" />
+          <title
+             id="title50">y_{PML}</title>
+          <desc
+             id="desc50">texte4 = ây_{PML}â</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip25 -->
+      <clipPath
+         id="clipe6f0e154-d1aa-4808-b71d-8c88305362ff">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path51" />
+      </clipPath>
+      <g
+         clip-path="url(#clip26)"
+         id="g53">
+        <g
+           fill="#000000"
+           fill-rule="nonzero"
+           fill-opacity="1"
+           stroke="none"
+           id="g52">
+          <path
+             d="m 523.91,386 v -10.02 h 3.25 q 1.85,0 2.41,0.14 0.86,0.24 1.44,0.99 0.59,0.75 0.59,1.95 0,0.92 -0.34,1.55 -0.33,0.62 -0.85,0.98 -0.51,0.36 -1.06,0.49 -0.72,0.14 -2.09,0.14 h -1.31 V 386 Z m 2.04,-8.33 v 2.85 h 1.1 q 1.19,0 1.6,-0.16 0.4,-0.16 0.62,-0.48 0.24,-0.35 0.24,-0.79 0,-0.54 -0.33,-0.9 -0.31,-0.36 -0.81,-0.46 -0.36,-0.06 -1.46,-0.06 z m 7.27,8.33 v -10.02 h 3.03 l 1.83,6.83 1.8,-6.83 h 3.03 V 386 h -1.88 v -7.89 l -2,7.89 h -1.93 l -1.99,-7.89 V 386 Z m 11.76,0 v -9.94 h 2.01 v 8.25 h 5.03 V 386 Z"
+             id="path52" />
+          <title
+             id="title52">y_{PML}</title>
+          <desc
+             id="desc52">texte4 = ây_{PML}â</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip26 -->
+      <clipPath
+         id="clip467a4c9d-30eb-45f8-b49a-948b2dda12b6">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path53" />
+      </clipPath>
+      <g
+         clip-path="url(#clip27)"
+         id="g55">
+        <g
+           fill="#000000"
+           fill-rule="nonzero"
+           fill-opacity="1"
+           stroke="none"
+           id="g54">
+          <path
+             d="m 767.09,432 3,-4.28 -2.87,-4.02 h 2.69 l 1.47,2.28 1.54,-2.28 h 2.58 l -2.81,3.92 3.06,4.38 h -2.69 l -1.68,-2.58 -1.71,2.58 z"
+             id="path54" />
+          <title
+             id="title54">x</title>
+          <desc
+             id="desc54">texte5 = âxâ</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip27 -->
+      <clipPath
+         id="clip67a129e4-8241-4317-a6b2-3de36ca57bac">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path55" />
+      </clipPath>
+      <g
+         clip-path="url(#clip28)"
+         id="g57">
+        <g
+           fill="#000000"
+           fill-rule="nonzero"
+           fill-opacity="1"
+           stroke="none"
+           id="g56">
+          <path
+             d="m 524.11,245.7 h 2.34 l 1.99,5.89 1.94,-5.89 h 2.26 l -2.92,7.99 -0.53,1.45 q -0.28,0.72 -0.55,1.09 -0.26,0.39 -0.61,0.63 -0.33,0.25 -0.83,0.37 -0.5,0.15 -1.12,0.15 -0.63,0 -1.24,-0.15 l -0.2,-1.71 q 0.52,0.1 0.94,0.1 0.76,0 1.12,-0.45 0.38,-0.45 0.57,-1.14 z"
+             id="path56" />
+          <title
+             id="title56">y</title>
+          <desc
+             id="desc56">texte6 = âyâ</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip28 -->
+      <clipPath
+         id="clipabf9aba2-8ab8-425e-84f3-5ee5c19c07af">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path57" />
+      </clipPath>
+      <g
+         clip-path="url(#clip29)"
+         id="g59">
+        <g
+           fill="#000000"
+           fill-rule="nonzero"
+           fill-opacity="1"
+           stroke="none"
+           id="g58">
+          <path
+             d="m 379.77,343 h -2.05 v -1.22 q -0.5,0.7 -1.2,1.06 -0.69,0.35 -1.4,0.35 -1.42,0 -2.45,-1.16 -1.01,-1.15 -1.01,-3.22 0,-2.11 0.98,-3.2 1,-1.09 2.52,-1.09 1.39,0 2.4,1.15 v -4.12 h 2.21 z m -5.86,-4.33 q 0,1.33 0.36,1.92 0.53,0.86 1.48,0.86 0.77,0 1.3,-0.64 0.53,-0.65 0.53,-1.93 0,-1.43 -0.52,-2.05 -0.51,-0.64 -1.33,-0.64 -0.78,0 -1.31,0.62 -0.51,0.63 -0.51,1.86 z"
+             id="path58" />
+          <title
+             id="title58">d_{PML}</title>
+          <desc
+             id="desc58">texte7 = âd_{PML}â</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip29 -->
+      <clipPath
+         id="clipd5ed5937-0155-4e9b-b9bf-4e596cae1ecc">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path59" />
+      </clipPath>
+      <g
+         clip-path="url(#clip30)"
+         id="g61">
+        <g
+           fill="#000000"
+           fill-rule="nonzero"
+           fill-opacity="1"
+           stroke="none"
+           id="g60">
+          <path
+             d="m 381.79,350 v -10.02 h 3.25 q 1.84,0 2.41,0.14 0.85,0.24 1.43,0.99 0.6,0.75 0.6,1.95 0,0.92 -0.35,1.55 -0.33,0.62 -0.84,0.98 -0.52,0.36 -1.06,0.49 -0.72,0.14 -2.1,0.14 h -1.31 V 350 Z m 2.03,-8.33 v 2.85 h 1.11 q 1.19,0 1.59,-0.16 0.41,-0.16 0.63,-0.48 0.23,-0.35 0.23,-0.79 0,-0.54 -0.33,-0.9 -0.31,-0.36 -0.81,-0.46 -0.36,-0.06 -1.45,-0.06 z m 7.28,8.33 v -10.02 h 3.03 l 1.83,6.83 1.79,-6.83 h 3.03 V 350 h -1.87 v -7.89 l -2,7.89 h -1.94 l -1.98,-7.89 V 350 Z m 11.75,0 v -9.94 h 2.02 v 8.25 h 5.03 V 350 Z"
+             id="path60" />
+          <title
+             id="title60">d_{PML}</title>
+          <desc
+             id="desc60">texte7 = âd_{PML}â</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip30 -->
+      <clipPath
+         id="clip22f5d9e5-11ea-4dfb-90e7-f7ae5ecd63c1">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path61" />
+      </clipPath>
+      <g
+         clip-path="url(#clip31)"
+         id="g63">
+        <g
+           fill="#000000"
+           fill-rule="nonzero"
+           fill-opacity="1"
+           stroke="none"
+           id="g62">
+          <path
+             d="m 323.77,383 h -2.05 v -1.22 q -0.5,0.7 -1.2,1.06 -0.69,0.35 -1.4,0.35 -1.42,0 -2.45,-1.16 -1.01,-1.15 -1.01,-3.22 0,-2.11 0.98,-3.2 1,-1.09 2.52,-1.09 1.39,0 2.4,1.15 v -4.12 h 2.21 z m -5.86,-4.33 q 0,1.33 0.36,1.92 0.53,0.86 1.48,0.86 0.77,0 1.3,-0.64 0.53,-0.65 0.53,-1.93 0,-1.43 -0.52,-2.05 -0.51,-0.64 -1.33,-0.64 -0.78,0 -1.31,0.62 -0.51,0.63 -0.51,1.86 z"
+             id="path62" />
+          <title
+             id="title62">d_{PML}</title>
+          <desc
+             id="desc62">texte8 = âd_{PML}â</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip31 -->
+      <clipPath
+         id="clipde837ab7-0dbb-413d-8fe3-9b16239cfd53">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path63" />
+      </clipPath>
+      <g
+         clip-path="url(#clip32)"
+         id="g65">
+        <g
+           fill="#000000"
+           fill-rule="nonzero"
+           fill-opacity="1"
+           stroke="none"
+           id="g64">
+          <path
+             d="m 325.79,390 v -10.02 h 3.25 q 1.84,0 2.41,0.14 0.85,0.24 1.43,0.99 0.6,0.75 0.6,1.95 0,0.92 -0.35,1.55 -0.33,0.62 -0.84,0.98 -0.52,0.36 -1.06,0.49 -0.72,0.14 -2.1,0.14 h -1.31 V 390 Z m 2.03,-8.33 v 2.85 h 1.11 q 1.19,0 1.59,-0.16 0.41,-0.16 0.63,-0.48 0.23,-0.35 0.23,-0.79 0,-0.54 -0.33,-0.9 -0.31,-0.36 -0.81,-0.46 -0.36,-0.06 -1.45,-0.06 z m 7.28,8.33 v -10.02 h 3.03 l 1.83,6.83 1.79,-6.83 h 3.03 V 390 h -1.87 v -7.89 l -2,7.89 h -1.94 l -1.98,-7.89 V 390 Z m 11.75,0 v -9.94 h 2.02 v 8.25 h 5.03 V 390 Z"
+             id="path64" />
+          <title
+             id="title64">d_{PML}</title>
+          <desc
+             id="desc64">texte8 = âd_{PML}â</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip32 -->
+      <clipPath
+         id="clipb20f25c5-e12e-4928-addf-c0e57832194e">
+        <path
+           d="M 0,0 V 1018 H 1304 V 0 Z"
+           id="path65" />
+      </clipPath>
+      <g
+         clip-path="url(#clip33)"
+         id="g67">
+        <g
+           fill="#993300"
+           fill-rule="nonzero"
+           fill-opacity="1"
+           stroke="none"
+           id="g66">
+          <path
+             d="m 428.75,497 v -17.19 h 5.56 q 3.17,0 4.13,0.27 1.48,0.39 2.47,1.69 1,1.28 1,3.34 0,1.58 -0.58,2.66 -0.56,1.07 -1.45,1.7 -0.9,0.61 -1.8,0.8 -1.25,0.25 -3.6,0.25 h -2.26 V 497 Z m 3.47,-14.28 v 4.87 h 1.89 q 2.06,0 2.75,-0.26 0.69,-0.27 1.08,-0.85 0.39,-0.57 0.39,-1.32 0,-0.94 -0.55,-1.55 -0.55,-0.61 -1.39,-0.77 -0.62,-0.12 -2.5,-0.12 z M 444.71,497 v -17.19 h 5.19 l 3.12,11.72 3.08,-11.72 h 5.2 V 497 h -3.21 V 483.47 L 454.66,497 h -3.32 l -3.41,-13.53 V 497 Z m 20.13,0 v -17.05 h 3.47 v 14.16 h 8.63 V 497 Z"
+             id="path66" />
+          <title
+             id="title66">PML</title>
+          <desc
+             id="desc66">texte9 = âPMLâ</desc>
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip33 -->
+      <g
+         transform="matrix(0.19,0,0,0.19,818.8,329.63)"
+         id="g70">
+        <clipPath
+           id="clip269e31df-72d3-467b-91e2-54a7b6828f88">
+          <path
+             d="M -4309.5,-1734.9 V 3623 h 6863.2 v -5357.9 z"
+             id="path67" />
+        </clipPath>
+        <g
+           clip-path="url(#clip34)"
+           id="g69">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g68">
+            <path
+               d="m 45.203,-69.406 2.594,2.5 q -0.594,0.609 -2.5,2.656 -1.891,2.047 -2.391,2.547 -3.109,3.109 -7.203,3.109 -2.703,0 -7.906,-1.703 -5.203,-1.703 -8,-1.703 -4.594,0 -7.594,3.406 l -2.6092,-2.5 q 0.6092,-0.5 2.5002,-2.547 1.906,-2.062 2.406,-2.656 3.094,-3.109 7.203,-3.109 2.703,0 7.891,1.703 5.203,1.703 8,1.703 4.609,0 7.609,-3.406 z"
+               id="path68" />
+            <title
+               id="title68">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc68">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip34 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,818,329.63)"
+         id="g73">
+        <clipPath
+           id="clipddd6a986-fd21-43ba-b2df-6511beea05d5">
+          <path
+             d="M -4305.3,-1734.9 V 3623 h 6863.2 v -5357.9 z"
+             id="path70" />
+        </clipPath>
+        <g
+           clip-path="url(#clip35)"
+           id="g72">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g71">
+            <path
+               d="m 53.594,-40.094 q -2,-1.5 -4.797,-1.5 -2.703,0 -5.047,2.406 -2.344,2.391 -3.453,6.688 -0.297,0.906 -1.797,6.812 -1.5,5.891 -1.703,6.782 -2.203,8.9998 -2.203,11.1091 0,5 5.609,5 3.797,0 8,-2.9531 4.203,-2.9531 6.203,-9.156 0.391,-1.297 2.297,-1.297 2.391,0 2.391,1.406 0,1.391 -1.297,3.844 Q 56.5,-8.5 54.203,-5.7969 51.906,-3.0938 48,-1.1406 44.094,0.79688 39.703,0.79688 29.5,0.79688 25.906,-5.2969 21.5,0.79688 15.203,0.79688 10.5,0.79688 7.1406,-1.6406 3.7969,-4.0938 3.7969,-8 q 0,-3.5 2.2031,-5.641 2.2031,-2.156 5,-2.156 2.297,0 3.641,1.406 Q 16,-13 16,-11.203 q 0,2.1092 -1.453,4.1561 -1.453,2.0469 -3.953,2.75 2,1.5 4.812,1.5 2.688,0 5.032,-2.3437 2.359,-2.3594 3.468,-6.7654 l 3.391,-13.688 q 2.297,-9.203 2.297,-11 0,-5 -5.594,-5 -3.797,0 -8,2.953 -4.203,2.938 -6.2031,9.141 -0.3907,1.297 -2.2969,1.297 -2.4062,0 -2.4062,-1.391 0,-1.406 1.2968,-3.859 1.3125,-2.453 3.6094,-5.141 2.297,-2.703 6.188,-4.656 3.906,-1.953 8.312,-1.953 10.203,0 13.797,6.109 4.406,-6.109 10.703,-6.109 4.703,0 8.047,2.453 3.359,2.453 3.359,6.344 0,3.5 -2.203,5.656 -2.203,2.156 -5,2.156 -2.297,0 -3.656,-1.406 -1.344,-1.406 -1.344,-3.203 0,-2.094 1.438,-4.141 1.453,-2.062 3.953,-2.75 z"
+               id="path71" />
+            <title
+               id="title71">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc71">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip35 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,835.8,329.63)"
+         id="g76">
+        <clipPath
+           id="clip5d9b640b-efc9-4ec0-8bba-bf2c68d41aad">
+          <path
+             d="M -4398.9,-1734.9 V 3623 h 6863.1 v -5357.9 z"
+             id="path73" />
+        </clipPath>
+        <g
+           clip-path="url(#clip36)"
+           id="g75">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g74">
+            <path
+               d="M 78.797,-33.203 H 10.5 q -4.0938,0 -4.0938,-3 0,-3.094 4.5938,-3.094 h 67.297 q 4.609,0 4.609,3.094 0,3 -4.109,3 z m -0.5,22.406 H 11 q -4.5938,0 -4.5938,-3.109 0,-3 4.0938,-3 h 68.297 q 4.109,0 4.109,3 0,3.109 -4.609,3.109 z"
+               id="path74" />
+            <title
+               id="title74">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc74">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip36 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,858.06,303.77)"
+         id="g79">
+        <clipPath
+           id="clipa16fdc2f-463b-47ae-9d42-54e9dff5405a">
+          <path
+             d="M -4516.1,-1598.8 V 3759.1 H 2347 v -5357.9 z"
+             id="path76" />
+        </clipPath>
+        <g
+           clip-path="url(#clip37)"
+           id="g78">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g77">
+            <path
+               d="m 10.594,217.09 q 2.5,2.49 6.109,2.49 3.609,0 6.578,-4.96 2.985,-4.95 5.235,-12.37 2.25,-7.42 3.296,-12.44 1.047,-5 2.61,-12.9 1.422,-7.38 2.734,-14.8 1.328,-7.42 2.719,-15.8 1.391,-8.37 2.922,-17 1.547,-8.61 3.5,-18.33 2.625,-12.792 3.765,-18.292 1.157,-5.485 3.5,-15.86 2.344,-10.375 3.094,-13.672 0.766,-3.297 4.328,-18.031 l 1.328,-5.234 Q 64.547,31.109 65.766,26.594 67,22.078 69.562,15.547 72.125,9.0312 75.578,4.5156 79.047,0 83.203,0 q 2.938,0 5.438,1.3125 2.515,1.3281 4.078,3.625 1.562,2.2969 1.562,5.2655 0,2.156 -1.422,3.563 -1.406,1.422 -3.547,1.422 -2.203,0 -3.671,-1.422 -1.453,-1.407 -1.453,-3.563 0,-2.1874 1.453,-3.6561 Q 87.109,5.0781 89.312,5.0781 86.719,2.5938 83.297,2.5938 81.453,2.5938 79.219,8 77,13.422 75.125,20.766 q -1.875,7.359 -2.891,12.265 -1,4.907 -2.406,12.281 -1.656,8.344 -2.766,14.547 -1.093,6.203 -2.656,15.329 -1.562,9.14 -3.062,17.39 -1.485,8.252 -3.532,18.612 -1.312,6.53 -3.812,18.37 -2.484,11.85 -3.297,15.41 -0.797,3.56 -4.094,17.42 -3.297,13.88 -3.5,14.7 l -1.218,4.6 q -2.579,10.59 -5.203,18.62 -2.61,8.03 -7.672,14.97 -5.047,6.94 -12.313,6.94 -4.344,0 -7.7186,-2.94 -3.375,-2.92 -3.375,-7.17 0,-2.2 1.4687,-3.67 1.4688,-1.46 3.6099,-1.46 1.421,0 2.562,0.68 1.156,0.68 1.812,1.86 0.657,1.17 0.657,2.59 0,2.16 -1.469,3.56 -1.453,1.42 -3.656,1.42 z"
+               id="path77" />
+            <title
+               id="title77">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc77">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip37 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.133,0,0,0.133,877.06,308.91)"
+         id="g82">
+        <clipPath
+           id="clipeaa539c8-5a3b-42f6-96af-3082904ae06d">
+          <path
+             d="M -6594.5,-2322.6 V 5331.5 H 3210.1 V -2322.6 Z"
+             id="path79" />
+        </clipPath>
+        <g
+           clip-path="url(#clip38)"
+           id="g81">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g80">
+            <path
+               d="m 53.594,-40.094 q -2,-1.5 -4.797,-1.5 -2.703,0 -5.047,2.406 -2.344,2.391 -3.453,6.688 -0.297,0.906 -1.797,6.812 -1.5,5.891 -1.703,6.782 -2.203,8.9998 -2.203,11.1091 0,5 5.609,5 3.797,0 8,-2.9531 4.203,-2.9531 6.203,-9.156 0.391,-1.297 2.297,-1.297 2.391,0 2.391,1.406 0,1.391 -1.297,3.844 Q 56.5,-8.5 54.203,-5.7969 51.906,-3.0938 48,-1.1406 44.094,0.79688 39.703,0.79688 29.5,0.79688 25.906,-5.2969 21.5,0.79688 15.203,0.79688 10.5,0.79688 7.1406,-1.6406 3.7969,-4.0938 3.7969,-8 q 0,-3.5 2.2031,-5.641 2.2031,-2.156 5,-2.156 2.297,0 3.641,1.406 Q 16,-13 16,-11.203 q 0,2.1092 -1.453,4.1561 -1.453,2.0469 -3.953,2.75 2,1.5 4.812,1.5 2.688,0 5.032,-2.3437 2.359,-2.3594 3.468,-6.7654 l 3.391,-13.688 q 2.297,-9.203 2.297,-11 0,-5 -5.594,-5 -3.797,0 -8,2.953 -4.203,2.938 -6.2031,9.141 -0.3907,1.297 -2.2969,1.297 -2.4062,0 -2.4062,-1.391 0,-1.406 1.2968,-3.859 1.3125,-2.453 3.6094,-5.141 2.297,-2.703 6.188,-4.656 3.906,-1.953 8.312,-1.953 10.203,0 13.797,6.109 4.406,-6.109 10.703,-6.109 4.703,0 8.047,2.453 3.359,2.453 3.359,6.344 0,3.5 -2.203,5.656 -2.203,2.156 -5,2.156 -2.297,0 -3.656,-1.406 -1.344,-1.406 -1.344,-3.203 0,-2.094 1.438,-4.141 1.453,-2.062 3.953,-2.75 z"
+               id="path80" />
+            <title
+               id="title80">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc80">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip38 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.095,0,0,0.095,885.83,310.9)"
+         id="g85">
+        <clipPath
+           id="clip11336752-8ce9-4da1-9b04-b5c4e26864fa">
+          <path
+             d="M -9324.5,-3272.6 V 7443.2 H 4401.8 V -3272.6 Z"
+             id="path82" />
+        </clipPath>
+        <g
+           clip-path="url(#clip39)"
+           id="g84">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g83">
+            <path
+               d="m 43.094,-39.594 q -2.688,-2 -7.094,-2 -9.203,0 -14.297,8.594 -2.109,3.594 -3.859,10.703 -1.75,7.094 -1.75,10.203 0,9.2971 9.906,9.2971 13.594,0 21.094,-7.9061 1,-1.094 1.5,-1.094 0.703,0 1.594,1 0.906,1.0001 0.906,1.5939 0,1.1093 -2.906,3.5625 -2.891,2.4375 -6.891,4.0468 Q 35,0.79688 25.797,0.79688 14.906,0.79688 9.75,-4.0938 4.5938,-9 4.5938,-16.5 q 0,-10.797 8.5942,-19.75 8.609,-8.953 22.718,-8.953 6.5,0 10.25,2.609 3.75,2.594 3.75,6.688 0,3.109 -2.062,5.406 -2.047,2.297 -5.141,2.297 -2.703,0 -3.859,-1.5 -1.141,-1.5 -1.141,-3.094 0,-0.609 0.141,-1.547 0.156,-0.953 1.5,-2.75 1.359,-1.812 3.75,-2.5 z"
+               id="path83" />
+            <title
+               id="title83">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc83">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip39 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.133,0,0,0.133,868.63,346.65)"
+         id="g88">
+        <clipPath
+           id="clip29e1fab8-11fe-470b-98f8-37e1e2913b3f">
+          <path
+             d="M -6531,-2606.4 V 5047.7 H 3273.5 V -2606.4 Z"
+             id="path85" />
+        </clipPath>
+        <g
+           clip-path="url(#clip40)"
+           id="g87">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g86">
+            <path
+               d="m 52.844,-36.906 q 0.062,2 0.062,5 0,3 -0.062,5.062 -0.047,2.047 -0.547,5.797 -0.5,3.75 -1.359,6.406 Q 50.094,-12 48.297,-8.7969 46.5,-5.5938 44,-3.5938 q -2.5,2 -6.453,3.3438 -3.953,1.3438 -8.844,1.3438 -5,0 -8.953,-1.39068 Q 15.797,-1.7031 13.344,-3.6406 10.906,-5.5938 9.0938,-8.8438 7.2969,-12.094 6.4375,-14.688 q -0.8437,-2.609 -1.3437,-6.406 -0.5,-3.812 -0.5469,-5.812 -0.0469,-2 -0.0469,-5 0,-3 0.0469,-5 0.0469,-2 0.5469,-5.844 0.5,-3.844 1.3437,-6.547 0.8594,-2.703 2.6563,-6 1.8122,-3.297 4.2502,-5.344 2.453,-2.062 6.406,-3.453 3.953,-1.406 8.953,-1.406 5,0 8.938,1.453 3.953,1.453 6.406,3.453 2.453,2 4.25,5.344 1.797,3.344 2.641,6 0.859,2.656 1.359,6.5 0.5,3.844 0.547,5.844 z M 28.703,-2.5 q 2,0 3.891,-0.6406 1.906,-0.6563 4.047,-3.2032 2.156,-2.5624 2.765,-6.8592 0.688,-5.203 0.688,-19.891 0,-18.812 -1.688,-22.5 -1.312,-3.109 -4.015,-4.703 -2.688,-1.609 -5.688,-1.609 -1.797,0 -3.656,0.5 -1.844,0.5 -4.156,2.953 -2.297,2.453 -2.797,6.453 -0.797,5.203 -0.797,18.906 0,15.891 0.906,21.094 0.891,4.9062 4.047,7.2031 3.156,2.2969 6.453,2.2969 z"
+               id="path86" />
+            <title
+               id="title86">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc86">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip40 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,894.37,329.63)"
+         id="g91">
+        <clipPath
+           id="clip1ffebeac-3e09-42fc-a317-624dc24dd3bc">
+          <path
+             d="M -4707.2,-1734.9 V 3623 H 2156 v -5357.9 z"
+             id="path88" />
+        </clipPath>
+        <g
+           clip-path="url(#clip41)"
+           id="g90">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g89">
+            <path
+               d="M 71,-66.797 66.203,-48 q -0.406,1.5 -0.765,1.859 -0.344,0.344 -1.735,0.344 -2.406,0 -2.406,-1.5 l 0.109,-1.406 q 0.188,-1.391 0.188,-2.5 0,-7.891 -4.453,-11.344 Q 52.703,-66 45.703,-66 q -8.109,0 -12.312,4.547 -4.188,4.547 -4.188,9.156 0,2.891 1.891,5.094 1.906,2.203 5.203,2.906 l 7.797,1.797 q 7,1.594 9.453,2.547 Q 56,-39 58.5,-36.5 63,-32 63,-24.797 q 0,4 -1.75,8.453 -1.75,4.438 -5,8.594 -3.25,4.1562 -8.906,6.8125 -5.641,2.6406 -12.641,2.6406 -12.406,0 -18.906,-5.7969 Q 15,-3.4062 12.594,-1.4062 10.203,0.59375 10.094,0.70312 8.9062,1.7031 8.0938,1.7031 6.4062,1.7031 6.4062,0.29688 L 11.5,-20.5 q 0.406,-1.5 0.797,-1.891 0.406,-0.406 1.797,-0.406 2.312,0 2.312,1.391 0,0.109 -0.062,0.468 -0.047,0.344 -0.047,0.532 -0.5,1.906 -0.5,4.109 0,6.797 5.703,10.297 5.094,3 13.594,3 4.609,0 8.109,-1.7031 3.5,-1.7031 5.344,-4.2031 1.859,-2.4998 2.75,-4.9378 0.906,-2.453 0.906,-4.453 0,-7.109 -7.906,-9 -5,-1.109 -7.797,-1.797 -6.203,-1.406 -8.562,-2.25 -2.344,-0.859 -4.735,-3.062 -4.797,-4.594 -4.797,-11.391 0,-4 1.75,-8.141 1.75,-4.156 5.047,-7.906 3.297,-3.75 8.75,-6.094 5.453,-2.359 12.047,-2.359 10.203,0 15.906,5.797 l 5.5,-4.594 q 1.297,-1.203 2.188,-1.203 1.812,0 1.812,1.5 0,0.797 -0.406,2 z"
+               id="path89" />
+            <title
+               id="title89">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc89">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip41 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.133,0,0,0.133,907.53,332.48)"
+         id="g94">
+        <clipPath
+           id="clip85636bbf-75e9-455e-a7e5-18b46b0c2657">
+          <path
+             d="M -6823.6,-2499.8 V 5154.3 H 2981 v -7654.1 z"
+             id="path91" />
+        </clipPath>
+        <g
+           clip-path="url(#clip42)"
+           id="g93">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g92">
+            <path
+               d="m 53.594,-40.094 q -2,-1.5 -4.797,-1.5 -2.703,0 -5.047,2.406 -2.344,2.391 -3.453,6.688 -0.297,0.906 -1.797,6.812 -1.5,5.891 -1.703,6.782 -2.203,8.9998 -2.203,11.1091 0,5 5.609,5 3.797,0 8,-2.9531 4.203,-2.9531 6.203,-9.156 0.391,-1.297 2.297,-1.297 2.391,0 2.391,1.406 0,1.391 -1.297,3.844 Q 56.5,-8.5 54.203,-5.7969 51.906,-3.0938 48,-1.1406 44.094,0.79688 39.703,0.79688 29.5,0.79688 25.906,-5.2969 21.5,0.79688 15.203,0.79688 10.5,0.79688 7.1406,-1.6406 3.7969,-4.0938 3.7969,-8 q 0,-3.5 2.2031,-5.641 2.2031,-2.156 5,-2.156 2.297,0 3.641,1.406 Q 16,-13 16,-11.203 q 0,2.1092 -1.453,4.1561 -1.453,2.0469 -3.953,2.75 2,1.5 4.812,1.5 2.688,0 5.032,-2.3437 2.359,-2.3594 3.468,-6.7654 l 3.391,-13.688 q 2.297,-9.203 2.297,-11 0,-5 -5.594,-5 -3.797,0 -8,2.953 -4.203,2.938 -6.2031,9.141 -0.3907,1.297 -2.2969,1.297 -2.4062,0 -2.4062,-1.391 0,-1.406 1.2968,-3.859 1.3125,-2.453 3.6094,-5.141 2.297,-2.703 6.188,-4.656 3.906,-1.953 8.312,-1.953 10.203,0 13.797,6.109 4.406,-6.109 10.703,-6.109 4.703,0 8.047,2.453 3.359,2.453 3.359,6.344 0,3.5 -2.203,5.656 -2.203,2.156 -5,2.156 -2.297,0 -3.656,-1.406 -1.344,-1.406 -1.344,-3.203 0,-2.094 1.438,-4.141 1.453,-2.062 3.953,-2.75 z"
+               id="path92" />
+            <title
+               id="title92">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc92">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip42 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,916.3,329.63)"
+         id="g97">
+        <clipPath
+           id="clipd649fea1-f01a-4c71-930a-9cbe76f5507f">
+          <path
+             d="M -4822.6,-1734.9 V 3623 h 6863.1 v -5357.9 z"
+             id="path94" />
+        </clipPath>
+        <g
+           clip-path="url(#clip43)"
+           id="g96">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g95">
+            <path
+               d="M 37.906,22.5 38,22.797 q 0.203,0.406 0.203,0.703 0,1.406 -1.797,1.406 -1.906,0 -7.562,-5.25 -5.641,-5.25 -10.047,-12.9529 -8,-14.1093 -8,-31.7971 0,-26.703 17.906,-44.5 5.703,-5.406 7.703,-5.406 1.797,0 1.797,1.406 0,0.5 -1.609,2.094 Q 20.5,-55.297 20.5,-25 20.5,-10.594 24.297,0.90625 28.5,13.797 37.906,22.5 Z"
+               id="path95" />
+            <title
+               id="title95">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc95">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip43 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,924.79,329.63)"
+         id="g100">
+        <clipPath
+           id="clip4b8a20d1-c32a-4d24-865a-e6b3148ea9c5">
+          <path
+             d="M -4867.3,-1734.9 V 3623 h 6863.1 v -5357.9 z"
+             id="path97" />
+        </clipPath>
+        <g
+           clip-path="url(#clip44)"
+           id="g99">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g98">
+            <path
+               d="m 53.594,-40.094 q -2,-1.5 -4.797,-1.5 -2.703,0 -5.047,2.406 -2.344,2.391 -3.453,6.688 -0.297,0.906 -1.797,6.812 -1.5,5.891 -1.703,6.782 -2.203,8.9998 -2.203,11.1091 0,5 5.609,5 3.797,0 8,-2.9531 4.203,-2.9531 6.203,-9.156 0.391,-1.297 2.297,-1.297 2.391,0 2.391,1.406 0,1.391 -1.297,3.844 Q 56.5,-8.5 54.203,-5.7969 51.906,-3.0938 48,-1.1406 44.094,0.79688 39.703,0.79688 29.5,0.79688 25.906,-5.2969 21.5,0.79688 15.203,0.79688 10.5,0.79688 7.1406,-1.6406 3.7969,-4.0938 3.7969,-8 q 0,-3.5 2.2031,-5.641 2.2031,-2.156 5,-2.156 2.297,0 3.641,1.406 Q 16,-13 16,-11.203 q 0,2.1092 -1.453,4.1561 -1.453,2.0469 -3.953,2.75 2,1.5 4.812,1.5 2.688,0 5.032,-2.3437 2.359,-2.3594 3.468,-6.7654 l 3.391,-13.688 q 2.297,-9.203 2.297,-11 0,-5 -5.594,-5 -3.797,0 -8,2.953 -4.203,2.938 -6.2031,9.141 -0.3907,1.297 -2.2969,1.297 -2.4062,0 -2.4062,-1.391 0,-1.406 1.2968,-3.859 1.3125,-2.453 3.6094,-5.141 2.297,-2.703 6.188,-4.656 3.906,-1.953 8.312,-1.953 10.203,0 13.797,6.109 4.406,-6.109 10.703,-6.109 4.703,0 8.047,2.453 3.359,2.453 3.359,6.344 0,3.5 -2.203,5.656 -2.203,2.156 -5,2.156 -2.297,0 -3.656,-1.406 -1.344,-1.406 -1.344,-3.203 0,-2.094 1.438,-4.141 1.453,-2.062 3.953,-2.75 z"
+               id="path98" />
+            <title
+               id="title98">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc98">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip44 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,937.31,329.63)"
+         id="g103">
+        <clipPath
+           id="clip8dadea81-b044-4ecb-801a-6b08d92d3ea8">
+          <path
+             d="M -4933.2,-1734.9 V 3623 h 6863.1 v -5357.9 z"
+             id="path100" />
+        </clipPath>
+        <g
+           clip-path="url(#clip45)"
+           id="g102">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g101">
+            <path
+               d="m 33.797,-25 q 0,26.7031 -17.891,44.5 -5.703,5.406 -7.7029,5.406 -1.7969,0 -1.7969,-1.406 0,-0.5 1.5938,-2.094 16.094,-16.2029 16.094,-46.5 0,-29.906 -16.0002,-46.203 -1.6876,-1.609 -1.6876,-2.297 0,-1.406 1.7969,-1.406 1.8909,0 7.5469,5.25 5.656,5.25 10.047,12.953 8,14.094 8,31.797 z"
+               id="path101" />
+            <title
+               id="title101">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc101">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip45 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,945.8,329.63)"
+         id="g106">
+        <clipPath
+           id="clip4fe251f1-afd4-402e-827b-2fb5a9bd17c1">
+          <path
+             d="M -4977.9,-1734.9 V 3623 h 6863.1 v -5357.9 z"
+             id="path103" />
+        </clipPath>
+        <g
+           clip-path="url(#clip46)"
+           id="g105">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g104">
+            <path
+               d="m 60,-65.906 -13.797,55.109 q -0.609,2.0939 -0.609,4.297 0,3.7031 2.312,3.7031 4.297,0 6.797,-10.0001 0.703,-2.797 0.797,-2.906 0.5,-0.5 2,-0.5 2.406,0 2.406,1.406 0,0.797 -1.109,4.047 -1.094,3.25 -2.703,5.8438 -3.297,5.70308 -8.688,5.70308 -7.703,0 -11.5,-5.39068 Q 30.094,0.79688 22,0.79688 14.797,0.79688 9.6406,-3.2031 4.5,-7.2031 4.5,-15.703 4.5,-26.797 12.453,-36 q 7.953,-9.203 20.25,-9.203 6.203,0 10.094,3.609 l 5.406,-22.109 q -1.297,-0.203 -4.203,-0.203 -2.594,0 -2.594,-1.797 0,-1.297 0.594,-2 0.594,-0.703 1.094,-0.797 0.5,-0.094 1.5,-0.203 L 57.5,-69.297 q 0.203,-0.109 0.703,-0.109 2.203,0 2.203,1.812 0,0.297 -0.406,1.688 z M 34.906,-9.2969 41,-34.406 l 0.203,-1.391 q 0,-1.406 -2.25,-3.594 -2.25,-2.203 -6.047,-2.203 -7.906,0 -12.109,9.797 -1.391,3.391 -3.203,10.594 -1.797,7.203 -1.797,10.797 0,7.6091 6.703,7.6091 3.406,0 6.703,-1.8437 Q 32.5,-6.5 34.906,-9.2969 Z"
+               id="path104" />
+            <title
+               id="title104">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc104">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip46 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,957.39,329.63)"
+         id="g109">
+        <clipPath
+           id="clipe48682b5-97d6-48aa-969b-711150da6323">
+          <path
+             d="M -5038.9,-1734.9 V 3623 h 6863.1 v -5357.9 z"
+             id="path106" />
+        </clipPath>
+        <g
+           clip-path="url(#clip47)"
+           id="g108">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g107">
+            <path
+               d="m 53.594,-40.094 q -2,-1.5 -4.797,-1.5 -2.703,0 -5.047,2.406 -2.344,2.391 -3.453,6.688 -0.297,0.906 -1.797,6.812 -1.5,5.891 -1.703,6.782 -2.203,8.9998 -2.203,11.1091 0,5 5.609,5 3.797,0 8,-2.9531 4.203,-2.9531 6.203,-9.156 0.391,-1.297 2.297,-1.297 2.391,0 2.391,1.406 0,1.391 -1.297,3.844 Q 56.5,-8.5 54.203,-5.7969 51.906,-3.0938 48,-1.1406 44.094,0.79688 39.703,0.79688 29.5,0.79688 25.906,-5.2969 21.5,0.79688 15.203,0.79688 10.5,0.79688 7.1406,-1.6406 3.7969,-4.0938 3.7969,-8 q 0,-3.5 2.2031,-5.641 2.2031,-2.156 5,-2.156 2.297,0 3.641,1.406 Q 16,-13 16,-11.203 q 0,2.1092 -1.453,4.1561 -1.453,2.0469 -3.953,2.75 2,1.5 4.812,1.5 2.688,0 5.032,-2.3437 2.359,-2.3594 3.468,-6.7654 l 3.391,-13.688 q 2.297,-9.203 2.297,-11 0,-5 -5.594,-5 -3.797,0 -8,2.953 -4.203,2.938 -6.2031,9.141 -0.3907,1.297 -2.2969,1.297 -2.4062,0 -2.4062,-1.391 0,-1.406 1.2968,-3.859 1.3125,-2.453 3.6094,-5.141 2.297,-2.703 6.188,-4.656 3.906,-1.953 8.312,-1.953 10.203,0 13.797,6.109 4.406,-6.109 10.703,-6.109 4.703,0 8.047,2.453 3.359,2.453 3.359,6.344 0,3.5 -2.203,5.656 -2.203,2.156 -5,2.156 -2.297,0 -3.656,-1.406 -1.344,-1.406 -1.344,-3.203 0,-2.094 1.438,-4.141 1.453,-2.062 3.953,-2.75 z"
+               id="path107" />
+            <title
+               id="title107">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc107">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip47 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,818.49,381.47)"
+         id="g112">
+        <clipPath
+           id="clipdb42cdf1-a6a2-4438-a094-0cd0516edc4d">
+          <path
+             d="M -4307.9,-2007.7 V 3350.2 H 2555.3 V -2007.7 Z"
+             id="path109" />
+        </clipPath>
+        <g
+           clip-path="url(#clip48)"
+           id="g111">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g110">
+            <path
+               d="m 45.203,-69.406 2.594,2.5 q -0.594,0.609 -2.5,2.656 -1.891,2.047 -2.391,2.547 -3.109,3.109 -7.203,3.109 -2.703,0 -7.906,-1.703 -5.203,-1.703 -8,-1.703 -4.594,0 -7.594,3.406 l -2.6092,-2.5 q 0.6092,-0.5 2.5002,-2.547 1.906,-2.062 2.406,-2.656 3.094,-3.109 7.203,-3.109 2.703,0 7.891,1.703 5.203,1.703 8,1.703 4.609,0 7.609,-3.406 z"
+               id="path110" />
+            <title
+               id="title110">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc110">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip48 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,818,381.47)"
+         id="g115">
+        <clipPath
+           id="clipb8bf1da5-a6a1-4073-b6ab-2f4009d273ef">
+          <path
+             d="M -4305.3,-2007.7 V 3350.2 H 2557.9 V -2007.7 Z"
+             id="path112" />
+        </clipPath>
+        <g
+           clip-path="url(#clip49)"
+           id="g114">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g113">
+            <path
+               d="M 57.703,-37.703 48.297,0.09375 Q 46.094,9 37.844,14.594 q -8.25,5.609 -17.344,5.609 -6,0 -9.703,-2.406 -3.7032,-2.391 -3.7032,-6.297 0,-3.2031 2.1562,-5.4062 2.156,-2.1876 5.047,-2.1876 1.906,0 3.406,1.0938 1.5,1.0938 1.5,3.5 0,4.703 -4.797,6.703 2.297,1.391 6.094,1.391 5.5,0 10.344,-5 4.859,-5.0002 6.859,-13.7971 -4.297,2.99998 -9.609,2.99998 -2.688,0 -5.047,-0.45313 -2.344,-0.4375 -5,-1.68755 -2.641,-1.25 -4.25,-4.0468 -1.594,-2.8125 -1.594,-6.8124 0,-3.5 1.344,-7.844 1.359,-4.359 4.656,-12.953 1.703,-4.5 1.703,-6.5 0,-1 -0.312,-1.5 -0.297,-0.5 -0.594,-0.547 -0.297,-0.047 -0.797,-0.047 -0.797,0 -1.859,0.406 -1.047,0.391 -2.594,1.438 -1.547,1.047 -3.156,3.703 Q 9,-33.406 7.9062,-29.5 7.5,-28.203 5.5938,-28.203 q -2.3907,0 -2.3907,-1.391 0,-1 1,-3.344 1,-2.359 2.7969,-5.203 1.7969,-2.859 4.938,-4.953 3.156,-2.109 6.859,-2.109 4.5,0 7.891,2.453 3.406,2.453 3.406,6.547 0,1.609 -1.297,5 -5.891,15.203 -5.891,21.109 0,7.2971 6,7.2971 3,0 6.797,-2.4062 Q 36,-5.4062 36.75,-6 37.5,-6.5938 38.453,-7.7969 39.406,-9 39.594,-10 q 0.703,-2.703 4.203,-16.594 L 46.406,-37 q 0.391,-1.5 0.688,-2.391 0.312,-0.906 1.109,-2.25 0.797,-1.359 2.141,-2.062 1.359,-0.703 3.156,-0.703 2.203,0 3.453,1.312 1.25,1.297 1.25,3.094 0,0.5 -0.5,2.297 z"
+               id="path113" />
+            <title
+               id="title113">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc113">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip49 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,835.19,381.47)"
+         id="g118">
+        <clipPath
+           id="clipf1823d60-24e1-4ec7-9659-7d016d4ecf10">
+          <path
+             d="M -4395.7,-2007.7 V 3350.2 H 2467.4 V -2007.7 Z"
+             id="path115" />
+        </clipPath>
+        <g
+           clip-path="url(#clip50)"
+           id="g117">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g116">
+            <path
+               d="M 78.797,-33.203 H 10.5 q -4.0938,0 -4.0938,-3 0,-3.094 4.5938,-3.094 h 67.297 q 4.609,0 4.609,3.094 0,3 -4.109,3 z m -0.5,22.406 H 11 q -4.5938,0 -4.5938,-3.109 0,-3 4.0938,-3 h 68.297 q 4.109,0 4.109,3 0,3.109 -4.609,3.109 z"
+               id="path116" />
+            <title
+               id="title116">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc116">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip50 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,857.45,355.61)"
+         id="g121">
+        <clipPath
+           id="clipe66b64b3-80b1-47de-8cc5-3774ebb5c7db">
+          <path
+             d="M -4512.9,-1871.6 V 3486.3 H 2350.2 V -1871.6 Z"
+             id="path118" />
+        </clipPath>
+        <g
+           clip-path="url(#clip51)"
+           id="g120">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g119">
+            <path
+               d="m 10.594,217.09 q 2.5,2.49 6.109,2.49 3.609,0 6.578,-4.96 2.985,-4.95 5.235,-12.37 2.25,-7.42 3.296,-12.44 1.047,-5 2.61,-12.9 1.422,-7.38 2.734,-14.8 1.328,-7.42 2.719,-15.8 1.391,-8.37 2.922,-17 1.547,-8.61 3.5,-18.33 2.625,-12.792 3.765,-18.292 1.157,-5.485 3.5,-15.86 2.344,-10.375 3.094,-13.672 0.766,-3.297 4.328,-18.031 l 1.328,-5.234 Q 64.547,31.109 65.766,26.594 67,22.078 69.562,15.547 72.125,9.0312 75.578,4.5156 79.047,0 83.203,0 q 2.938,0 5.438,1.3125 2.515,1.3281 4.078,3.625 1.562,2.2969 1.562,5.2655 0,2.156 -1.422,3.563 -1.406,1.422 -3.547,1.422 -2.203,0 -3.671,-1.422 -1.453,-1.407 -1.453,-3.563 0,-2.1874 1.453,-3.6561 Q 87.109,5.0781 89.312,5.0781 86.719,2.5938 83.297,2.5938 81.453,2.5938 79.219,8 77,13.422 75.125,20.766 q -1.875,7.359 -2.891,12.265 -1,4.907 -2.406,12.281 -1.656,8.344 -2.766,14.547 -1.093,6.203 -2.656,15.329 -1.562,9.14 -3.062,17.39 -1.485,8.252 -3.532,18.612 -1.312,6.53 -3.812,18.37 -2.484,11.85 -3.297,15.41 -0.797,3.56 -4.094,17.42 -3.297,13.88 -3.5,14.7 l -1.218,4.6 q -2.579,10.59 -5.203,18.62 -2.61,8.03 -7.672,14.97 -5.047,6.94 -12.313,6.94 -4.344,0 -7.7186,-2.94 -3.375,-2.92 -3.375,-7.17 0,-2.2 1.4687,-3.67 1.4688,-1.46 3.6099,-1.46 1.421,0 2.562,0.68 1.156,0.68 1.812,1.86 0.657,1.17 0.657,2.59 0,2.16 -1.469,3.56 -1.453,1.42 -3.656,1.42 z"
+               id="path119" />
+            <title
+               id="title119">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc119">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip51 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.133,0,0,0.133,876.45,360.75)"
+         id="g124">
+        <clipPath
+           id="clipb996ab39-ea1f-41c0-82e3-46db004e2aab">
+          <path
+             d="M -6589.9,-2712.4 V 4941.8 H 3214.6 V -2712.4 Z"
+             id="path121" />
+        </clipPath>
+        <g
+           clip-path="url(#clip52)"
+           id="g123">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g122">
+            <path
+               d="M 57.703,-37.703 48.297,0.09375 Q 46.094,9 37.844,14.594 q -8.25,5.609 -17.344,5.609 -6,0 -9.703,-2.406 -3.7032,-2.391 -3.7032,-6.297 0,-3.2031 2.1562,-5.4062 2.156,-2.1876 5.047,-2.1876 1.906,0 3.406,1.0938 1.5,1.0938 1.5,3.5 0,4.703 -4.797,6.703 2.297,1.391 6.094,1.391 5.5,0 10.344,-5 4.859,-5.0002 6.859,-13.7971 -4.297,2.99998 -9.609,2.99998 -2.688,0 -5.047,-0.45313 -2.344,-0.4375 -5,-1.68755 -2.641,-1.25 -4.25,-4.0468 -1.594,-2.8125 -1.594,-6.8124 0,-3.5 1.344,-7.844 1.359,-4.359 4.656,-12.953 1.703,-4.5 1.703,-6.5 0,-1 -0.312,-1.5 -0.297,-0.5 -0.594,-0.547 -0.297,-0.047 -0.797,-0.047 -0.797,0 -1.859,0.406 -1.047,0.391 -2.594,1.438 -1.547,1.047 -3.156,3.703 Q 9,-33.406 7.9062,-29.5 7.5,-28.203 5.5938,-28.203 q -2.3907,0 -2.3907,-1.391 0,-1 1,-3.344 1,-2.359 2.7969,-5.203 1.7969,-2.859 4.938,-4.953 3.156,-2.109 6.859,-2.109 4.5,0 7.891,2.453 3.406,2.453 3.406,6.547 0,1.609 -1.297,5 -5.891,15.203 -5.891,21.109 0,7.2971 6,7.2971 3,0 6.797,-2.4062 Q 36,-5.4062 36.75,-6 37.5,-6.5938 38.453,-7.7969 39.406,-9 39.594,-10 q 0.703,-2.703 4.203,-16.594 L 46.406,-37 q 0.391,-1.5 0.688,-2.391 0.312,-0.906 1.109,-2.25 0.797,-1.359 2.141,-2.062 1.359,-0.703 3.156,-0.703 2.203,0 3.453,1.312 1.25,1.297 1.25,3.094 0,0.5 -0.5,2.297 z"
+               id="path122" />
+            <title
+               id="title122">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc122">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip52 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.095,0,0,0.095,884.3,362.74)"
+         id="g127">
+        <clipPath
+           id="clipc75a581f-20c8-48e3-8ed7-ef8fae4ad7eb">
+          <path
+             d="M -9308.4,-3818.3 V 6897.5 H 4417.9 V -3818.3 Z"
+             id="path124" />
+        </clipPath>
+        <g
+           clip-path="url(#clip53)"
+           id="g126">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g125">
+            <path
+               d="m 43.094,-39.594 q -2.688,-2 -7.094,-2 -9.203,0 -14.297,8.594 -2.109,3.594 -3.859,10.703 -1.75,7.094 -1.75,10.203 0,9.2971 9.906,9.2971 13.594,0 21.094,-7.9061 1,-1.094 1.5,-1.094 0.703,0 1.594,1 0.906,1.0001 0.906,1.5939 0,1.1093 -2.906,3.5625 -2.891,2.4375 -6.891,4.0468 Q 35,0.79688 25.797,0.79688 14.906,0.79688 9.75,-4.0938 4.5938,-9 4.5938,-16.5 q 0,-10.797 8.5942,-19.75 8.609,-8.953 22.718,-8.953 6.5,0 10.25,2.609 3.75,2.594 3.75,6.688 0,3.109 -2.062,5.406 -2.047,2.297 -5.141,2.297 -2.703,0 -3.859,-1.5 -1.141,-1.5 -1.141,-3.094 0,-0.609 0.141,-1.547 0.156,-0.953 1.5,-2.75 1.359,-1.812 3.75,-2.5 z"
+               id="path125" />
+            <title
+               id="title125">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc125">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip53 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.133,0,0,0.133,868.02,398.49)"
+         id="g130">
+        <clipPath
+           id="clipb0876db0-d173-4023-afe8-4dfa648c7d30">
+          <path
+             d="M -6526.5,-2996.2 V 4657.9 H 3278.1 V -2996.2 Z"
+             id="path127" />
+        </clipPath>
+        <g
+           clip-path="url(#clip54)"
+           id="g129">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g128">
+            <path
+               d="m 52.844,-36.906 q 0.062,2 0.062,5 0,3 -0.062,5.062 -0.047,2.047 -0.547,5.797 -0.5,3.75 -1.359,6.406 Q 50.094,-12 48.297,-8.7969 46.5,-5.5938 44,-3.5938 q -2.5,2 -6.453,3.3438 -3.953,1.3438 -8.844,1.3438 -5,0 -8.953,-1.39068 Q 15.797,-1.7031 13.344,-3.6406 10.906,-5.5938 9.0938,-8.8438 7.2969,-12.094 6.4375,-14.688 q -0.8437,-2.609 -1.3437,-6.406 -0.5,-3.812 -0.5469,-5.812 -0.0469,-2 -0.0469,-5 0,-3 0.0469,-5 0.0469,-2 0.5469,-5.844 0.5,-3.844 1.3437,-6.547 0.8594,-2.703 2.6563,-6 1.8122,-3.297 4.2502,-5.344 2.453,-2.062 6.406,-3.453 3.953,-1.406 8.953,-1.406 5,0 8.938,1.453 3.953,1.453 6.406,3.453 2.453,2 4.25,5.344 1.797,3.344 2.641,6 0.859,2.656 1.359,6.5 0.5,3.844 0.547,5.844 z M 28.703,-2.5 q 2,0 3.891,-0.6406 1.906,-0.6563 4.047,-3.2032 2.156,-2.5624 2.765,-6.8592 0.688,-5.203 0.688,-19.891 0,-18.812 -1.688,-22.5 -1.312,-3.109 -4.015,-4.703 -2.688,-1.609 -5.688,-1.609 -1.797,0 -3.656,0.5 -1.844,0.5 -4.156,2.953 -2.297,2.453 -2.797,6.453 -0.797,5.203 -0.797,18.906 0,15.891 0.906,21.094 0.891,4.9062 4.047,7.2031 3.156,2.2969 6.453,2.2969 z"
+               id="path128" />
+            <title
+               id="title128">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc128">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip54 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,892.84,381.47)"
+         id="g133">
+        <clipPath
+           id="clip2dd89efa-2a65-4fbc-8de6-c673e8a1a22a">
+          <path
+             d="M -4699.2,-2007.7 V 3350.2 H 2164 v -5357.9 z"
+             id="path130" />
+        </clipPath>
+        <g
+           clip-path="url(#clip55)"
+           id="g132">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g131">
+            <path
+               d="M 71,-66.797 66.203,-48 q -0.406,1.5 -0.765,1.859 -0.344,0.344 -1.735,0.344 -2.406,0 -2.406,-1.5 l 0.109,-1.406 q 0.188,-1.391 0.188,-2.5 0,-7.891 -4.453,-11.344 Q 52.703,-66 45.703,-66 q -8.109,0 -12.312,4.547 -4.188,4.547 -4.188,9.156 0,2.891 1.891,5.094 1.906,2.203 5.203,2.906 l 7.797,1.797 q 7,1.594 9.453,2.547 Q 56,-39 58.5,-36.5 63,-32 63,-24.797 q 0,4 -1.75,8.453 -1.75,4.438 -5,8.594 -3.25,4.1562 -8.906,6.8125 -5.641,2.6406 -12.641,2.6406 -12.406,0 -18.906,-5.7969 Q 15,-3.4062 12.594,-1.4062 10.203,0.59375 10.094,0.70312 8.9062,1.7031 8.0938,1.7031 6.4062,1.7031 6.4062,0.29688 L 11.5,-20.5 q 0.406,-1.5 0.797,-1.891 0.406,-0.406 1.797,-0.406 2.312,0 2.312,1.391 0,0.109 -0.062,0.468 -0.047,0.344 -0.047,0.532 -0.5,1.906 -0.5,4.109 0,6.797 5.703,10.297 5.094,3 13.594,3 4.609,0 8.109,-1.7031 3.5,-1.7031 5.344,-4.2031 1.859,-2.4998 2.75,-4.9378 0.906,-2.453 0.906,-4.453 0,-7.109 -7.906,-9 -5,-1.109 -7.797,-1.797 -6.203,-1.406 -8.562,-2.25 -2.344,-0.859 -4.735,-3.062 -4.797,-4.594 -4.797,-11.391 0,-4 1.75,-8.141 1.75,-4.156 5.047,-7.906 3.297,-3.75 8.75,-6.094 5.453,-2.359 12.047,-2.359 10.203,0 15.906,5.797 l 5.5,-4.594 q 1.297,-1.203 2.188,-1.203 1.812,0 1.812,1.5 0,0.797 -0.406,2 z"
+               id="path131" />
+            <title
+               id="title131">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc131">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip55 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.133,0,0,0.133,906.01,384.32)"
+         id="g136">
+        <clipPath
+           id="clip6b2b7c7c-6c15-4210-b29b-15f3c5227719">
+          <path
+             d="M -6812.1,-2889.6 V 4764.5 H 2992.4 V -2889.6 Z"
+             id="path133" />
+        </clipPath>
+        <g
+           clip-path="url(#clip56)"
+           id="g135">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g134">
+            <path
+               d="M 57.703,-37.703 48.297,0.09375 Q 46.094,9 37.844,14.594 q -8.25,5.609 -17.344,5.609 -6,0 -9.703,-2.406 -3.7032,-2.391 -3.7032,-6.297 0,-3.2031 2.1562,-5.4062 2.156,-2.1876 5.047,-2.1876 1.906,0 3.406,1.0938 1.5,1.0938 1.5,3.5 0,4.703 -4.797,6.703 2.297,1.391 6.094,1.391 5.5,0 10.344,-5 4.859,-5.0002 6.859,-13.7971 -4.297,2.99998 -9.609,2.99998 -2.688,0 -5.047,-0.45313 -2.344,-0.4375 -5,-1.68755 -2.641,-1.25 -4.25,-4.0468 -1.594,-2.8125 -1.594,-6.8124 0,-3.5 1.344,-7.844 1.359,-4.359 4.656,-12.953 1.703,-4.5 1.703,-6.5 0,-1 -0.312,-1.5 -0.297,-0.5 -0.594,-0.547 -0.297,-0.047 -0.797,-0.047 -0.797,0 -1.859,0.406 -1.047,0.391 -2.594,1.438 -1.547,1.047 -3.156,3.703 Q 9,-33.406 7.9062,-29.5 7.5,-28.203 5.5938,-28.203 q -2.3907,0 -2.3907,-1.391 0,-1 1,-3.344 1,-2.359 2.7969,-5.203 1.7969,-2.859 4.938,-4.953 3.156,-2.109 6.859,-2.109 4.5,0 7.891,2.453 3.406,2.453 3.406,6.547 0,1.609 -1.297,5 -5.891,15.203 -5.891,21.109 0,7.2971 6,7.2971 3,0 6.797,-2.4062 Q 36,-5.4062 36.75,-6 37.5,-6.5938 38.453,-7.7969 39.406,-9 39.594,-10 q 0.703,-2.703 4.203,-16.594 L 46.406,-37 q 0.391,-1.5 0.688,-2.391 0.312,-0.906 1.109,-2.25 0.797,-1.359 2.141,-2.062 1.359,-0.703 3.156,-0.703 2.203,0 3.453,1.312 1.25,1.297 1.25,3.094 0,0.5 -0.5,2.297 z"
+               id="path134" />
+            <title
+               id="title134">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc134">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip56 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,914.35,381.47)"
+         id="g139">
+        <clipPath
+           id="clip118a824f-294e-469f-b8d4-ca9028f14cb1">
+          <path
+             d="M -4812.3,-2007.7 V 3350.2 H 2050.8 V -2007.7 Z"
+             id="path136" />
+        </clipPath>
+        <g
+           clip-path="url(#clip57)"
+           id="g138">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g137">
+            <path
+               d="M 37.906,22.5 38,22.797 q 0.203,0.406 0.203,0.703 0,1.406 -1.797,1.406 -1.906,0 -7.562,-5.25 -5.641,-5.25 -10.047,-12.9529 -8,-14.1093 -8,-31.7971 0,-26.703 17.906,-44.5 5.703,-5.406 7.703,-5.406 1.797,0 1.797,1.406 0,0.5 -1.609,2.094 Q 20.5,-55.297 20.5,-25 20.5,-10.594 24.297,0.90625 28.5,13.797 37.906,22.5 Z"
+               id="path137" />
+            <title
+               id="title137">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc137">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip57 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,922.84,381.47)"
+         id="g142">
+        <clipPath
+           id="clip02341c5a-86bf-40f8-84e9-be5d10111d7f">
+          <path
+             d="M -4857,-2007.7 V 3350.2 H 2006.1 V -2007.7 Z"
+             id="path139" />
+        </clipPath>
+        <g
+           clip-path="url(#clip58)"
+           id="g141">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g140">
+            <path
+               d="M 57.703,-37.703 48.297,0.09375 Q 46.094,9 37.844,14.594 q -8.25,5.609 -17.344,5.609 -6,0 -9.703,-2.406 -3.7032,-2.391 -3.7032,-6.297 0,-3.2031 2.1562,-5.4062 2.156,-2.1876 5.047,-2.1876 1.906,0 3.406,1.0938 1.5,1.0938 1.5,3.5 0,4.703 -4.797,6.703 2.297,1.391 6.094,1.391 5.5,0 10.344,-5 4.859,-5.0002 6.859,-13.7971 -4.297,2.99998 -9.609,2.99998 -2.688,0 -5.047,-0.45313 -2.344,-0.4375 -5,-1.68755 -2.641,-1.25 -4.25,-4.0468 -1.594,-2.8125 -1.594,-6.8124 0,-3.5 1.344,-7.844 1.359,-4.359 4.656,-12.953 1.703,-4.5 1.703,-6.5 0,-1 -0.312,-1.5 -0.297,-0.5 -0.594,-0.547 -0.297,-0.047 -0.797,-0.047 -0.797,0 -1.859,0.406 -1.047,0.391 -2.594,1.438 -1.547,1.047 -3.156,3.703 Q 9,-33.406 7.9062,-29.5 7.5,-28.203 5.5938,-28.203 q -2.3907,0 -2.3907,-1.391 0,-1 1,-3.344 1,-2.359 2.7969,-5.203 1.7969,-2.859 4.938,-4.953 3.156,-2.109 6.859,-2.109 4.5,0 7.891,2.453 3.406,2.453 3.406,6.547 0,1.609 -1.297,5 -5.891,15.203 -5.891,21.109 0,7.2971 6,7.2971 3,0 6.797,-2.4062 Q 36,-5.4062 36.75,-6 37.5,-6.5938 38.453,-7.7969 39.406,-9 39.594,-10 q 0.703,-2.703 4.203,-16.594 L 46.406,-37 q 0.391,-1.5 0.688,-2.391 0.312,-0.906 1.109,-2.25 0.797,-1.359 2.141,-2.062 1.359,-0.703 3.156,-0.703 2.203,0 3.453,1.312 1.25,1.297 1.25,3.094 0,0.5 -0.5,2.297 z"
+               id="path140" />
+            <title
+               id="title140">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc140">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip58 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,934.75,381.47)"
+         id="g145">
+        <clipPath
+           id="clip0ef8aaa7-af9b-409b-bc51-23ba83f43567">
+          <path
+             d="M -4919.7,-2007.7 V 3350.2 H 1943.4 V -2007.7 Z"
+             id="path142" />
+        </clipPath>
+        <g
+           clip-path="url(#clip59)"
+           id="g144">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g143">
+            <path
+               d="m 33.797,-25 q 0,26.7031 -17.891,44.5 -5.703,5.406 -7.7029,5.406 -1.7969,0 -1.7969,-1.406 0,-0.5 1.5938,-2.094 16.094,-16.2029 16.094,-46.5 0,-29.906 -16.0002,-46.203 -1.6876,-1.609 -1.6876,-2.297 0,-1.406 1.7969,-1.406 1.8909,0 7.5469,5.25 5.656,5.25 10.047,12.953 8,14.094 8,31.797 z"
+               id="path143" />
+            <title
+               id="title143">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc143">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip59 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,943.24,381.47)"
+         id="g148">
+        <clipPath
+           id="clipa4607413-bded-475b-bf65-2bd125360571">
+          <path
+             d="M -4964.4,-2007.7 V 3350.2 H 1898.7 V -2007.7 Z"
+             id="path145" />
+        </clipPath>
+        <g
+           clip-path="url(#clip60)"
+           id="g147">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g146">
+            <path
+               d="m 60,-65.906 -13.797,55.109 q -0.609,2.0939 -0.609,4.297 0,3.7031 2.312,3.7031 4.297,0 6.797,-10.0001 0.703,-2.797 0.797,-2.906 0.5,-0.5 2,-0.5 2.406,0 2.406,1.406 0,0.797 -1.109,4.047 -1.094,3.25 -2.703,5.8438 -3.297,5.70308 -8.688,5.70308 -7.703,0 -11.5,-5.39068 Q 30.094,0.79688 22,0.79688 14.797,0.79688 9.6406,-3.2031 4.5,-7.2031 4.5,-15.703 4.5,-26.797 12.453,-36 q 7.953,-9.203 20.25,-9.203 6.203,0 10.094,3.609 l 5.406,-22.109 q -1.297,-0.203 -4.203,-0.203 -2.594,0 -2.594,-1.797 0,-1.297 0.594,-2 0.594,-0.703 1.094,-0.797 0.5,-0.094 1.5,-0.203 L 57.5,-69.297 q 0.203,-0.109 0.703,-0.109 2.203,0 2.203,1.812 0,0.297 -0.406,1.688 z M 34.906,-9.2969 41,-34.406 l 0.203,-1.391 q 0,-1.406 -2.25,-3.594 -2.25,-2.203 -6.047,-2.203 -7.906,0 -12.109,9.797 -1.391,3.391 -3.203,10.594 -1.797,7.203 -1.797,10.797 0,7.6091 6.703,7.6091 3.406,0 6.703,-1.8437 Q 32.5,-6.5 34.906,-9.2969 Z"
+               id="path146" />
+            <title
+               id="title146">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc146">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip60 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,954.83,381.47)"
+         id="g151">
+        <clipPath
+           id="clip0025b770-8894-4a19-b03b-209fb878677f">
+          <path
+             d="M -5025.4,-2007.7 V 3350.2 H 1837.7 V -2007.7 Z"
+             id="path148" />
+        </clipPath>
+        <g
+           clip-path="url(#clip61)"
+           id="g150">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g149">
+            <path
+               d="M 57.703,-37.703 48.297,0.09375 Q 46.094,9 37.844,14.594 q -8.25,5.609 -17.344,5.609 -6,0 -9.703,-2.406 -3.7032,-2.391 -3.7032,-6.297 0,-3.2031 2.1562,-5.4062 2.156,-2.1876 5.047,-2.1876 1.906,0 3.406,1.0938 1.5,1.0938 1.5,3.5 0,4.703 -4.797,6.703 2.297,1.391 6.094,1.391 5.5,0 10.344,-5 4.859,-5.0002 6.859,-13.7971 -4.297,2.99998 -9.609,2.99998 -2.688,0 -5.047,-0.45313 -2.344,-0.4375 -5,-1.68755 -2.641,-1.25 -4.25,-4.0468 -1.594,-2.8125 -1.594,-6.8124 0,-3.5 1.344,-7.844 1.359,-4.359 4.656,-12.953 1.703,-4.5 1.703,-6.5 0,-1 -0.312,-1.5 -0.297,-0.5 -0.594,-0.547 -0.297,-0.047 -0.797,-0.047 -0.797,0 -1.859,0.406 -1.047,0.391 -2.594,1.438 -1.547,1.047 -3.156,3.703 Q 9,-33.406 7.9062,-29.5 7.5,-28.203 5.5938,-28.203 q -2.3907,0 -2.3907,-1.391 0,-1 1,-3.344 1,-2.359 2.7969,-5.203 1.7969,-2.859 4.938,-4.953 3.156,-2.109 6.859,-2.109 4.5,0 7.891,2.453 3.406,2.453 3.406,6.547 0,1.609 -1.297,5 -5.891,15.203 -5.891,21.109 0,7.2971 6,7.2971 3,0 6.797,-2.4062 Q 36,-5.4062 36.75,-6 37.5,-6.5938 38.453,-7.7969 39.406,-9 39.594,-10 q 0.703,-2.703 4.203,-16.594 L 46.406,-37 q 0.391,-1.5 0.688,-2.391 0.312,-0.906 1.109,-2.25 0.797,-1.359 2.141,-2.062 1.359,-0.703 3.156,-0.703 2.203,0 3.453,1.312 1.25,1.297 1.25,3.094 0,0.5 -0.5,2.297 z"
+               id="path149" />
+            <title
+               id="title149">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc149">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip61 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,818,419.87)"
+         id="g154">
+        <clipPath
+           id="clip9c323e3b-583e-4d04-b0a2-1696a96601a2">
+          <path
+             d="M -4305.3,-2209.8 V 3148.1 H 2557.9 V -2209.8 Z"
+             id="path151" />
+        </clipPath>
+        <g
+           clip-path="url(#clip62)"
+           id="g153">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g152">
+            <path
+               d="M 71,-66.797 66.203,-48 q -0.406,1.5 -0.765,1.859 -0.344,0.344 -1.735,0.344 -2.406,0 -2.406,-1.5 l 0.109,-1.406 q 0.188,-1.391 0.188,-2.5 0,-7.891 -4.453,-11.344 Q 52.703,-66 45.703,-66 q -8.109,0 -12.312,4.547 -4.188,4.547 -4.188,9.156 0,2.891 1.891,5.094 1.906,2.203 5.203,2.906 l 7.797,1.797 q 7,1.594 9.453,2.547 Q 56,-39 58.5,-36.5 63,-32 63,-24.797 q 0,4 -1.75,8.453 -1.75,4.438 -5,8.594 -3.25,4.1562 -8.906,6.8125 -5.641,2.6406 -12.641,2.6406 -12.406,0 -18.906,-5.7969 Q 15,-3.4062 12.594,-1.4062 10.203,0.59375 10.094,0.70312 8.9062,1.7031 8.0938,1.7031 6.4062,1.7031 6.4062,0.29688 L 11.5,-20.5 q 0.406,-1.5 0.797,-1.891 0.406,-0.406 1.797,-0.406 2.312,0 2.312,1.391 0,0.109 -0.062,0.468 -0.047,0.344 -0.047,0.532 -0.5,1.906 -0.5,4.109 0,6.797 5.703,10.297 5.094,3 13.594,3 4.609,0 8.109,-1.7031 3.5,-1.7031 5.344,-4.2031 1.859,-2.4998 2.75,-4.9378 0.906,-2.453 0.906,-4.453 0,-7.109 -7.906,-9 -5,-1.109 -7.797,-1.797 -6.203,-1.406 -8.562,-2.25 -2.344,-0.859 -4.735,-3.062 -4.797,-4.594 -4.797,-11.391 0,-4 1.75,-8.141 1.75,-4.156 5.047,-7.906 3.297,-3.75 8.75,-6.094 5.453,-2.359 12.047,-2.359 10.203,0 15.906,5.797 l 5.5,-4.594 q 1.297,-1.203 2.188,-1.203 1.812,0 1.812,1.5 0,0.797 -0.406,2 z"
+               id="path152" />
+            <title
+               id="title152">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc152">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip62 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.133,0,0,0.133,831.17,422.72)"
+         id="g157">
+        <clipPath
+           id="clip3d6f151a-5742-4943-b16e-fe7ab5a2cd8a">
+          <path
+             d="M -6249.4,-3178.3 V 4475.8 H 3555.1 V -3178.3 Z"
+             id="path154" />
+        </clipPath>
+        <g
+           clip-path="url(#clip63)"
+           id="g156">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g155">
+            <path
+               d="m 53.594,-40.094 q -2,-1.5 -4.797,-1.5 -2.703,0 -5.047,2.406 -2.344,2.391 -3.453,6.688 -0.297,0.906 -1.797,6.812 -1.5,5.891 -1.703,6.782 -2.203,8.9998 -2.203,11.1091 0,5 5.609,5 3.797,0 8,-2.9531 4.203,-2.9531 6.203,-9.156 0.391,-1.297 2.297,-1.297 2.391,0 2.391,1.406 0,1.391 -1.297,3.844 Q 56.5,-8.5 54.203,-5.7969 51.906,-3.0938 48,-1.1406 44.094,0.79688 39.703,0.79688 29.5,0.79688 25.906,-5.2969 21.5,0.79688 15.203,0.79688 10.5,0.79688 7.1406,-1.6406 3.7969,-4.0938 3.7969,-8 q 0,-3.5 2.2031,-5.641 2.2031,-2.156 5,-2.156 2.297,0 3.641,1.406 Q 16,-13 16,-11.203 q 0,2.1092 -1.453,4.1561 -1.453,2.0469 -3.953,2.75 2,1.5 4.812,1.5 2.688,0 5.032,-2.3437 2.359,-2.3594 3.468,-6.7654 l 3.391,-13.688 q 2.297,-9.203 2.297,-11 0,-5 -5.594,-5 -3.797,0 -8,2.953 -4.203,2.938 -6.2031,9.141 -0.3907,1.297 -2.2969,1.297 -2.4062,0 -2.4062,-1.391 0,-1.406 1.2968,-3.859 1.3125,-2.453 3.6094,-5.141 2.297,-2.703 6.188,-4.656 3.906,-1.953 8.312,-1.953 10.203,0 13.797,6.109 4.406,-6.109 10.703,-6.109 4.703,0 8.047,2.453 3.359,2.453 3.359,6.344 0,3.5 -2.203,5.656 -2.203,2.156 -5,2.156 -2.297,0 -3.656,-1.406 -1.344,-1.406 -1.344,-3.203 0,-2.094 1.438,-4.141 1.453,-2.062 3.953,-2.75 z"
+               id="path155" />
+            <title
+               id="title155">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc155">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip63 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,845.21,419.87)"
+         id="g160">
+        <clipPath
+           id="clip4879eed8-8423-4c0d-ac62-5449eeb30529">
+          <path
+             d="M -4448.5,-2209.8 V 3148.1 H 2414.7 V -2209.8 Z"
+             id="path157" />
+        </clipPath>
+        <g
+           clip-path="url(#clip64)"
+           id="g159">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g158">
+            <path
+               d="M 78.797,-33.203 H 10.5 q -4.0938,0 -4.0938,-3 0,-3.094 4.5938,-3.094 h 67.297 q 4.609,0 4.609,3.094 0,3 -4.109,3 z m -0.5,22.406 H 11 q -4.5938,0 -4.5938,-3.109 0,-3 4.0938,-3 h 68.297 q 4.109,0 4.109,3 0,3.109 -4.609,3.109 z"
+               id="path158" />
+            <title
+               id="title158">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc158">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip64 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,867.47,419.87)"
+         id="g163">
+        <clipPath
+           id="clip5b7f5991-ffa6-4d46-939b-4196ae4692dd">
+          <path
+             d="M -4565.6,-2209.8 V 3148.1 H 2297.5 V -2209.8 Z"
+             id="path160" />
+        </clipPath>
+        <g
+           clip-path="url(#clip65)"
+           id="g162">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g161">
+            <path
+               d="M 71,-66.797 66.203,-48 q -0.406,1.5 -0.765,1.859 -0.344,0.344 -1.735,0.344 -2.406,0 -2.406,-1.5 l 0.109,-1.406 q 0.188,-1.391 0.188,-2.5 0,-7.891 -4.453,-11.344 Q 52.703,-66 45.703,-66 q -8.109,0 -12.312,4.547 -4.188,4.547 -4.188,9.156 0,2.891 1.891,5.094 1.906,2.203 5.203,2.906 l 7.797,1.797 q 7,1.594 9.453,2.547 Q 56,-39 58.5,-36.5 63,-32 63,-24.797 q 0,4 -1.75,8.453 -1.75,4.438 -5,8.594 -3.25,4.1562 -8.906,6.8125 -5.641,2.6406 -12.641,2.6406 -12.406,0 -18.906,-5.7969 Q 15,-3.4062 12.594,-1.4062 10.203,0.59375 10.094,0.70312 8.9062,1.7031 8.0938,1.7031 6.4062,1.7031 6.4062,0.29688 L 11.5,-20.5 q 0.406,-1.5 0.797,-1.891 0.406,-0.406 1.797,-0.406 2.312,0 2.312,1.391 0,0.109 -0.062,0.468 -0.047,0.344 -0.047,0.532 -0.5,1.906 -0.5,4.109 0,6.797 5.703,10.297 5.094,3 13.594,3 4.609,0 8.109,-1.7031 3.5,-1.7031 5.344,-4.2031 1.859,-2.4998 2.75,-4.9378 0.906,-2.453 0.906,-4.453 0,-7.109 -7.906,-9 -5,-1.109 -7.797,-1.797 -6.203,-1.406 -8.562,-2.25 -2.344,-0.859 -4.735,-3.062 -4.797,-4.594 -4.797,-11.391 0,-4 1.75,-8.141 1.75,-4.156 5.047,-7.906 3.297,-3.75 8.75,-6.094 5.453,-2.359 12.047,-2.359 10.203,0 15.906,5.797 l 5.5,-4.594 q 1.297,-1.203 2.188,-1.203 1.812,0 1.812,1.5 0,0.797 -0.406,2 z"
+               id="path161" />
+            <title
+               id="title161">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc161">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip65 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.133,0,0,0.133,880.64,422.72)"
+         id="g166">
+        <clipPath
+           id="clip87644e9d-5dc6-436f-88bf-0dc35524ff0e">
+          <path
+             d="M -6621.4,-3178.3 V 4475.8 H 3183.2 V -3178.3 Z"
+             id="path163" />
+        </clipPath>
+        <g
+           clip-path="url(#clip66)"
+           id="g165">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g164">
+            <path
+               d="M 57.703,-37.703 48.297,0.09375 Q 46.094,9 37.844,14.594 q -8.25,5.609 -17.344,5.609 -6,0 -9.703,-2.406 -3.7032,-2.391 -3.7032,-6.297 0,-3.2031 2.1562,-5.4062 2.156,-2.1876 5.047,-2.1876 1.906,0 3.406,1.0938 1.5,1.0938 1.5,3.5 0,4.703 -4.797,6.703 2.297,1.391 6.094,1.391 5.5,0 10.344,-5 4.859,-5.0002 6.859,-13.7971 -4.297,2.99998 -9.609,2.99998 -2.688,0 -5.047,-0.45313 -2.344,-0.4375 -5,-1.68755 -2.641,-1.25 -4.25,-4.0468 -1.594,-2.8125 -1.594,-6.8124 0,-3.5 1.344,-7.844 1.359,-4.359 4.656,-12.953 1.703,-4.5 1.703,-6.5 0,-1 -0.312,-1.5 -0.297,-0.5 -0.594,-0.547 -0.297,-0.047 -0.797,-0.047 -0.797,0 -1.859,0.406 -1.047,0.391 -2.594,1.438 -1.547,1.047 -3.156,3.703 Q 9,-33.406 7.9062,-29.5 7.5,-28.203 5.5938,-28.203 q -2.3907,0 -2.3907,-1.391 0,-1 1,-3.344 1,-2.359 2.7969,-5.203 1.7969,-2.859 4.938,-4.953 3.156,-2.109 6.859,-2.109 4.5,0 7.891,2.453 3.406,2.453 3.406,6.547 0,1.609 -1.297,5 -5.891,15.203 -5.891,21.109 0,7.2971 6,7.2971 3,0 6.797,-2.4062 Q 36,-5.4062 36.75,-6 37.5,-6.5938 38.453,-7.7969 39.406,-9 39.594,-10 q 0.703,-2.703 4.203,-16.594 L 46.406,-37 q 0.391,-1.5 0.688,-2.391 0.312,-0.906 1.109,-2.25 0.797,-1.359 2.141,-2.062 1.359,-0.703 3.156,-0.703 2.203,0 3.453,1.312 1.25,1.297 1.25,3.094 0,0.5 -0.5,2.297 z"
+               id="path164" />
+            <title
+               id="title164">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc164">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip66 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,894.26,419.87)"
+         id="g169">
+        <clipPath
+           id="clip1aa6ab9d-69e4-4277-9b7c-4ca92ce7a37e">
+          <path
+             d="M -4706.6,-2209.8 V 3148.1 H 2156.5 V -2209.8 Z"
+             id="path166" />
+        </clipPath>
+        <g
+           clip-path="url(#clip67)"
+           id="g168">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g167">
+            <path
+               d="M 78.797,-33.203 H 10.5 q -4.0938,0 -4.0938,-3 0,-3.094 4.5938,-3.094 h 67.297 q 4.609,0 4.609,3.094 0,3 -4.109,3 z m -0.5,22.406 H 11 q -4.5938,0 -4.5938,-3.109 0,-3 4.0938,-3 h 68.297 q 4.109,0 4.109,3 0,3.109 -4.609,3.109 z"
+               id="path167" />
+            <title
+               id="title167">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc167">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip67 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,916.52,419.87)"
+         id="g172">
+        <clipPath
+           id="clip988b6a0d-ad9f-4178-b224-35a29b443acb">
+          <path
+             d="M -4823.8,-2209.8 V 3148.1 H 2039.4 V -2209.8 Z"
+             id="path169" />
+        </clipPath>
+        <g
+           clip-path="url(#clip68)"
+           id="g171">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g170">
+            <path
+               d="m 35.406,-62.297 v 57.5939 h 14 V 0 Q 45,-0.29688 29.5,-0.29688 14,-0.29688 9.5938,0 V -4.7031 H 23.5 V -56.406 q -6.203,2 -13,2 h -2 v -4.688 h 2 q 12.406,0 20.094,-5.703 0.906,-0.703 2.203,-0.703 1.797,0 2.203,0.656 0.406,0.641 0.406,2.547 z"
+               id="path170" />
+            <title
+               id="title170">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc170">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip68 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,933.77,419.87)"
+         id="g175">
+        <clipPath
+           id="clip96a4119c-a495-496f-b1d7-39a9f34161a3">
+          <path
+             d="M -4914.6,-2209.8 V 3148.1 H 1948.6 V -2209.8 Z"
+             id="path172" />
+        </clipPath>
+        <g
+           clip-path="url(#clip69)"
+           id="g174">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g173">
+            <path
+               d="m 54.203,-21.797 q 0,9.703 -6.703,16.047 -6.703,6.34375 -18.812,6.34375 -12.094,0 -18.7974,-6.34375 -6.6875,-6.344 -6.6875,-16.047 0,-10.297 6.75,-16.891 6.7499,-6.609 18.7499,-6.609 11.891,0 18.688,6.609 6.812,6.594 6.812,16.891 z M 23.344,-4.1562 q 2.25,0.75 5.344,0.75 3.109,0 5.359,-0.75 2.25,-0.75 3.594,-2.4376 1.359,-1.7031 2.156,-3.2031 0.797,-1.5001 1.141,-4.2501 0.359,-2.75 0.406,-4.297 0.062,-1.562 0.062,-4.562 0,-10.297 -2.109,-13.688 -3.203,-5.109 -10.594,-5.109 -8,0 -11,5.797 -1.703,3.406 -1.703,13 0,3 0.047,4.562 0.047,1.547 0.391,4.297 0.359,2.75 1.156,4.2501 0.812,1.5 2.156,3.2031 1.344,1.6876 3.594,2.4376 z"
+               id="path173" />
+            <title
+               id="title173">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc173">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip69 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,944.7,419.87)"
+         id="g178">
+        <clipPath
+           id="clip24b4b4d5-0576-4e0f-bac6-8550c9ba884f">
+          <path
+             d="M -4972.1,-2209.8 V 3148.1 H 1891.1 V -2209.8 Z"
+             id="path175" />
+        </clipPath>
+        <g
+           clip-path="url(#clip70)"
+           id="g177">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g176">
+            <path
+               d="m 43.797,-7.2031 q -4.594,7.79685 -14.391,7.79685 -8.5,0 -13.25,-2.74995 -4.75,-2.75 -4.75,-10.1408 v -23.297 q 0,-2.812 -1.062,-3.359 Q 9.2969,-39.5 4.5,-39.5 v -4.703 L 22.797,-45 v 34.094 q 0,4.6091 1.297,6.2654 Q 25.406,-3 30.797,-3 q 5.5,0 8.953,-3.7031 3.453,-3.7029 3.453,-9.7969 v -19.094 q 0,-2.812 -1.062,-3.359 -1.047,-0.547 -5.844,-0.547 v -4.703 L 54.594,-45 v 36.4062 q 0,2.7969 1.047,3.3438 1.062,0.5469 5.859,0.5469 V 0 L 43.797,0.59375 Z"
+               id="path176" />
+            <title
+               id="title176">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc176">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip70 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,956.84,419.87)"
+         id="g181">
+        <clipPath
+           id="clip09bc92f6-b358-4304-aa4d-f13b2bc962d0">
+          <path
+             d="M -5036,-2209.8 V 3148.1 H 1827.2 V -2209.8 Z"
+             id="path178" />
+        </clipPath>
+        <g
+           clip-path="url(#clip71)"
+           id="g180">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g179">
+            <path
+               d="m 21.703,-39.703 v 27.609 q 0,8.6878 5.797,8.6878 2.406,0 4.203,-2.25 1.797,-2.25 1.797,-6.9378 v -5.109 h 4.703 v 5.297 q 0,5.6091 -3.25,9.3122 -3.25,3.68755 -8.859,3.68755 -15.797,0 -15.797,-12.89075 V -39.703 H 2.0938 v -3.594 q 7,-0.203 10.9062,-6.156 3.906,-5.953 4,-14.047 h 4.703 v 19.094 h 14.594 v 4.703 z"
+               id="path179" />
+            <title
+               id="title179">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc179">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip71 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,965.33,419.87)"
+         id="g184">
+        <clipPath
+           id="clipa81fa3fa-3e0e-4123-baea-3392f9dd3ed1">
+          <path
+             d="M -5080.7,-2209.8 V 3148.1 H 1782.5 V -2209.8 Z"
+             id="path181" />
+        </clipPath>
+        <g
+           clip-path="url(#clip72)"
+           id="g183">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g182">
+            <path
+               d="m 21.094,-29.406 q 6.5,1.109 9.344,1.968 2.859,0.844 5.562,2.844 5.5,4.391 5.5,10.594 0,3.5 -1.109,6.1562 -1.094,2.6407 -3.047,4.1407 -1.938,1.5 -3.844,2.4531 -1.906,0.95312 -4.406,1.296875 Q 26.594,0.40625 25.5,0.5 24.406,0.59375 23,0.59375 q -7.203,0 -11.797,-3.18755 -2.4999,1.68755 -2.6092,1.68755 -2.0938,1.5 -3,1.5 Q 4.4062,0.59375 4.0938,0 3.7969,-0.59375 3.7969,-2.2031 V -13.094 Q 3.7969,-15 4.1406,-15.5 4.5,-16 6.2031,-16 q 1.2031,0 1.6407,0.203 0.4531,0.203 0.75,1.203 0.6093,2.094 1.3593,3.703 0.7499,1.5941 2.2969,3.641 1.547,2.0469 4.297,3.1562 Q 19.297,-3 23,-3 q 11.406,0 11.406,-7.5 0,-2.094 -1.109,-3.594 -1.094,-1.5 -3.203,-2.344 Q 28,-17.297 26.641,-17.641 25.297,-18 23.297,-18.297 18.406,-19.203 16.5,-19.594 14.594,-20 12.141,-21.047 q -2.4379,-1.047 -4.3441,-2.75 -4,-3.406 -4,-8.406 0,-3.094 1.0937,-5.485 1.1094,-2.406 3.0625,-3.75 1.9531,-1.359 3.8439,-2.203 1.906,-0.859 4.344,-1.156 2.453,-0.297 3.609,-0.391 1.156,-0.109 2.453,-0.109 6.297,0 10.094,1.891 3.906,-1.891 4.5,-1.891 1.203,0 1.5,0.547 0.297,0.547 0.297,2.25 v 8 q 0,1.906 -0.344,2.359 -0.344,0.438 -2.047,0.438 -1.5,0 -1.859,-0.391 -0.344,-0.406 -0.438,-1.609 -0.812,-8.391 -11.812,-8.391 -11.188,0 -11.188,6.188 0,1.703 0.938,2.906 0.953,1.203 2.906,1.906 1.953,0.688 3.047,1 1.109,0.297 3.297,0.688 z"
+               id="path182" />
+            <title
+               id="title182">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc182">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip72 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,973.96,419.87)"
+         id="g187">
+        <clipPath
+           id="clip85e14088-dbe3-46c3-bf96-d8ea3a6b0fc1">
+          <path
+             d="M -5126.1,-2209.8 V 3148.1 H 1737.1 V -2209.8 Z"
+             id="path184" />
+        </clipPath>
+        <g
+           clip-path="url(#clip73)"
+           id="g186">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g185">
+            <path
+               d="m 22.406,-45 v 40.2969 h 6.188 V 0 Q 17.797,-0.29688 16.906,-0.29688 14,-0.29688 4.7031,0 V -4.7031 H 11.594 V -35.594 q 0,-2.812 -1,-3.359 Q 9.5938,-39.5 5,-39.5 v -4.703 z m -1.312,-22.25 q 2.312,2.25 2.312,5.547 0,3.297 -2.312,5.547 -2.297,2.25 -5.5,2.25 -3.188,0 -5.5,-2.297 -2.2971,-2.297 -2.2971,-5.5 0,-3.203 2.2971,-5.5 2.312,-2.297 5.5,-2.297 3.203,0 5.5,2.25 z"
+               id="path185" />
+            <title
+               id="title185">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc185">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip73 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,980.02,419.87)"
+         id="g190">
+        <clipPath
+           id="clip59ae7533-7b69-4bf4-a3e8-bdaf480f551c">
+          <path
+             d="M -5158,-2209.8 V 3148.1 H 1705.2 V -2209.8 Z"
+             id="path187" />
+        </clipPath>
+        <g
+           clip-path="url(#clip74)"
+           id="g189">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g188">
+            <path
+               d="M 60.094,-4.7031 V 0 L 41.797,0.59375 V -4.2969 q -6.094,4.89065 -14,4.89065 -11,0 -17.5,-6.34375 -6.5001,-6.344 -6.5001,-16.344 0,-10.406 7.0001,-16.656 7,-6.25 18.109,-6.25 7.688,0 13.5,4.5 V -60 q 0,-2.797 -1.062,-3.344 -1.047,-0.562 -5.844,-0.562 v -4.688 l 17.703,-0.812 v 60.8122 q 0,2.7969 1.047,3.3438 1.047,0.5469 5.844,0.5469 z M 41.797,-35.297 q -4.594,-6.109 -11.891,-6.109 -7.109,0 -10.703,5.203 -2.609,3.906 -2.609,14.109 0,2.5 0.047,3.953 0.062,1.438 0.359,4.047 0.297,2.594 1.094,4.2502 0.812,1.6407 2.109,3.3907 1.297,1.75 3.5,2.6093 Q 25.906,-3 28.797,-3 q 7.703,0 13,-7.297 z"
+               id="path188" />
+            <title
+               id="title188">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc188">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip74 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,992.16,419.87)"
+         id="g193">
+        <clipPath
+           id="clipf54ff712-cb35-4558-8f73-40926185d87e">
+          <path
+             d="M -5221.9,-2209.8 V 3148.1 H 1641.3 V -2209.8 Z"
+             id="path190" />
+        </clipPath>
+        <g
+           clip-path="url(#clip75)"
+           id="g192">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g191">
+            <path
+               d="M 46.203,-21.797 H 16 q 0,18.3908 14.203,18.3908 4.891,0 8.797,-2.1876 3.906,-2.2031 5.5,-5.8122 0.5,-1.297 0.891,-1.688 0.406,-0.406 1.609,-0.406 2.406,0 2.406,1.797 0,0.906 -1,2.703 -1,1.7969 -3.062,4.0469 -2.047,2.25 -6.297,3.9062 -4.25,1.64065 -9.75,1.64065 -11.891,0 -19,-6.43755 Q 3.2031,-12.297 3.2031,-22.5 q 0,-9.797 6.5469,-16.297 6.547,-6.5 18.156,-6.5 10.297,0 15.891,5.391 5.609,5.609 5.609,15.406 0,1.906 -0.656,2.312 -0.656,0.391 -2.547,0.391 z M 16,-25.094 h 23.906 q -0.5,-16.609 -12,-16.609 -6.109,0 -9.5,5.203 -2,3.094 -2.406,11.406 z"
+               id="path191" />
+            <title
+               id="title191">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc191">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip75 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,1008.5,419.87)"
+         id="g196">
+        <clipPath
+           id="clipc319fe64-4d29-4a54-a249-d94534ba15e0">
+          <path
+             d="M -5307.9,-2209.8 V 3148.1 H 1555.3 V -2209.8 Z"
+             id="path193" />
+        </clipPath>
+        <g
+           clip-path="url(#clip76)"
+           id="g195">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g194">
+            <path
+               d="m 21.703,-39.703 v 27.609 q 0,8.6878 5.797,8.6878 2.406,0 4.203,-2.25 1.797,-2.25 1.797,-6.9378 v -5.109 h 4.703 v 5.297 q 0,5.6091 -3.25,9.3122 -3.25,3.68755 -8.859,3.68755 -15.797,0 -15.797,-12.89075 V -39.703 H 2.0938 v -3.594 q 7,-0.203 10.9062,-6.156 3.906,-5.953 4,-14.047 h 4.703 v 19.094 h 14.594 v 4.703 z"
+               id="path194" />
+            <title
+               id="title194">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc194">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip76 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,1017,419.87)"
+         id="g199">
+        <clipPath
+           id="clip5acc2967-03de-490a-9789-ba1d1231fb10">
+          <path
+             d="M -5352.6,-2209.8 V 3148.1 H 1510.6 V -2209.8 Z"
+             id="path196" />
+        </clipPath>
+        <g
+           clip-path="url(#clip77)"
+           id="g198">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g197">
+            <path
+               d="M 61.5,0 Q 53.094,-0.29688 48.891,-0.29688 44.703,-0.29688 36.297,0 v -4.7031 h 6.906 V -31.703 q 0,-5.391 -1.406,-7.547 -1.391,-2.156 -4.094,-2.156 -5.5,0 -10.203,4.156 -4.703,4.156 -4.703,11.656 v 20.8909 h 6.906 V 0 Q 21.297,-0.29688 17.094,-0.29688 12.906,-0.29688 4.5,0 v -4.7031 h 6.906 V -60 q 0,-2.797 -1.062,-3.344 -1.0471,-0.562 -5.844,-0.562 v -4.688 l 17.703,-0.812 v 34 h 0.094 Q 27.906,-45 39.203,-45 q 7.703,0 11.547,3.359 3.844,3.344 3.844,11.047 V -4.7031 H 61.5 Z"
+               id="path197" />
+            <title
+               id="title197">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc197">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip77 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,1029.1,419.87)"
+         id="g202">
+        <clipPath
+           id="clipaf330dd1-800d-49aa-ba10-bdbcd33a2487">
+          <path
+             d="M -5416.5,-2209.8 V 3148.1 H 1446.7 V -2209.8 Z"
+             id="path199" />
+        </clipPath>
+        <g
+           clip-path="url(#clip78)"
+           id="g201">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g200">
+            <path
+               d="M 46.203,-21.797 H 16 q 0,18.3908 14.203,18.3908 4.891,0 8.797,-2.1876 3.906,-2.2031 5.5,-5.8122 0.5,-1.297 0.891,-1.688 0.406,-0.406 1.609,-0.406 2.406,0 2.406,1.797 0,0.906 -1,2.703 -1,1.7969 -3.062,4.0469 -2.047,2.25 -6.297,3.9062 -4.25,1.64065 -9.75,1.64065 -11.891,0 -19,-6.43755 Q 3.2031,-12.297 3.2031,-22.5 q 0,-9.797 6.5469,-16.297 6.547,-6.5 18.156,-6.5 10.297,0 15.891,5.391 5.609,5.609 5.609,15.406 0,1.906 -0.656,2.312 -0.656,0.391 -2.547,0.391 z M 16,-25.094 h 23.906 q -0.5,-16.609 -12,-16.609 -6.109,0 -9.5,5.203 -2,3.094 -2.406,11.406 z"
+               id="path200" />
+            <title
+               id="title200">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc200">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip78 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,1045.5,419.87)"
+         id="g205">
+        <clipPath
+           id="clip1c58fcde-12e1-458c-a02a-9e90a654958b">
+          <path
+             d="M -5502.5,-2209.8 V 3148.1 H 1360.7 V -2209.8 Z"
+             id="path202" />
+        </clipPath>
+        <g
+           clip-path="url(#clip79)"
+           id="g204">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g203">
+            <path
+               d="M 28.906,-30.203 V -4.7031 H 39.703 V 0 Q 35.906,-0.29688 21.797,-0.29688 7.7031,-0.29688 3.9062,0 V -4.7031 H 14.703 V -63.906 H 3.9062 v -4.688 H 45.594 q 12.203,0 19.344,5.5 7.156,5.5 7.156,14 0,8.5 -7.344,13.703 -7.344,5.188 -18.156,5.188 z m 12.797,-4.094 q 3.094,0 5.547,-0.5 2.453,-0.5 4.047,-1.141 1.609,-0.656 2.703,-1.953 1.094,-1.312 1.641,-2.359 0.562,-1.047 0.812,-2.844 0.25,-1.812 0.297,-2.906 0.047,-1.094 0.047,-3.094 0,-2.406 -0.109,-3.656 -0.094,-1.25 -0.438,-3.297 -0.344,-2.047 -1.297,-3.203 -0.953,-1.156 -2.562,-2.344 -1.594,-1.203 -4.297,-1.75 -2.688,-0.562 -6.297,-0.562 h -13.5 v 29.609 z"
+               id="path203" />
+            <title
+               id="title203">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc203">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip79 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,1060.4,419.87)"
+         id="g208">
+        <clipPath
+           id="clip7152628f-5f93-4c15-a5cf-ca88ba4691f7">
+          <path
+             d="M -5581.1,-2209.8 V 3148.1 H 1282.1 V -2209.8 Z"
+             id="path205" />
+        </clipPath>
+        <g
+           clip-path="url(#clip80)"
+           id="g207">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g206">
+            <path
+               d="m 54.594,-13.203 24,-52.891 q 0.812,-1.703 1.656,-2.094 0.844,-0.406 2.75,-0.406 h 22.09 v 4.688 H 94.297 V -4.7031 H 105.09 V 0 Q 101.5,-0.29688 88,-0.29688 74.594,-0.29688 71,0 V -4.7031 H 81.797 V -63.906 H 81.703 L 53.797,-2.4062 Q 52.703,0 50.594,0 48.5,0 47.406,-2.5 L 20.203,-62.594 h -0.109 v 55.0002 q 0,1.6876 0.406,2.0469 0.406,0.3438 2.594,0.5469 2.703,0.2969 5.312,0.2969 h 2.5 V 0 Q 26.797,-0.29688 17.406,-0.29688 7.7969,-0.29688 4,0 v -4.7031 h 2.5 q 3,0 5.406,-0.2969 2.094,-0.2031 2.485,-0.5469 0.406,-0.3593 0.406,-2.0469 V -63.906 H 4 v -4.688 h 22.203 q 1.297,0 1.891,0.094 0.609,0.094 1.297,0.656 0.703,0.547 1.203,1.75 z"
+               id="path206" />
+            <title
+               id="title206">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc206">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip80 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,1081.2,419.87)"
+         id="g211">
+        <clipPath
+           id="clip7a6db4bb-b6e7-4bf1-88cb-866bfced9b4a">
+          <path
+             d="M -5690.3,-2209.8 V 3148.1 H 1172.9 V -2209.8 Z"
+             id="path208" />
+        </clipPath>
+        <g
+           clip-path="url(#clip81)"
+           id="g210">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g209">
+            <path
+               d="M 64.297,-27.406 61.203,0 H 3.9062 V -4.7031 H 14.703 V -63.906 H 3.9062 v -4.688 q 3.7969,0.297 18.2968,0.297 15.797,0 20.203,-0.297 v 4.688 h -13.5 v 59.2029 h 10.297 q 3.703,0 6.75,-0.9375 3.047,-0.9532 5,-2.2969 1.953,-1.3594 3.547,-3.6095 1.594,-2.25 2.391,-3.953 0.812,-1.703 1.453,-4.391 0.656,-2.703 0.797,-4 0.156,-1.312 0.453,-3.515 z"
+               id="path209" />
+            <title
+               id="title209">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc209">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip81 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,818,464.47)"
+         id="g214">
+        <clipPath
+           id="clipcae9d4f1-9220-49d2-94f1-21d10e68c10c">
+          <path
+             d="M -4305.3,-2444.6 V 2913.3 H 2557.9 V -2444.6 Z"
+             id="path211" />
+        </clipPath>
+        <g
+           clip-path="url(#clip82)"
+           id="g213">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g212">
+            <path
+               d="M 71,-66.797 66.203,-48 q -0.406,1.5 -0.765,1.859 -0.344,0.344 -1.735,0.344 -2.406,0 -2.406,-1.5 l 0.109,-1.406 q 0.188,-1.391 0.188,-2.5 0,-7.891 -4.453,-11.344 Q 52.703,-66 45.703,-66 q -8.109,0 -12.312,4.547 -4.188,4.547 -4.188,9.156 0,2.891 1.891,5.094 1.906,2.203 5.203,2.906 l 7.797,1.797 q 7,1.594 9.453,2.547 Q 56,-39 58.5,-36.5 63,-32 63,-24.797 q 0,4 -1.75,8.453 -1.75,4.438 -5,8.594 -3.25,4.1562 -8.906,6.8125 -5.641,2.6406 -12.641,2.6406 -12.406,0 -18.906,-5.7969 Q 15,-3.4062 12.594,-1.4062 10.203,0.59375 10.094,0.70312 8.9062,1.7031 8.0938,1.7031 6.4062,1.7031 6.4062,0.29688 L 11.5,-20.5 q 0.406,-1.5 0.797,-1.891 0.406,-0.406 1.797,-0.406 2.312,0 2.312,1.391 0,0.109 -0.062,0.468 -0.047,0.344 -0.047,0.532 -0.5,1.906 -0.5,4.109 0,6.797 5.703,10.297 5.094,3 13.594,3 4.609,0 8.109,-1.7031 3.5,-1.7031 5.344,-4.2031 1.859,-2.4998 2.75,-4.9378 0.906,-2.453 0.906,-4.453 0,-7.109 -7.906,-9 -5,-1.109 -7.797,-1.797 -6.203,-1.406 -8.562,-2.25 -2.344,-0.859 -4.735,-3.062 -4.797,-4.594 -4.797,-11.391 0,-4 1.75,-8.141 1.75,-4.156 5.047,-7.906 3.297,-3.75 8.75,-6.094 5.453,-2.359 12.047,-2.359 10.203,0 15.906,5.797 l 5.5,-4.594 q 1.297,-1.203 2.188,-1.203 1.812,0 1.812,1.5 0,0.797 -0.406,2 z"
+               id="path212" />
+            <title
+               id="title212">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc212">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip82 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.133,0,0,0.133,831.17,467.32)"
+         id="g217">
+        <clipPath
+           id="clip341189d1-026c-478d-8894-c59b708e3a9e">
+          <path
+             d="M -6249.4,-3513.7 V 4140.5 H 3555.1 V -3513.7 Z"
+             id="path214" />
+        </clipPath>
+        <g
+           clip-path="url(#clip83)"
+           id="g216">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g215">
+            <path
+               d="m 53.594,-40.094 q -2,-1.5 -4.797,-1.5 -2.703,0 -5.047,2.406 -2.344,2.391 -3.453,6.688 -0.297,0.906 -1.797,6.812 -1.5,5.891 -1.703,6.782 -2.203,8.9998 -2.203,11.1091 0,5 5.609,5 3.797,0 8,-2.9531 4.203,-2.9531 6.203,-9.156 0.391,-1.297 2.297,-1.297 2.391,0 2.391,1.406 0,1.391 -1.297,3.844 Q 56.5,-8.5 54.203,-5.7969 51.906,-3.0938 48,-1.1406 44.094,0.79688 39.703,0.79688 29.5,0.79688 25.906,-5.2969 21.5,0.79688 15.203,0.79688 10.5,0.79688 7.1406,-1.6406 3.7969,-4.0938 3.7969,-8 q 0,-3.5 2.2031,-5.641 2.2031,-2.156 5,-2.156 2.297,0 3.641,1.406 Q 16,-13 16,-11.203 q 0,2.1092 -1.453,4.1561 -1.453,2.0469 -3.953,2.75 2,1.5 4.812,1.5 2.688,0 5.032,-2.3437 2.359,-2.3594 3.468,-6.7654 l 3.391,-13.688 q 2.297,-9.203 2.297,-11 0,-5 -5.594,-5 -3.797,0 -8,2.953 -4.203,2.938 -6.2031,9.141 -0.3907,1.297 -2.2969,1.297 -2.4062,0 -2.4062,-1.391 0,-1.406 1.2968,-3.859 1.3125,-2.453 3.6094,-5.141 2.297,-2.703 6.188,-4.656 3.906,-1.953 8.312,-1.953 10.203,0 13.797,6.109 4.406,-6.109 10.703,-6.109 4.703,0 8.047,2.453 3.359,2.453 3.359,6.344 0,3.5 -2.203,5.656 -2.203,2.156 -5,2.156 -2.297,0 -3.656,-1.406 -1.344,-1.406 -1.344,-3.203 0,-2.094 1.438,-4.141 1.453,-2.062 3.953,-2.75 z"
+               id="path215" />
+            <title
+               id="title215">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc215">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip83 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,845.21,464.47)"
+         id="g220">
+        <clipPath
+           id="clip110726ba-80f7-4188-83bc-a84297d1b095">
+          <path
+             d="M -4448.5,-2444.6 V 2913.3 H 2414.7 V -2444.6 Z"
+             id="path217" />
+        </clipPath>
+        <g
+           clip-path="url(#clip84)"
+           id="g219">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g218">
+            <path
+               d="M 78.797,-33.203 H 10.5 q -4.0938,0 -4.0938,-3 0,-3.094 4.5938,-3.094 h 67.297 q 4.609,0 4.609,3.094 0,3 -4.109,3 z m -0.5,22.406 H 11 q -4.5938,0 -4.5938,-3.109 0,-3 4.0938,-3 h 68.297 q 4.109,0 4.109,3 0,3.109 -4.609,3.109 z"
+               id="path218" />
+            <title
+               id="title218">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc218">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip84 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,867.47,464.47)"
+         id="g223">
+        <clipPath
+           id="clip8f7cfbd3-05c1-471c-8679-5e357ddfb9d5">
+          <path
+             d="M -4565.6,-2444.6 V 2913.3 H 2297.5 V -2444.6 Z"
+             id="path220" />
+        </clipPath>
+        <g
+           clip-path="url(#clip85)"
+           id="g222">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g221">
+            <path
+               d="m 35.406,-62.297 v 57.5939 h 14 V 0 Q 45,-0.29688 29.5,-0.29688 14,-0.29688 9.5938,0 V -4.7031 H 23.5 V -56.406 q -6.203,2 -13,2 h -2 v -4.688 h 2 q 12.406,0 20.094,-5.703 0.906,-0.703 2.203,-0.703 1.797,0 2.203,0.656 0.406,0.641 0.406,2.547 z"
+               id="path221" />
+            <title
+               id="title221">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc221">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip85 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,882.62,464.47)"
+         id="g226">
+        <clipPath
+           id="clipc3ae4d51-abbd-4c41-a125-28e0034b0d8a">
+          <path
+             d="M -4645.4,-2444.6 V 2913.3 H 2217.8 V -2444.6 Z"
+             id="path223" />
+        </clipPath>
+        <g
+           clip-path="url(#clip86)"
+           id="g225">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g224">
+            <path
+               d="M 47.703,-22 V 9 q 0,4.203 -3.109,4.203 -3,0 -3,-4.203 V -22 H 10.703 q -4.2968,0 -4.2968,-3 0,-3.094 4.2968,-3.094 h 30.891 v -31 q 0,-4.203 3.109,-4.203 3,0 3,4.203 v 31 h 30.891 q 4.312,0 4.312,3.094 0,3 -4.312,3 z"
+               id="path224" />
+            <title
+               id="title224">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc224">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip86 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,903.83,464.47)"
+         id="g229">
+        <clipPath
+           id="clip4b6ec413-1bf4-4cad-ab2c-6989538b40c6">
+          <path
+             d="M -4757,-2444.6 V 2913.3 H 2106.2 V -2444.6 Z"
+             id="path226" />
+        </clipPath>
+        <g
+           clip-path="url(#clip87)"
+           id="g228">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g227">
+            <path
+               d="m 33.406,-64.594 q 0,2.594 -2.203,4.75 -2.203,2.141 -4.906,2.141 -2.094,0 -3.5,-1.344 -1.391,-1.359 -1.391,-3.453 0,-2.594 2.141,-4.75 2.156,-2.156 4.953,-2.156 2.094,0 3.5,1.406 1.406,1.406 1.406,3.406 z m 2.5,49.797 q 0,1.594 -1.609,5.047 -1.594,3.4531 -5.406,7 -3.797,3.54688 -8.5,3.54688 -4.688,0 -8.047,-2.54688 Q 9,-4.2969 9,-8.2031 9,-9.5 9.7969,-11.594 L 16.5,-28.906 q 3.297,-8.297 3.297,-10.485 0,-2.203 -1.594,-2.203 -1.406,0 -2.953,0.75 -1.547,0.75 -3.75,3.656 -2.2031,2.891 -3.5938,7.688 -0.4062,1.297 -2.3124,1.297 -2.3907,0 -2.3907,-1.391 0,-1.609 1.5938,-5.047 1.6093,-3.453 5.4061,-7 3.797,-3.562 8.5,-3.562 4.703,0 8.047,2.562 3.344,2.547 3.344,6.438 0,1.297 -0.797,3.406 L 22.594,-15.5 q -3.297,8.2969 -3.297,10.5 0,2.2031 1.609,2.2031 1.391,0 2.938,-0.75 1.562,-0.75 3.75,-3.6406 2.203,-2.9065 3.609,-7.7185 0.391,-1.297 2.297,-1.297 2.406,0 2.406,1.406 z"
+               id="path227" />
+            <title
+               id="title227">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc227">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip87 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,911.52,464.47)"
+         id="g232">
+        <clipPath
+           id="clip72caf3d0-a781-412f-9646-813a06ebe85a">
+          <path
+             d="M -4797.5,-2444.6 V 2913.3 H 2065.7 V -2444.6 Z"
+             id="path229" />
+        </clipPath>
+        <g
+           clip-path="url(#clip88)"
+           id="g231">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g230">
+            <path
+               d="m 58.406,-16.406 q 0,13.6091 2.688,13.6091 0.406,0 1.109,-0.1406 0.703,-0.1563 1.891,-0.9531 1.203,-0.8125 1.703,-2.1094 0.297,-0.9062 0.75,-1.0938 0.453,-0.2031 1.547,-0.2031 2.312,0 2.312,1.3907 0,2 -2.812,4.3593 -2.797,2.34378 -7.188,2.34378 -4.312,0 -7.406,-2.24998 -3.094,-2.25 -4.594,-5.6407 -11,7.89068 -23.109,7.89068 -9.5,0 -15.109,-4.54688 -5.5942,-4.5469 -5.5942,-12.75 0,-5 2.0937,-9.953 2.1094,-4.953 5.9065,-9.203 3.812,-4.25 9.953,-6.891 6.156,-2.656 13.453,-2.656 10.203,0 16.406,6.297 2.5,2.5 3.797,5.703 1.297,3.203 1.5,5.156 0.203,1.953 0.297,5.25 4.594,-6.5 7.094,-15.297 0.406,-1.5 0.75,-1.797 0.359,-0.312 1.75,-0.312 2.406,0 2.406,1.406 0,1.703 -2.859,8.656 -2.844,6.938 -8.735,13.735 z M 25.797,-2.7969 q 6.109,0 12.797,-2.9062 2.312,-1 5.453,-3 3.156,-1.9999 3.156,-2.7969 0,-1.406 -0.25,-4.953 -0.25,-3.547 -0.25,-4.344 -0.203,-4.5 -0.609,-7.5 -0.391,-3 -1.453,-6.391 -1.047,-3.406 -3.25,-5.156 -2.188,-1.75 -5.485,-1.75 -4.109,0 -8.156,2.406 -4.047,2.391 -6.344,6.891 -2.109,4 -3.718,10.656 -1.594,6.641 -1.594,9.547 0,4.6878 2.656,7.0002 2.656,2.2969 7.047,2.2969 z"
+               id="path230" />
+            <title
+               id="title230">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc230">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip88 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,925.98,437.68)"
+         id="g235">
+        <clipPath
+           id="clipe806c1a7-005c-40d4-adc1-9aa000850c9c">
+          <path
+             d="M -4873.6,-2303.6 V 3054.3 H 1989.6 V -2303.6 Z"
+             id="path232" />
+        </clipPath>
+        <g
+           clip-path="url(#clip89)"
+           id="g234">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g233">
+            <path
+               d="M 66.219,235.69 Q 53.906,224.81 45.109,210.89 36.328,196.97 31,181.48 q -5.312,-15.46 -7.766,-32 -2.437,-16.53 -2.437,-33.46 0,-17.051 2.437,-33.629 2.454,-16.563 7.75,-32 Q 36.281,34.969 45.094,21.016 53.906,7.0781 66.219,-3.8125 66.219,-4 66.703,-4 h 2.578 q 0.297,0 0.563,0.2969 0.281,0.2812 0.281,0.625 0,0.3906 -0.203,0.5937 Q 58.5,8.7969 50.609,22.609 42.719,36.422 38.078,51.703 33.453,67 31.469,83.109 29.5,99.219 29.5,116.02 q 0,16.75 1.953,32.64 1.953,15.89 6.641,31.37 4.687,15.49 12.594,29.3 7.906,13.81 19.234,25.09 0.203,0.2 0.203,0.6 0,0.28 -0.297,0.57 -0.297,0.3 -0.547,0.3 h -2.578 q -0.484,0 -0.484,-0.2 z"
+               id="path233" />
+            <title
+               id="title233">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc233">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip89 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,941.16,451.62)"
+         id="g238">
+        <clipPath
+           id="clip3f5ba737-519d-439c-9373-ab8b39c1d423">
+          <path
+             d="M -4953.5,-2376.9 V 2981 h 6863.2 v -5357.9 z"
+             id="path235" />
+        </clipPath>
+        <g
+           clip-path="url(#clip90)"
+           id="g237">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g236">
+            <path
+               d="m 53.594,-40.094 q -2,-1.5 -4.797,-1.5 -2.703,0 -5.047,2.406 -2.344,2.391 -3.453,6.688 -0.297,0.906 -1.797,6.812 -1.5,5.891 -1.703,6.782 -2.203,8.9998 -2.203,11.1091 0,5 5.609,5 3.797,0 8,-2.9531 4.203,-2.9531 6.203,-9.156 0.391,-1.297 2.297,-1.297 2.391,0 2.391,1.406 0,1.391 -1.297,3.844 Q 56.5,-8.5 54.203,-5.7969 51.906,-3.0938 48,-1.1406 44.094,0.79688 39.703,0.79688 29.5,0.79688 25.906,-5.2969 21.5,0.79688 15.203,0.79688 10.5,0.79688 7.1406,-1.6406 3.7969,-4.0938 3.7969,-8 q 0,-3.5 2.2031,-5.641 2.2031,-2.156 5,-2.156 2.297,0 3.641,1.406 Q 16,-13 16,-11.203 q 0,2.1092 -1.453,4.1561 -1.453,2.0469 -3.953,2.75 2,1.5 4.812,1.5 2.688,0 5.032,-2.3437 2.359,-2.3594 3.468,-6.7654 l 3.391,-13.688 q 2.297,-9.203 2.297,-11 0,-5 -5.594,-5 -3.797,0 -8,2.953 -4.203,2.938 -6.2031,9.141 -0.3907,1.297 -2.2969,1.297 -2.4062,0 -2.4062,-1.391 0,-1.406 1.2968,-3.859 1.3125,-2.453 3.6094,-5.141 2.297,-2.703 6.188,-4.656 3.906,-1.953 8.312,-1.953 10.203,0 13.797,6.109 4.406,-6.109 10.703,-6.109 4.703,0 8.047,2.453 3.359,2.453 3.359,6.344 0,3.5 -2.203,5.656 -2.203,2.156 -5,2.156 -2.297,0 -3.656,-1.406 -1.344,-1.406 -1.344,-3.203 0,-2.094 1.438,-4.141 1.453,-2.062 3.953,-2.75 z"
+               id="path236" />
+            <title
+               id="title236">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc236">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip90 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,957.91,451.62)"
+         id="g241">
+        <clipPath
+           id="clip901ff362-6f9b-4b8f-a5a2-2f2a3b8bdabd">
+          <path
+             d="M -5041.6,-2376.9 V 2981 h 6863.2 v -5357.9 z"
+             id="path238" />
+        </clipPath>
+        <g
+           clip-path="url(#clip91)"
+           id="g240">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g239">
+            <path
+               d="M 75.203,-22 H 14.094 q -4.5002,0 -4.5002,-3.094 0,-3 4.5002,-3 h 61.109 q 4.5,0 4.5,3.094 0,3 -4.5,3 z"
+               id="path239" />
+            <title
+               id="title239">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc239">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip91 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,979.11,451.62)"
+         id="g244">
+        <clipPath
+           id="clip6973653e-4f41-4cdc-b253-f20c1269ab55">
+          <path
+             d="M -5153.2,-2376.9 V 2981 h 6863.1 v -5357.9 z"
+             id="path241" />
+        </clipPath>
+        <g
+           clip-path="url(#clip92)"
+           id="g243">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g242">
+            <path
+               d="m 53.594,-40.094 q -2,-1.5 -4.797,-1.5 -2.703,0 -5.047,2.406 -2.344,2.391 -3.453,6.688 -0.297,0.906 -1.797,6.812 -1.5,5.891 -1.703,6.782 -2.203,8.9998 -2.203,11.1091 0,5 5.609,5 3.797,0 8,-2.9531 4.203,-2.9531 6.203,-9.156 0.391,-1.297 2.297,-1.297 2.391,0 2.391,1.406 0,1.391 -1.297,3.844 Q 56.5,-8.5 54.203,-5.7969 51.906,-3.0938 48,-1.1406 44.094,0.79688 39.703,0.79688 29.5,0.79688 25.906,-5.2969 21.5,0.79688 15.203,0.79688 10.5,0.79688 7.1406,-1.6406 3.7969,-4.0938 3.7969,-8 q 0,-3.5 2.2031,-5.641 2.2031,-2.156 5,-2.156 2.297,0 3.641,1.406 Q 16,-13 16,-11.203 q 0,2.1092 -1.453,4.1561 -1.453,2.0469 -3.953,2.75 2,1.5 4.812,1.5 2.688,0 5.032,-2.3437 2.359,-2.3594 3.468,-6.7654 l 3.391,-13.688 q 2.297,-9.203 2.297,-11 0,-5 -5.594,-5 -3.797,0 -8,2.953 -4.203,2.938 -6.2031,9.141 -0.3907,1.297 -2.2969,1.297 -2.4062,0 -2.4062,-1.391 0,-1.406 1.2968,-3.859 1.3125,-2.453 3.6094,-5.141 2.297,-2.703 6.188,-4.656 3.906,-1.953 8.312,-1.953 10.203,0 13.797,6.109 4.406,-6.109 10.703,-6.109 4.703,0 8.047,2.453 3.359,2.453 3.359,6.344 0,3.5 -2.203,5.656 -2.203,2.156 -5,2.156 -2.297,0 -3.656,-1.406 -1.344,-1.406 -1.344,-3.203 0,-2.094 1.438,-4.141 1.453,-2.062 3.953,-2.75 z"
+               id="path242" />
+            <title
+               id="title242">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc242">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip92 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.133,0,0,0.133,991.63,454.47)"
+         id="g247">
+        <clipPath
+           id="clipf4bb2ac6-052c-4ea0-b579-6aea55587107">
+          <path
+             d="M -7455.9,-3417 V 4237.1 H 2348.6 V -3417 Z"
+             id="path244" />
+        </clipPath>
+        <g
+           clip-path="url(#clip93)"
+           id="g246">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g245">
+            <path
+               d="M 28.906,-30.203 V -4.7031 H 39.703 V 0 Q 35.906,-0.29688 21.797,-0.29688 7.7031,-0.29688 3.9062,0 V -4.7031 H 14.703 V -63.906 H 3.9062 v -4.688 H 45.594 q 12.203,0 19.344,5.5 7.156,5.5 7.156,14 0,8.5 -7.344,13.703 -7.344,5.188 -18.156,5.188 z m 12.797,-4.094 q 3.094,0 5.547,-0.5 2.453,-0.5 4.047,-1.141 1.609,-0.656 2.703,-1.953 1.094,-1.312 1.641,-2.359 0.562,-1.047 0.812,-2.844 0.25,-1.812 0.297,-2.906 0.047,-1.094 0.047,-3.094 0,-2.406 -0.109,-3.656 -0.094,-1.25 -0.438,-3.297 -0.344,-2.047 -1.297,-3.203 -0.953,-1.156 -2.562,-2.344 -1.594,-1.203 -4.297,-1.75 -2.688,-0.562 -6.297,-0.562 h -13.5 v 29.609 z"
+               id="path245" />
+            <title
+               id="title245">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc245">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip93 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.133,0,0,0.133,1002.1,454.47)"
+         id="g250">
+        <clipPath
+           id="clipe3dd6c4f-9f86-44a1-8267-edeb8e83f79c">
+          <path
+             d="M -7534.5,-3417 V 4237.1 H 2270 V -3417 Z"
+             id="path247" />
+        </clipPath>
+        <g
+           clip-path="url(#clip94)"
+           id="g249">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g248">
+            <path
+               d="m 54.594,-13.203 24,-52.891 q 0.812,-1.703 1.656,-2.094 0.844,-0.406 2.75,-0.406 h 22.09 v 4.688 H 94.297 V -4.7031 H 105.09 V 0 Q 101.5,-0.29688 88,-0.29688 74.594,-0.29688 71,0 V -4.7031 H 81.797 V -63.906 H 81.703 L 53.797,-2.4062 Q 52.703,0 50.594,0 48.5,0 47.406,-2.5 L 20.203,-62.594 h -0.109 v 55.0002 q 0,1.6876 0.406,2.0469 0.406,0.3438 2.594,0.5469 2.703,0.2969 5.312,0.2969 h 2.5 V 0 Q 26.797,-0.29688 17.406,-0.29688 7.7969,-0.29688 4,0 v -4.7031 h 2.5 q 3,0 5.406,-0.2969 2.094,-0.2031 2.485,-0.5469 0.406,-0.3593 0.406,-2.0469 V -63.906 H 4 v -4.688 h 22.203 q 1.297,0 1.891,0.094 0.609,0.094 1.297,0.656 0.703,0.547 1.203,1.75 z"
+               id="path248" />
+            <title
+               id="title248">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc248">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip94 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.133,0,0,0.133,1016.6,454.47)"
+         id="g253">
+        <clipPath
+           id="clipac7c910e-0b19-45ca-8833-2909fe5aa879">
+          <path
+             d="M -7643.7,-3417 V 4237.1 H 2160.8 V -3417 Z"
+             id="path250" />
+        </clipPath>
+        <g
+           clip-path="url(#clip95)"
+           id="g252">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g251">
+            <path
+               d="M 64.297,-27.406 61.203,0 H 3.9062 V -4.7031 H 14.703 V -63.906 H 3.9062 v -4.688 q 3.7969,0.297 18.2968,0.297 15.797,0 20.203,-0.297 v 4.688 h -13.5 v 59.2029 h 10.297 q 3.703,0 6.75,-0.9375 3.047,-0.9532 5,-2.2969 1.953,-1.3594 3.547,-3.6095 1.594,-2.25 2.391,-3.953 0.812,-1.703 1.453,-4.391 0.656,-2.703 0.797,-4 0.156,-1.312 0.453,-3.515 z"
+               id="path251" />
+            <title
+               id="title251">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc251">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip95 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="scale(19)"
+         id="g256">
+        <clipPath
+           id="clip303f398b-82c5-41cd-a3fc-e957b9380860">
+          <path
+             d="M 0,0 V 53.579 H 68.632 V 0 Z"
+             id="path253" />
+        </clipPath>
+        <g
+           clip-path="url(#clip96)"
+           id="g255">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g254">
+            <path
+               d="m 49.535,24.176 h 4.455 v 0.04 h -4.455 z"
+               id="path254" />
+            <title
+               id="title254">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc254">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip96 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,960.6,477.5)"
+         id="g259">
+        <clipPath
+           id="clip825533a8-2135-4d71-ac6a-7b70b1fa4141">
+          <path
+             d="M -5055.8,-2513.2 V 2844.7 H 1807.4 V -2513.2 Z"
+             id="path256" />
+        </clipPath>
+        <g
+           clip-path="url(#clip97)"
+           id="g258">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g257">
+            <path
+               d="m 60,-65.906 -13.797,55.109 q -0.609,2.0939 -0.609,4.297 0,3.7031 2.312,3.7031 4.297,0 6.797,-10.0001 0.703,-2.797 0.797,-2.906 0.5,-0.5 2,-0.5 2.406,0 2.406,1.406 0,0.797 -1.109,4.047 -1.094,3.25 -2.703,5.8438 -3.297,5.70308 -8.688,5.70308 -7.703,0 -11.5,-5.39068 Q 30.094,0.79688 22,0.79688 14.797,0.79688 9.6406,-3.2031 4.5,-7.2031 4.5,-15.703 4.5,-26.797 12.453,-36 q 7.953,-9.203 20.25,-9.203 6.203,0 10.094,3.609 l 5.406,-22.109 q -1.297,-0.203 -4.203,-0.203 -2.594,0 -2.594,-1.797 0,-1.297 0.594,-2 0.594,-0.703 1.094,-0.797 0.5,-0.094 1.5,-0.203 L 57.5,-69.297 q 0.203,-0.109 0.703,-0.109 2.203,0 2.203,1.812 0,0.297 -0.406,1.688 z M 34.906,-9.2969 41,-34.406 l 0.203,-1.391 q 0,-1.406 -2.25,-3.594 -2.25,-2.203 -6.047,-2.203 -7.906,0 -12.109,9.797 -1.391,3.391 -3.203,10.594 -1.797,7.203 -1.797,10.797 0,7.6091 6.703,7.6091 3.406,0 6.703,-1.8437 Q 32.5,-6.5 34.906,-9.2969 Z"
+               id="path257" />
+            <title
+               id="title257">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc257">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip97 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.133,0,0,0.133,972.19,480.35)"
+         id="g262">
+        <clipPath
+           id="clipa6e1c03d-0071-4c32-aa23-bba45c4128de">
+          <path
+             d="M -7309.7,-3611.7 V 4042.5 H 2494.8 V -3611.7 Z"
+             id="path259" />
+        </clipPath>
+        <g
+           clip-path="url(#clip98)"
+           id="g261">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g260">
+            <path
+               d="M 28.906,-30.203 V -4.7031 H 39.703 V 0 Q 35.906,-0.29688 21.797,-0.29688 7.7031,-0.29688 3.9062,0 V -4.7031 H 14.703 V -63.906 H 3.9062 v -4.688 H 45.594 q 12.203,0 19.344,5.5 7.156,5.5 7.156,14 0,8.5 -7.344,13.703 -7.344,5.188 -18.156,5.188 z m 12.797,-4.094 q 3.094,0 5.547,-0.5 2.453,-0.5 4.047,-1.141 1.609,-0.656 2.703,-1.953 1.094,-1.312 1.641,-2.359 0.562,-1.047 0.812,-2.844 0.25,-1.812 0.297,-2.906 0.047,-1.094 0.047,-3.094 0,-2.406 -0.109,-3.656 -0.094,-1.25 -0.438,-3.297 -0.344,-2.047 -1.297,-3.203 -0.953,-1.156 -2.562,-2.344 -1.594,-1.203 -4.297,-1.75 -2.688,-0.562 -6.297,-0.562 h -13.5 v 29.609 z"
+               id="path260" />
+            <title
+               id="title260">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc260">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip98 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.133,0,0,0.133,982.65,480.35)"
+         id="g265">
+        <clipPath
+           id="clipcc96f91b-dfa8-42ca-9b01-d4e39c9e6877">
+          <path
+             d="M -7388.3,-3611.7 V 4042.5 H 2416.2 V -3611.7 Z"
+             id="path262" />
+        </clipPath>
+        <g
+           clip-path="url(#clip99)"
+           id="g264">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g263">
+            <path
+               d="m 54.594,-13.203 24,-52.891 q 0.812,-1.703 1.656,-2.094 0.844,-0.406 2.75,-0.406 h 22.09 v 4.688 H 94.297 V -4.7031 H 105.09 V 0 Q 101.5,-0.29688 88,-0.29688 74.594,-0.29688 71,0 V -4.7031 H 81.797 V -63.906 H 81.703 L 53.797,-2.4062 Q 52.703,0 50.594,0 48.5,0 47.406,-2.5 L 20.203,-62.594 h -0.109 v 55.0002 q 0,1.6876 0.406,2.0469 0.406,0.3438 2.594,0.5469 2.703,0.2969 5.312,0.2969 h 2.5 V 0 Q 26.797,-0.29688 17.406,-0.29688 7.7969,-0.29688 4,0 v -4.7031 h 2.5 q 3,0 5.406,-0.2969 2.094,-0.2031 2.485,-0.5469 0.406,-0.3593 0.406,-2.0469 V -63.906 H 4 v -4.688 h 22.203 q 1.297,0 1.891,0.094 0.609,0.094 1.297,0.656 0.703,0.547 1.203,1.75 z"
+               id="path263" />
+            <title
+               id="title263">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc263">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip99 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.133,0,0,0.133,997.17,480.35)"
+         id="g268">
+        <clipPath
+           id="clip0d6e5b20-0bb2-4f67-90a7-20e68464e85c">
+          <path
+             d="M -7497.5,-3611.7 V 4042.5 H 2307 v -7654.2 z"
+             id="path265" />
+        </clipPath>
+        <g
+           clip-path="url(#clip100)"
+           id="g267">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g266">
+            <path
+               d="M 64.297,-27.406 61.203,0 H 3.9062 V -4.7031 H 14.703 V -63.906 H 3.9062 v -4.688 q 3.7969,0.297 18.2968,0.297 15.797,0 20.203,-0.297 v 4.688 h -13.5 v 59.2029 h 10.297 q 3.703,0 6.75,-0.9375 3.047,-0.9532 5,-2.2969 1.953,-1.3594 3.547,-3.6095 1.594,-2.25 2.391,-3.953 0.812,-1.703 1.453,-4.391 0.656,-2.703 0.797,-4 0.156,-1.312 0.453,-3.515 z"
+               id="path266" />
+            <title
+               id="title266">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc266">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip100 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,1027,437.68)"
+         id="g271">
+        <clipPath
+           id="clipd716adf5-5cac-4d5b-87b1-5d7b136ca536">
+          <path
+             d="M -5405.3,-2303.6 V 3054.3 H 1457.8 V -2303.6 Z"
+             id="path268" />
+        </clipPath>
+        <g
+           clip-path="url(#clip101)"
+           id="g270">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g269">
+            <path
+               d="m 4.2969,235.89 q -0.875,0 -0.875,-0.87 0,-0.4 0.1875,-0.6 11.4376,-11.28 19.2966,-25.12 7.86,-13.85 12.5,-29.11 Q 40.047,164.94 42.016,149 44,133.06 44,115.92 44,98.578 42.016,82.75 40.047,66.938 35.453,51.75 30.859,36.578 22.891,22.625 14.938,8.6875 3.6094,-2.4844 3.4219,-2.6875 3.4219,-3.0781 3.4219,-4 4.2969,-4 H 6.8906 Q 7.2344,-4 7.4219,-3.8125 19.781,7.125 28.562,21.062 q 8.797,13.954 14.063,29.422 5.281,15.485 7.672,31.985 2.391,16.5 2.391,33.551 0,16.93 -2.391,33.39 -2.391,16.47 -7.672,31.97 -5.266,15.5 -14.063,29.43 -8.781,13.94 -21.1401,24.88 -0.1875,0.2 -0.5313,0.2 z"
+               id="path269" />
+            <title
+               id="title269">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc269">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip101 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.133,0,0,0.133,1041,442.05)"
+         id="g274">
+        <clipPath
+           id="clip7d9f07fc-0105-406a-ba26-3470ba6e5abc">
+          <path
+             d="M -7827,-3323.7 V 4330.4 H 1977.5 V -3323.7 Z"
+             id="path271" />
+        </clipPath>
+        <g
+           clip-path="url(#clip102)"
+           id="g273">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g272">
+            <path
+               d="M 51.703,-22.203 48.594,0 H 5.7031 v -1.7969 q 0,-1.6093 0.1875,-2.0469 Q 6.0938,-4.2969 7,-5.2031 L 27.094,-25.703 q 10.812,-11 10.812,-20.797 0,-6 -3.5,-10.141 -3.5,-4.156 -9.703,-4.156 -6.109,0 -10.297,3.5 1.094,0.297 2.188,0.844 1.109,0.547 2.297,2.25 1.203,1.703 1.203,4.109 0,3.5 -2.25,5.344 -2.25,1.844 -4.938,1.844 -2.5,0 -4.8591,-1.75 -2.3438,-1.75 -2.3438,-5.641 0,-6.703 6.1409,-10.953 6.156,-4.25 15.359,-4.25 10.703,0 17.594,5.203 6.906,5.203 6.906,13.703 0,3.5 -1,6.203 -1,2.688 -3.812,5.641 -2.797,2.953 -5.203,4.859 Q 39.297,-28 33.906,-24 29.203,-20.594 19.5,-12.5 h 14.703 q 9.094,0 10.203,-0.594 1.297,-0.703 2.594,-9.109 z"
+               id="path272" />
+            <title
+               id="title272">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc272">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip102 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,1055.5,464.47)"
+         id="g277">
+        <clipPath
+           id="clip5a6eb6fb-43ce-418a-bd9e-763ebfd1ff3f">
+          <path
+             d="M -5555.1,-2444.6 V 2913.3 H 1308.1 V -2444.6 Z"
+             id="path274" />
+        </clipPath>
+        <g
+           clip-path="url(#clip103)"
+           id="g276">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g275">
+            <path
+               d="m 22.406,-45 v 40.2969 h 6.188 V 0 Q 17.797,-0.29688 16.906,-0.29688 14,-0.29688 4.7031,0 V -4.7031 H 11.594 V -35.594 q 0,-2.812 -1,-3.359 Q 9.5938,-39.5 5,-39.5 v -4.703 z m -1.312,-22.25 q 2.312,2.25 2.312,5.547 0,3.297 -2.312,5.547 -2.297,2.25 -5.5,2.25 -3.188,0 -5.5,-2.297 -2.2971,-2.297 -2.2971,-5.5 0,-3.203 2.2971,-5.5 2.312,-2.297 5.5,-2.297 3.203,0 5.5,2.25 z"
+               id="path275" />
+            <title
+               id="title275">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc275">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip103 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,1061.5,464.47)"
+         id="g280">
+        <clipPath
+           id="clip89f63467-4684-4fac-83e3-fd79a1345f63">
+          <path
+             d="M -5587,-2444.6 V 2913.3 H 1276.2 V -2444.6 Z"
+             id="path277" />
+        </clipPath>
+        <g
+           clip-path="url(#clip104)"
+           id="g279">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g278">
+            <path
+               d="M 11.703,-4.7031 V -39.703 H 4.2031 v -4.703 H 11.703 V -54.5 q 0,-7.797 6.094,-11.641 6.109,-3.859 14.5,-3.859 5.5,0 8.453,2.609 2.953,2.594 2.953,6.094 0,2.891 -1.859,4.547 -1.844,1.656 -4.344,1.656 -2.297,0 -4.203,-1.594 -1.891,-1.609 -1.891,-4.609 0,-3.203 2.297,-4.906 Q 33,-66.406 32,-66.406 q -1,0 -2.047,0.156 -1.047,0.156 -2.609,0.906 -1.547,0.75 -2.656,1.906 -1.094,1.141 -1.938,3.5 -0.844,2.344 -0.844,5.438 v 10.094 H 34 v 4.703 H 22.5 v 34.9999 h 8.703 V 0 Q 27.594,-0.29688 17.406,-0.29688 15.297,-0.29688 4.7969,0 v -4.7031 z"
+               id="path278" />
+            <title
+               id="title278">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc278">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip104 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,1074.5,464.47)"
+         id="g283">
+        <clipPath
+           id="clip5d00cabe-f11b-420b-9b46-63c1482f3c48">
+          <path
+             d="M -5655.4,-2444.6 V 2913.3 H 1207.8 V -2444.6 Z"
+             id="path280" />
+        </clipPath>
+        <g
+           clip-path="url(#clip105)"
+           id="g282">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g281">
+            <path
+               d="m 53.594,-40.094 q -2,-1.5 -4.797,-1.5 -2.703,0 -5.047,2.406 -2.344,2.391 -3.453,6.688 -0.297,0.906 -1.797,6.812 -1.5,5.891 -1.703,6.782 -2.203,8.9998 -2.203,11.1091 0,5 5.609,5 3.797,0 8,-2.9531 4.203,-2.9531 6.203,-9.156 0.391,-1.297 2.297,-1.297 2.391,0 2.391,1.406 0,1.391 -1.297,3.844 Q 56.5,-8.5 54.203,-5.7969 51.906,-3.0938 48,-1.1406 44.094,0.79688 39.703,0.79688 29.5,0.79688 25.906,-5.2969 21.5,0.79688 15.203,0.79688 10.5,0.79688 7.1406,-1.6406 3.7969,-4.0938 3.7969,-8 q 0,-3.5 2.2031,-5.641 2.2031,-2.156 5,-2.156 2.297,0 3.641,1.406 Q 16,-13 16,-11.203 q 0,2.1092 -1.453,4.1561 -1.453,2.0469 -3.953,2.75 2,1.5 4.812,1.5 2.688,0 5.032,-2.3437 2.359,-2.3594 3.468,-6.7654 l 3.391,-13.688 q 2.297,-9.203 2.297,-11 0,-5 -5.594,-5 -3.797,0 -8,2.953 -4.203,2.938 -6.2031,9.141 -0.3907,1.297 -2.2969,1.297 -2.4062,0 -2.4062,-1.391 0,-1.406 1.2968,-3.859 1.3125,-2.453 3.6094,-5.141 2.297,-2.703 6.188,-4.656 3.906,-1.953 8.312,-1.953 10.203,0 13.797,6.109 4.406,-6.109 10.703,-6.109 4.703,0 8.047,2.453 3.359,2.453 3.359,6.344 0,3.5 -2.203,5.656 -2.203,2.156 -5,2.156 -2.297,0 -3.656,-1.406 -1.344,-1.406 -1.344,-3.203 0,-2.094 1.438,-4.141 1.453,-2.062 3.953,-2.75 z"
+               id="path281" />
+            <title
+               id="title281">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc281">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip105 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,1092.3,464.47)"
+         id="g286">
+        <clipPath
+           id="clip80d0ed79-d9ad-4bf9-9be5-4600ec21ce2b">
+          <path
+             d="M -5749.1,-2444.6 V 2913.3 H 1114.1 V -2444.6 Z"
+             id="path283" />
+        </clipPath>
+        <g
+           clip-path="url(#clip106)"
+           id="g285">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g284">
+            <path
+               d="M 77.203,-32.906 14.594,-3 q -1,0.5938 -1.891,0.5938 -1.406,0 -2.265,-0.9376 -0.8442,-0.9531 -0.8442,-2.0624 0,-0.8907 0.4062,-1.5313 0.406,-0.6563 0.906,-0.9531 0.5,-0.3125 1.391,-0.7032 L 69.594,-36.094 12.094,-63.5 q -2.5002,-1.297 -2.5002,-3.094 0,-1.406 0.9532,-2.25 0.953,-0.859 2.047,-0.859 0.906,0 2.312,0.703 l 62.297,29.797 q 2.5,1.203 2.5,3.203 0,1.797 -2.5,3.094 z m -2,52.812 H 14.094 q -4.5002,0 -4.5002,-3 0,-3.109 4.5002,-3.109 h 61.109 q 4.5,0 4.5,3.109 0,3 -4.5,3 z"
+               id="path284" />
+            <title
+               id="title284">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc284">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip106 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,1114.6,464.47)"
+         id="g289">
+        <clipPath
+           id="clipf1f7c1c5-9d32-4e77-b4f6-7439f202f963">
+          <path
+             d="M -5866.2,-2444.6 V 2913.3 H 996.91 v -5357.9 z"
+             id="path286" />
+        </clipPath>
+        <g
+           clip-path="url(#clip107)"
+           id="g288">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g287">
+            <path
+               d="m 53.594,-40.094 q -2,-1.5 -4.797,-1.5 -2.703,0 -5.047,2.406 -2.344,2.391 -3.453,6.688 -0.297,0.906 -1.797,6.812 -1.5,5.891 -1.703,6.782 -2.203,8.9998 -2.203,11.1091 0,5 5.609,5 3.797,0 8,-2.9531 4.203,-2.9531 6.203,-9.156 0.391,-1.297 2.297,-1.297 2.391,0 2.391,1.406 0,1.391 -1.297,3.844 Q 56.5,-8.5 54.203,-5.7969 51.906,-3.0938 48,-1.1406 44.094,0.79688 39.703,0.79688 29.5,0.79688 25.906,-5.2969 21.5,0.79688 15.203,0.79688 10.5,0.79688 7.1406,-1.6406 3.7969,-4.0938 3.7969,-8 q 0,-3.5 2.2031,-5.641 2.2031,-2.156 5,-2.156 2.297,0 3.641,1.406 Q 16,-13 16,-11.203 q 0,2.1092 -1.453,4.1561 -1.453,2.0469 -3.953,2.75 2,1.5 4.812,1.5 2.688,0 5.032,-2.3437 2.359,-2.3594 3.468,-6.7654 l 3.391,-13.688 q 2.297,-9.203 2.297,-11 0,-5 -5.594,-5 -3.797,0 -8,2.953 -4.203,2.938 -6.2031,9.141 -0.3907,1.297 -2.2969,1.297 -2.4062,0 -2.4062,-1.391 0,-1.406 1.2968,-3.859 1.3125,-2.453 3.6094,-5.141 2.297,-2.703 6.188,-4.656 3.906,-1.953 8.312,-1.953 10.203,0 13.797,6.109 4.406,-6.109 10.703,-6.109 4.703,0 8.047,2.453 3.359,2.453 3.359,6.344 0,3.5 -2.203,5.656 -2.203,2.156 -5,2.156 -2.297,0 -3.656,-1.406 -1.344,-1.406 -1.344,-3.203 0,-2.094 1.438,-4.141 1.453,-2.062 3.953,-2.75 z"
+               id="path287" />
+            <title
+               id="title287">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc287">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip107 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.133,0,0,0.133,1127.1,467.32)"
+         id="g292">
+        <clipPath
+           id="clipbdd85653-af07-4b2d-a1b6-ab3cf586f26e">
+          <path
+             d="M -8474.5,-3513.7 V 4140.5 H 1330 v -7654.2 z"
+             id="path289" />
+        </clipPath>
+        <g
+           clip-path="url(#clip108)"
+           id="g291">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g290">
+            <path
+               d="M 28.906,-30.203 V -4.7031 H 39.703 V 0 Q 35.906,-0.29688 21.797,-0.29688 7.7031,-0.29688 3.9062,0 V -4.7031 H 14.703 V -63.906 H 3.9062 v -4.688 H 45.594 q 12.203,0 19.344,5.5 7.156,5.5 7.156,14 0,8.5 -7.344,13.703 -7.344,5.188 -18.156,5.188 z m 12.797,-4.094 q 3.094,0 5.547,-0.5 2.453,-0.5 4.047,-1.141 1.609,-0.656 2.703,-1.953 1.094,-1.312 1.641,-2.359 0.562,-1.047 0.812,-2.844 0.25,-1.812 0.297,-2.906 0.047,-1.094 0.047,-3.094 0,-2.406 -0.109,-3.656 -0.094,-1.25 -0.438,-3.297 -0.344,-2.047 -1.297,-3.203 -0.953,-1.156 -2.562,-2.344 -1.594,-1.203 -4.297,-1.75 -2.688,-0.562 -6.297,-0.562 h -13.5 v 29.609 z"
+               id="path290" />
+            <title
+               id="title290">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc290">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip108 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.133,0,0,0.133,1137.6,467.32)"
+         id="g295">
+        <clipPath
+           id="clip93e0c111-c25c-49b4-a458-d21d0ae97601">
+          <path
+             d="M -8553.1,-3513.7 V 4140.5 H 1251.4 V -3513.7 Z"
+             id="path292" />
+        </clipPath>
+        <g
+           clip-path="url(#clip109)"
+           id="g294">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g293">
+            <path
+               d="m 54.594,-13.203 24,-52.891 q 0.812,-1.703 1.656,-2.094 0.844,-0.406 2.75,-0.406 h 22.09 v 4.688 H 94.297 V -4.7031 H 105.09 V 0 Q 101.5,-0.29688 88,-0.29688 74.594,-0.29688 71,0 V -4.7031 H 81.797 V -63.906 H 81.703 L 53.797,-2.4062 Q 52.703,0 50.594,0 48.5,0 47.406,-2.5 L 20.203,-62.594 h -0.109 v 55.0002 q 0,1.6876 0.406,2.0469 0.406,0.3438 2.594,0.5469 2.703,0.2969 5.312,0.2969 h 2.5 V 0 Q 26.797,-0.29688 17.406,-0.29688 7.7969,-0.29688 4,0 v -4.7031 h 2.5 q 3,0 5.406,-0.2969 2.094,-0.2031 2.485,-0.5469 0.406,-0.3593 0.406,-2.0469 V -63.906 H 4 v -4.688 h 22.203 q 1.297,0 1.891,0.094 0.609,0.094 1.297,0.656 0.703,0.547 1.203,1.75 z"
+               id="path293" />
+            <title
+               id="title293">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc293">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip109 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.133,0,0,0.133,1152.1,467.32)"
+         id="g298">
+        <clipPath
+           id="clip7456909b-bd63-458c-8670-b2cb8c017d44">
+          <path
+             d="M -8662.3,-3513.7 V 4140.5 H 1142.2 V -3513.7 Z"
+             id="path295" />
+        </clipPath>
+        <g
+           clip-path="url(#clip110)"
+           id="g297">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g296">
+            <path
+               d="M 64.297,-27.406 61.203,0 H 3.9062 V -4.7031 H 14.703 V -63.906 H 3.9062 v -4.688 q 3.7969,0.297 18.2968,0.297 15.797,0 20.203,-0.297 v 4.688 h -13.5 v 59.2029 h 10.297 q 3.703,0 6.75,-0.9375 3.047,-0.9532 5,-2.2969 1.953,-1.3594 3.547,-3.6095 1.594,-2.25 2.391,-3.953 0.812,-1.703 1.453,-4.391 0.656,-2.703 0.797,-4 0.156,-1.312 0.453,-3.515 z"
+               id="path296" />
+            <title
+               id="title296">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc296">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip110 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,818,510.96)"
+         id="g301">
+        <clipPath
+           id="clip51095d46-1b55-4f93-95e5-acc16ffff861">
+          <path
+             d="M -4305.3,-2689.3 V 2668.6 H 2557.9 V -2689.3 Z"
+             id="path298" />
+        </clipPath>
+        <g
+           clip-path="url(#clip111)"
+           id="g300">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g299">
+            <path
+               d="M 46.203,-21.797 H 16 q 0,18.3908 14.203,18.3908 4.891,0 8.797,-2.1876 3.906,-2.2031 5.5,-5.8122 0.5,-1.297 0.891,-1.688 0.406,-0.406 1.609,-0.406 2.406,0 2.406,1.797 0,0.906 -1,2.703 -1,1.7969 -3.062,4.0469 -2.047,2.25 -6.297,3.9062 -4.25,1.64065 -9.75,1.64065 -11.891,0 -19,-6.43755 Q 3.2031,-12.297 3.2031,-22.5 q 0,-9.797 6.5469,-16.297 6.547,-6.5 18.156,-6.5 10.297,0 15.891,5.391 5.609,5.609 5.609,15.406 0,1.906 -0.656,2.312 -0.656,0.391 -2.547,0.391 z M 16,-25.094 h 23.906 q -0.5,-16.609 -12,-16.609 -6.109,0 -9.5,5.203 -2,3.094 -2.406,11.406 z"
+               id="path299" />
+            <title
+               id="title299">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc299">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip111 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,828.01,510.96)"
+         id="g304">
+        <clipPath
+           id="clip8eb946d1-fe3d-48bc-bd9b-537b8fbcc148">
+          <path
+             d="M -4358,-2689.3 V 2668.6 H 2505.2 V -2689.3 Z"
+             id="path301" />
+        </clipPath>
+        <g
+           clip-path="url(#clip112)"
+           id="g303">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g302">
+            <path
+               d="m 21.703,-39.703 v 27.609 q 0,8.6878 5.797,8.6878 2.406,0 4.203,-2.25 1.797,-2.25 1.797,-6.9378 v -5.109 h 4.703 v 5.297 q 0,5.6091 -3.25,9.3122 -3.25,3.68755 -8.859,3.68755 -15.797,0 -15.797,-12.89075 V -39.703 H 2.0938 v -3.594 q 7,-0.203 10.9062,-6.156 3.906,-5.953 4,-14.047 h 4.703 v 19.094 h 14.594 v 4.703 z"
+               id="path302" />
+            <title
+               id="title302">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc302">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip112 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,836.51,510.96)"
+         id="g307">
+        <clipPath
+           id="clipa1bc5dfb-b7ad-4321-9751-e36868542a1f">
+          <path
+             d="M -4402.7,-2689.3 V 2668.6 H 2460.5 V -2689.3 Z"
+             id="path304" />
+        </clipPath>
+        <g
+           clip-path="url(#clip113)"
+           id="g306">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g305">
+            <path
+               d="m 36,-40.703 q -2.594,-0.594 -6.5,-0.594 -3.703,0 -6.312,1.5 -2.594,1.5 -3.844,3.359 -1.25,1.844 -1.906,4.891 -0.641,3.047 -0.75,4.703 -0.094,1.641 -0.094,4.141 0,19.2968 13.906,19.2968 9.094,0 12.5,-8.1878 0.406,-1 0.75,-1.25 0.344,-0.25 1.656,-0.25 2.391,0 2.391,1.391 0,0.609 -0.797,2.2655 -0.797,1.6406 -2.656,4.0937 -1.844,2.4376 -6,4.1876 -4.141,1.74995 -9.75,1.74995 -11.391,0 -18.094,-6.34375 -6.7031,-6.344 -6.7031,-16.453 0,-9.594 6.3441,-16.344 6.359,-6.75 18.953,-6.75 17.406,0 17.406,9.203 0,3 -1.906,4.656 -1.891,1.641 -4.391,1.641 -2.297,0 -4.25,-1.641 Q 34,-33.094 34,-36.094 q 0,-2.812 2,-4.609 z"
+               id="path305" />
+            <title
+               id="title305">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc305">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip113 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(0.19,0,0,0.19,846.22,510.96)"
+         id="g310">
+        <clipPath
+           id="clipf7f953f9-d8a9-4f02-9cf1-f83a3d700675">
+          <path
+             d="M -4453.8,-2689.3 V 2668.6 H 2409.4 V -2689.3 Z"
+             id="path307" />
+        </clipPath>
+        <g
+           clip-path="url(#clip114)"
+           id="g309">
+          <g
+             fill="#000000"
+             fill-rule="nonzero"
+             fill-opacity="1"
+             stroke="none"
+             id="g308">
+            <path
+               d="m 21.391,-13.297 q 2.312,2.297 2.312,5.5001 0,3.2031 -2.312,5.5 Q 19.094,0 15.891,0 q -3.188,0 -5.5,-2.2969 -2.2972,-2.2969 -2.2972,-5.5 0,-3.2031 2.2972,-5.5001 2.312,-2.297 5.5,-2.297 3.203,0 5.5,2.297 z"
+               id="path308" />
+            <title
+               id="title308">\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}</title>
+            <desc
+               id="desc308">texte10 = â\tilde{x}=\int_0^{x_c} S_x(x) dx\\
+\tilde{y}=\int_0^{y_c} S_y(y) dy\\
+S_x=S_y =1 \text{ outside the PML}\\
+S_x=1+i\alpha\left(\frac{x-x_{\text{PML}}}{d_{\text{PML}}}\right)^2\text{ if } x\ge x_{\text{PML}}\\
+\text{etc.}â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip114 -->
+      </g>
+      <!-- transform -->
+    </g>
+    <!-- layer0 -->
+  </g>
+  <!-- default stroke -->
+</svg>
+<!-- bounding box -->
+

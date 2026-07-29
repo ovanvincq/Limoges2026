@@ -13,17 +13,24 @@
 		<link rel="stylesheet" href="dist/reveal.css" />
 		<link rel="stylesheet" href="dist/theme/white-contrast.css" />
 		<link rel="stylesheet" href="perso.css" />
-
+		<link rel="stylesheet" href="plugin/katex/katex.min.css">
+		
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="dist/plugin/highlight/monokai.css" />
+		
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
 			
-				<!--<section data-title="" style="text-align: center;">
-					entete
-				</section>-->
+				<section data-title="" style="text-align: center;">
+					<br/><h1 class="encadre">Determination of the modal properties of optical fibers</h1>
+					<br/><br/><br/><br/><br/>
+					<h3>Olivier Vanvincq</h3>
+					<h5>University of Lille - PhLAM laboratory</h5>
+					<br/><br/>Limoges<br/>September 2, 2026<br/>url: <a href="https://ovanvincq.github.io/Limoges2026/">https://ovanvincq.github.io/Limoges2026/</a><br/><br/>
+					<img src="Logo.sans.baseline-Horizontal-RVB-Noir.png" alt="Figure" style="height: 10%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Logo-PhLAM.svg" alt="Figure" style="height: 10%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Logo.svg" alt="Figure" style="height: 10%;">
+				</section>
 			
 				<div class="slide-header" id="slide-header"></div>
 				<div class="slide-footer" id="slide-footer">
@@ -32,16 +39,28 @@
 				</div>
 				
 	<!-- -----------------------------------------------------------------EN TEST--------------------------------------------------------------- -->	
-				<section data-title="Graded-index fiber - Leaky modes" style="text-align:left;">
+				
 					
-				</section>
-				
-
-				
-
-				
 	<!-- -----------------------------------------------------------------DEBUT--------------------------------------------------------------- -->			
 	
+				<section data-title="Outline" style="text-align: left;padding-left: 100px;">
+				<h3 style="margin-bottom: 0;"> Introduction with 2-D examples </h3>
+				<ul style="padding-left: 60px;">
+				<li> Uniform medium </li>
+				<li> Metallic waveguide </li>
+				<li> Dielectric waveguide </li>
+				<li> Leaky Modes </li>
+				</ul>
+				<h3 style="margin-bottom: 0;"> 1. Step-index fiber </h3>
+				<h3 style="margin-bottom: 0;"> 2. Graded-index fiber </h3>
+				<h3 style="margin-bottom: 0;"> 3. Fiber with arbitrary index profile </h3>
+				<h3 style="margin-bottom: 0;"> 4. Bent fiber </h3>
+				<h3 style="margin-bottom: 0;"> 5. Twisted Fiber </h3>
+				<h3 style="margin-bottom: 0;"> 6. Photonic Crystal Fiber </h3>
+				<h3 style="margin-bottom: 0;"> 7. Photonic Bandgap Fiber </h3>
+				</section>
+				
+				
 			
 				<section data-title="Introduction - Uniform medium with refactive index n">
 					<div>
@@ -250,7 +269,8 @@
 				
 				<section data-title="Introduction - Leaky modes" style="text-align: left;">
 				<ul>						
-					<li>Leaky modes do not belong to the spectrum of the differential operator (because they are not bounded)</li>
+					<li>Leaky modes do not belong to the spectrum of the differential operator because they are not bounded:<br/>$\beta=\text{Re}(\beta)+i\text{Im}(\beta)$ $\Longrightarrow$ $k_t=\sqrt{k_0^2n_2^2-\beta^2}=\text{Re}(k_t)-i\text{Im}(k_t)$ in the cladding
+					<br/> In the cladding $e(x)=e^{ik_t\vert x \vert}=e^{i\text{Re}(k_t)\vert x \vert}e^{\text{Im}(k_t)\vert x \vert}$</li>
 					<li>Leaky modes are solutions of Maxwell’s equations and can be decomposed on the continuum of modes</li>
 					</ul>
 				<p><br/>
@@ -282,6 +302,22 @@
 				</p>
 				</section>
 				
+				<section data-title="Outline" style="text-align: left;padding-left: 100px;">
+				<h3 style="margin-bottom: 0;opacity: 0.4;"> Introduction with 2-D examples </h3>
+				<h3 style="margin-bottom: 0;"> 1. Step-index fiber </h3>
+				<ul style="padding-left: 60px;">
+				<li> Vector Modes </li>
+				<li> Scalar Modes </li>
+				<li> Multistep-index fiber </li>
+				</ul>
+				<h3 style="margin-bottom: 0;opacity: 0.4;"> 2. Graded-index fiber </h3>
+				<h3 style="margin-bottom: 0;opacity: 0.4;"> 3. Fiber with arbitrary index profile </h3>
+				<h3 style="margin-bottom: 0;opacity: 0.4;"> 4. Bent fiber </h3>
+				<h3 style="margin-bottom: 0;opacity: 0.4;"> 5. Twisted Fiber </h3>
+				<h3 style="margin-bottom: 0;opacity: 0.4;"> 6. Photonic Crystal Fiber </h3>
+				<h3 style="margin-bottom: 0;opacity: 0.4;"> 7. Photonic Bandgap Fiber </h3>
+				</section>
+				
 				<section data-title="Step-index fiber - Introduction" style="text-align: left;">
 					<div style="width:100%; display:flex; align-items: center;justify-content: space-between;">
 						<ul>
@@ -305,7 +341,7 @@
 				<section data-title="Step-index fiber - Vector modes" style="text-align: left;">
 					<ul>
 						<li>Vector modes are the exact solutions of the Maxwell's equations.</li>
-						<li>For these modes, the fields are generally not transverse: $e_z$ and/or $h_z$ are different form zero</li>
+						<li>For these modes, the fields are generally not transverse: $e_z$ and/or $h_z$ are different from zero</li>
 						<li> In each layer, the EM field satisfies the following equations of propagation:
 						$$\left\{\begin{array}{ll} \Delta\vec{E}(\vec{r})+k_0^2n^2\vec{E}(\vec{r})=\vec{0} \\ \Delta\vec{H}(\vec{r})+k_0^2n^2\vec{H}(\vec{r})=\vec{0} \end{array}\right.$$</li>
 					</ul>
@@ -348,7 +384,7 @@
 				</section>
 				
 				<section data-title="Step-index fiber - Vector modes" style="text-align: left;">
-					<p> Guided modes:</p>
+					<p> <u>Guided modes</u>:</p>
 					<ul>
 						<li>Core: $\psi(r)=AJ_\nu\left(\frac{Ur}{a}\right)$ with $U=k_0a\sqrt{n_1^2-n_{\text{eff}}^2}$</li>
 						<li>Cladding: $\psi(r)=BK_\nu\left(\frac{Wr}{a}\right)$ with $W=k_0a\sqrt{n_{\text{eff}}^2-n_2^2}$</li>
@@ -424,9 +460,9 @@
 				
 				<section data-title="Step-index fiber - Scalar modes" style="text-align: left;">
 					<ul>
-						<li>The LP modes are <b>approximate modes</b> of the fiber when using the <b>weak guidance approximation</b>: $\Delta n=n_1-n_2 \ll n_2$</li>
-						<li>The LP modes are determined by the assuming that $e_z = h_z = 0$ (which is exact in the case of a uniform medium). $e_x$ and $e_y$ are then independent and the modes can be chosen  <b>L</b>inearly <b>P</b>olarized along $x$ or $y$.</li>
-						<li>For LP modes, the interface conditions impose the continuity of $e$ and $\frac{\partial e}{\partial r}$.</li>
+						<li>The scalar modes are <b>approximate modes</b> of the fiber when using the <b>weak guidance approximation</b>: $\Delta n=n_1-n_2 \ll n_2$</li>
+						<li>The scalar modes are determined by the assuming that $e_z = h_z = 0$ (which is exact in the case of a uniform medium). $e_x$ and $e_y$ are then independent and the modes can be chosen  <b>L</b>inearly <b>P</b>olarized along $x$ or $y$ (LP modes).</li>
+						<li>For scalar modes, the interface conditions impose the continuity of $e$ and $\frac{\partial e}{\partial r}$.</li>
 					</ul>
 					<p>
 					As with vector modes, symmetry requires $e(r,\theta)=\psi(r)\begin{pmatrix} \cos(\ell\theta) \\ \sin(\ell\theta) \end{pmatrix}$ and $\psi$ satisfies the Bessel differential equation:
@@ -504,12 +540,18 @@
 				</section>
 				
 				<section data-title="Step-index fiber - Scalar modes" style="text-align: left;">
-					<p>For a leaky mode:
+					<p><u>For a leaky mode</u>:</p>
 					<ul>
 						<li>In the core: $\psi(r)=AJ_{\ell}\left(\frac{Ur}{a}\right)$</li>
 						<li>In the cladding: $\psi(r)=BH^{(1)}_{\ell}\left(\frac{U'r}{a}\right)$ with $U'=k_0a\sqrt{n_2^2-n_{\text{eff}}^2}$ and $H^{(1)}_{\ell}(x)=J_{\ell}(x)+iY_{\ell}(x)$ is a Hankel function</li>
-					</ul><br/><br/>
-					Interface conditions $\Longrightarrow$ $\boxed{U\frac{J'_\ell(U)}{J_\ell(U)}=U'\frac{H^{(1)'}_\ell(U')}{H^{(1)}_\ell(U')}}$</br></br>
+					</ul>
+					<div style="width:100%; display:flex; align-items: center;justify-content: space-between;">
+						<p>
+							Interface conditions $\Longrightarrow$ $\boxed{U\frac{J'_\ell(U)}{J_\ell(U)}=U'\frac{H^{(1)'}_\ell(U')}{H^{(1)}_\ell(U')}}$
+						</p>
+						<img src="H1.svg" alt="Figure" style="width: 30%;">
+					</div>
+					<p>
 					To find roots in the complex plane, you can use:
 					<ol>
 						<li>Classical root finding methods in 2D space: Newton-Raphson, Müller, etc.</li>
@@ -541,7 +583,7 @@
 					<p>
 						Method:
 						<ol>
-							<li>In the core: $E\backsim J_{\ell}\left(\frac{U_1r}{a_1}\right)$<!--- if $n_{\text{eff}} < n_1$ or  $E\backsim I_{\ell}\left(\frac{W_1r}{a_1}\right)$ if $n_{\text{eff}} > n_1$</li>--->
+							<li>In the core (layer 1): $E\backsim J_{\ell}\left(\frac{U_1r}{a_1}\right)$<!--- if $n_{\text{eff}} < n_1$ or  $E\backsim I_{\ell}\left(\frac{W_1r}{a_1}\right)$ if $n_{\text{eff}} > n_1$</li>--->
 							<li>Compute the field in layers 2 to N-1 with interface conditions</li>
 							<li>In the cladding: $E\backsim K_{\ell}\left(\frac{W_Nr}{a_{N-1}}\right)$ (guided mode) or $E\backsim H^{(1)}_{\ell}\left(\frac{U_Nr}{a_{N-1}}\right)$ (leaky mode)</li>
 							<li>The interface condition applied at $r=a_{N-1}$ gives an equation that can be used to determine $n_{\text{eff}}$
@@ -565,6 +607,22 @@
 							</div>
 						</div>
 					</p>
+				</section>
+				
+				<section data-title="Outline" style="text-align: left;padding-left: 100px;">
+				<h3 style="margin-bottom: 0;opacity: 0.4;"> Introduction with 2-D examples </h3>
+				<h3 style="margin-bottom: 0;opacity: 0.4;"> 1. Step-index fiber </h3>
+				<h3 style="margin-bottom: 0;"> 2. Graded-index fiber </h3>
+				<ul style="padding-left: 60px;">
+				<li> Vector Modes </li>
+				<li> Scalar Modes </li>
+				<li> Leaky Modes </li>
+				</ul>
+				<h3 style="margin-bottom: 0;opacity: 0.4;"> 3. Fiber with arbitrary index profile </h3>
+				<h3 style="margin-bottom: 0;opacity: 0.4;"> 4. Bent fiber </h3>
+				<h3 style="margin-bottom: 0;opacity: 0.4;"> 5. Twisted Fiber </h3>
+				<h3 style="margin-bottom: 0;opacity: 0.4;"> 6. Photonic Crystal Fiber </h3>
+				<h3 style="margin-bottom: 0;opacity: 0.4;"> 7. Photonic Bandgap Fiber </h3>
 				</section>
 
 				<section data-title="Graded-index fiber" style="text-align:center;">
@@ -599,11 +657,11 @@
 				
 				<section data-title="Graded-index fiber - Vector modes" style="text-align:left;">
 					<p>
-					$e_z=\psi_e(r)\begin{pmatrix} \cos(\nu\theta)\\ \sin(\nu\theta) \end{pmatrix}\text{ and } h_z=\psi_h(r)\begin{pmatrix} -\sin(\nu\theta)\\ \cos(\nu\theta) \end{pmatrix}$ where $\psi_e$ and $\psi_h$ satistify a system of coupled differential equations:
+					$e_z=\psi_e(r)\begin{pmatrix} \cos(\nu\theta)\\ \sin(\nu\theta) \end{pmatrix}\text{ and } h_z=\psi_h(r)\begin{pmatrix} -\sin(\nu\theta)\\ \cos(\nu\theta) \end{pmatrix}$ where $\psi_e$ and $\psi_h$ satisfy a system of coupled differential equations:
 					$$\left\{\begin{array}{ll} \frac{d^2 \psi_e}{d r^2}=\psi_e\left(\frac{\nu^2}{r^2}-k_0^2n^2+\beta^2\right)+\frac{d \psi_e}{d r}\left(\frac{2\beta^2}{\left(k_0^2n^2-\beta^2\right)n}\frac{d n}{dr}-\frac{1}{r}\right)-\psi_h\sqrt{\frac{\mu_0}{\varepsilon_0}}\frac{2\nu\beta k_0}{r\left(k_0^2n^2-\beta^2\right)n}\frac{dn}{dr} \\ \frac{d^2 \psi_h}{d r^2}=\psi_h\left(\frac{\nu^2}{r^2}-k_0^2n^2+\beta^2\right)+\frac{d \psi_h}{d r}\left(\frac{2k_0^2n}{k_0^2n^2-\beta^2}\frac{d n}{dr}-\frac{1}{r}\right)-\psi_e\sqrt{\frac{\varepsilon_0}{\mu_0}}\frac{2\nu\beta k_0 n}{r\left(k_0^2n^2-\beta^2\right)}\frac{dn}{dr} \end{array}\right.$$
 					Shooting method to find guided and leaky modes:	</p>
 					<ul>
-						<li>The coupled equations is expressed in a linear first order differential equation: $\begin{pmatrix} \psi_e \\ \psi'_e \\ \psi_h \\ \psi'_h \end{pmatrix} = A(r,\beta) \begin{pmatrix} \psi_e \\ \psi'_e \\ \psi_h \\ \psi'_h \end{pmatrix}$</li>
+						<li>The coupled equations is expressed in a linear first order differential equation: $\begin{pmatrix} \psi_e \\ \psi'_e \\ \psi_h \\ \psi'_h \end{pmatrix}' = A(r,\beta) \begin{pmatrix} \psi_e \\ \psi'_e \\ \psi_h \\ \psi'_h \end{pmatrix}$</li>
 						<li>To begin with, we use a thin layer between $r=0$ and $r=\epsilon\ll a$ with a constant refractive index: $\psi_e=J_{\nu}\left(\frac{Ur}{\epsilon}\right)$ and $\psi_h=\alpha J_{\nu}\left(\frac{Ur}{\epsilon}\right)$</li>
 						<li>A value of $n_{\text{eff}}$ is chosen and the system of differential equations is solved between $r=\epsilon$ and $r=a$ with a RK method for two values of $\alpha$ (generally 0 and 1).</li>
 						<li>By applying the interface conditions, we find a matching function that is zero if the value of neff corresponds to a mode</li>
@@ -615,7 +673,7 @@
 						
 				<section data-title="Graded-index fiber - Vector modes" style="text-align:left;">
 					<p>
-						$h_r=A_r(r)\begin{pmatrix} \cos(\nu\theta)\\ \sin(\nu\theta)\end{pmatrix}$ and $h_{\theta}=A_{\theta}(r)\begin{pmatrix} \sin(\nu\theta)\\ \cos(\nu\theta)\end{pmatrix}$ where $A_r$ and $A_{\theta}$ satistify a system of coupled differential equations:
+						$h_r=A_r(r)\begin{pmatrix} \cos(\nu\theta)\\ \sin(\nu\theta)\end{pmatrix}$ and $h_{\theta}=A_{\theta}(r)\begin{pmatrix} \sin(\nu\theta)\\ \cos(\nu\theta)\end{pmatrix}$ where $A_r$ and $A_{\theta}$ satisfy a system of coupled differential equations:
 						$$\left\{\begin{array}{ll} \frac{1}{r}\frac{d}{dr}\left(r\frac{dA_r}{dr}\right)-\frac{1+\nu^2}{r^2}A_r+k_0^2n^2A_r\pm\frac{2\nu}{r^2}A_{\theta}=\beta^2A_r \\ \frac{1}{r}\frac{d}{dr}\left(r\frac{d A_{\theta}}{dr}\right)-\frac{1}{r}\frac{d \ln(n^2)}{dr}\frac{d}{dr}\left(rA_{\theta}\right)-\frac{1+\nu^2}{r^2}A_{\theta}+k_0^2n^2A_{\theta}\pm \nu\left(\frac{1}{r}\frac{d \ln(n^2)}{dr}+\frac{2}{r^2}\right)A_r=\beta^2A_{\theta} \end{array}\right.$$
 						Discrete Hankel transform to find guided modes:</p>
 						<ul>
@@ -645,7 +703,7 @@
 				
 				<section data-title="Graded-index fiber - Scalar modes" style="text-align:left;">
 					<p><u>Finite difference method</u>:<br/>
-					$\Longrightarrow$ discretize the space with a step $h$ between $r=0$ and $r=R < a$ (for guided modes, we assume $E(R)=0$)
+					$\Longrightarrow$ discretize the space with a step $h$ between $r=0$ and $r=R > a$ (for guided modes, we assume the Dirichlet boundary condition $E(R)=0$)
 					$$\frac{\partial\psi}{\partial r}(r_i)\simeq \frac{\psi_{i+1}-\psi_{i-1}}{2h}\text{ and } \frac{\partial^2\psi}{\partial r^2}(r_i)\simeq \frac{\psi_{i+1}+\psi_{i-1}-2\psi_i}{h^2}$$
 					Take into account the boundary conditions at $r=0$: 
 					</p>
@@ -671,8 +729,8 @@ c_2 & a_2 & b_2 & \ddots & \vdots\\
 					By integrating the first term in parts, we obtain the weak formulation:
 					$$-\int_0^R r\frac{\partial\psi}{\partial r}\frac{\partial v}{\partial r}dr+\left[r\frac{\partial\psi}{\partial r}v(r)\right]_0^R+\int_0^R\left(k_0n^2(r)r-\frac{\ell^2}{r}\right)\psi(r)v(r)dr=\beta^2\int_0^R r\psi(r)v(r)dr$$
 					Since v(R)=0, the boundary term is zero:
-					$$-\int_0^R r\frac{\partial\psi}{\partial r}\frac{\partial v}{\partial r}dr+\int_0^R\left(k_0n^2(r)r-\frac{\ell^2}{r}\right)\psi(r)v(r)dr=\beta^2\int_0^R r\psi(r)v(r)dr$$
-					Then we apply the finite element method: in each element, $u=\sum_j u_j N_j(r)$ and $v=u_i(r)$ where $u_i$ are the shape functions (generally Lagrange polynomials). This gives a generalized eigenvalue problem:
+					$$\boxed{-\int_0^R r\frac{\partial\psi}{\partial r}\frac{\partial v}{\partial r}dr+\int_0^R\left(k_0n^2(r)r-\frac{\ell^2}{r}\right)\psi(r)v(r)dr=\beta^2\int_0^R r\psi(r)v(r)dr}$$
+					Then we apply the finite element method: in each element, $\psi=\sum_j u_j N_j(r)$ and $v=u_i(r)$ where $u_i$ are the shape functions (generally Lagrange polynomials). This gives a generalized eigenvalue problem:
 					$$Au=\beta^2Bu$$
 					</p>
 				</section>
@@ -689,11 +747,532 @@ c_2 & a_2 & b_2 & \ddots & \vdots\\
 					<li>Krylov-Schur used by eigs function of Matlab (since R2017b), ArnoldiMethod.jl package in Julia and SLEPc library (used by FEniCS)</li>
 					<li>Jacobi-Davidson implemented in SLEPc library</li>
 				</ul>
-				<p><br/>At each iteration, these algorithms need to solve $(A-\sigma I)x=0$ and generally use the LU factorization of the matrix $(A-\sigma I)$. There are also various algorithms/libraries for doing this: LAPACK, UMFPACK, MUMPS, PARDISO, CUDSS (for NVIDIA GPUs), etc.</p>
+				<p><br/>At each iteration, these algorithms need to solve $(A-\sigma I)x=w$ and generally use the LU factorization of the matrix $(A-\sigma I)$. There are also various algorithms/libraries for doing this: LAPACK, UMFPACK, MUMPS, PARDISO, CUDSS (for NVIDIA GPUs), etc.</p>
 				<p style="text-align:center;"><br/>But how do we calculate the leaky modes?</p>
 				
 				</section>
 				
+				<section data-title="Graded-index fiber - Leaky modes" style="text-align:left;">
+					<p>Leaky modes cannot be computed directly using FEM method because they are not bounded. Therefore it is impossible to find a value of R for which the field is zero.</p>
+					<p> Mathematically, leaky modes are analytic continuation of the guided modes below their cut-off $\Longrightarrow$ we can use an analytic dilatation (or complex scaling) of the space to compute leaky modes:
+					$$\left\{\begin{array}{ll} \tilde{r}=r\text{ if } r \le r_{\text{PML}} \\ \tilde{r}=r+if(r) \text{ if } r > r_{\text{PML}} \end{array}\right.$$
+					$r_{\text{PML}}$ must be greater than $a$ and the real function $f$ must satisfy $f(r_{\text{PML}})=0$,must be positive and strictly increasing.<br/>
+					The layer located at $r>r_{\text{PML}}$ is named a <b>Perfectly Matched Layer</b> because there is no reflection at $r=r_{\text{PML}}$<p/>
+					<p style="text-align:center;"><img src="pml.svg" alt="Figure" style="width: 32%;"></p>
+				</section>
+				
+				<section data-title="Graded-index fiber - Leaky modes" style="text-align:left;">
+					<p>The analytic continuation of $r$ can be written as $$\tilde{r}=\int_0^r s(\rho)d\rho$$
+					with $s(\rho)=1$ outside the PML and $s(\rho)=1+if'(\rho)$ in the PML (generally, s is a polynomial of degree 2 or 3).<br/><br/>
+					The differential equation satisfied by $\tilde{\psi}(\tilde{r})$ is the same as $\psi(r)$: $\frac{1}{\tilde{r}}\frac{\partial}{\partial \tilde{r}}\left(\tilde{r}\frac{\partial \tilde{\psi}}{\partial \tilde{r}}\right)+\left((k_0^2n^2(\tilde{r})-\beta^2)-\frac{\ell^2}{\tilde{r}^2}\right)\tilde{\psi}(\tilde{r})=0$
+					$$\left\{\begin{array}{ll} n(\tilde{r})=n(r) \text{ if } r < r_{\text{PML}} \\ n(\tilde{r})=n_{\text{cladding}}=n(r) \text{ if } r > r_{\text{PML}} > a \end{array}\right.$$
+					By using the formula for differentiating composite functions i.e. $\frac{\partial}{\partial \tilde{r}}=\frac{1}{s(r)}\frac{\partial}{\partial r}$, we obtain this weak formulation:
+					$$\boxed{-\int_0^R \frac{\tilde{r}}{s(r)}\frac{\partial\tilde{\psi}}{\partial r}\frac{\partial v^*}{\partial r}dr+\int_0^R\left(k_0n^2(r)\tilde{r}-\frac{\ell^2}{\tilde{r}}\right)s(r)\tilde{\psi}(r)v^*(r)dr=\beta^2\int_0^R \tilde{r} s(r)\tilde{\psi}(r)v^*(r)dr}$$
+					$\Longrightarrow$ We can now solve this eigenvalue equation in order to find leaky modes that are sufficiently attenuated by the PML.
+					</p>
+				</section>
+				
+				<section data-title="Graded-index fiber - Leaky modes" style="text-align:left;">
+					<p style="text-align:center;"><img src="fibre_pml.svg" alt="Figure" style="width: 100%;"></p>
+					<p>Consequences of the introduction of the PML:</p>
+					<ul>
+						<li>The guided modes are not modified</li>
+						<li>The continuous spectrum rotates in the complex plane</li>
+						<li>The discrete spectrum includes some leaky modes that are revealed by the PML (in blue)</li>
+					</ul>
+				</section>
+				
+			
+				<section data-title="Graded-index fiber - Leaky modes" style="text-align:left;">
+					<p style="text-align:center;">
+					Example: step-index fiber with a trench, PML located between 45 and 50 µm, scalar modes with $\ell=0$.<br>Four types of modes are obtained:</p>
+					<div class="r-stack" style="width:100%;">
+						<div class="fragment fade-out" data-fragment-index="0" style="width:80%;">
+							<ul>
+								<li><b>Guided modes</b> that are not affected by the PML</li>
+							</ul><br/>
+							<img src="trench_leaky_neff2_1.svg" alt="Figure" style="width: 45%;"><img src="trench_leaky_E2_1.svg" alt="Figure" style="width: 45%;">
+							<p style="visibility: hidden;">
+								$\Longrightarrow$ The modes computed with a PML must be sorted (based on the proportion of energy in the core, for example) so as to retain only the guided modes and the leaky modes.
+							</p>
+						</div>
+						<div class="fragment current-visible" data-fragment-index="0" style="width:80%;">
+							<ul>
+								<li><b>Modes contained within the continuum</b>, which is discretized because the PML is finite (close waveguide)</li>
+							</ul><br/>
+							<img src="trench_leaky_neff2_2.svg" alt="Figure" style="width: 45%;"><img src="trench_leaky_E2_2.svg" alt="Figure" style="width: 45%;">
+							<p style="visibility: hidden;">
+								$\Longrightarrow$ The modes computed with a PML must be sorted (based on the proportion of energy in the core, for example) so as to retain only the guided modes and the leaky modes.
+							</p>
+						</div>
+						<div class="fragment current-visible" data-fragment-index="1" style="width:80%;">
+							<ul>
+								<li><b>Modes contained within the continuum</b>, which is discretized because the PML is finite (close waveguide)</li>
+							</ul><br/>
+							<img src="trench_leaky_neff2_3.svg" alt="Figure" style="width: 45%;"><img src="trench_leaky_E2_3.svg" alt="Figure" style="width: 45%;">
+							<p style="visibility: hidden;">
+								$\Longrightarrow$ The modes computed with a PML must be sorted (based on the proportion of energy in the core, for example) so as to retain only the guided modes and the leaky modes.
+							</p>
+						</div>
+						<div class="fragment current-visible" data-fragment-index="2" style="width:80%;">
+							<ul>
+								<li><b>Modes contained within the continuum</b>, which is discretized because the PML is finite (close waveguide)</li>
+							</ul><br/>
+							<img src="trench_leaky_neff2_4.svg" alt="Figure" style="width: 45%;"><img src="trench_leaky_E2_4.svg" alt="Figure" style="width: 45%;">
+							<p style="visibility: hidden;">
+								$\Longrightarrow$ The modes computed with a PML must be sorted (based on the proportion of energy in the core, for example) so as to retain only the guided modes and the leaky modes.
+							</p>
+						</div>
+						<div class="fragment current-visible" data-fragment-index="3" style="width:80%;">
+							<ul>
+								<li><b>Modes contained within the continuum</b>, which is discretized because the PML is finite (close waveguide)</li>
+							</ul><br/>
+							<img src="trench_leaky_neff2_5.svg" alt="Figure" style="width: 45%;"><img src="trench_leaky_E2_5.svg" alt="Figure" style="width: 45%;">
+							<p style="visibility: hidden;">
+								$\Longrightarrow$ The modes computed with a PML must be sorted (based on the proportion of energy in the core, for example) so as to retain only the guided modes and the leaky modes.
+							</p>
+						</div>
+						<div class="fragment current-visible" data-fragment-index="4" style="width:80%;">
+							<ul>
+								<li><b>Modes contained within the continuum</b>, which is discretized because the PML is finite (close waveguide)</li>
+							</ul><br/>
+							<img src="trench_leaky_neff2_6.svg" alt="Figure" style="width: 45%;"><img src="trench_leaky_E2_6.svg" alt="Figure" style="width: 45%;">
+							<p style="visibility: hidden;">
+								$\Longrightarrow$ The modes computed with a PML must be sorted (based on the proportion of energy in the core, for example) so as to retain only the guided modes and the leaky modes.
+							</p>
+						</div>
+						<div class="fragment current-visible" data-fragment-index="5" style="width:80%;">
+							<ul>
+								<li><b>Modes contained within the continuum</b>, which is discretized because the PML is finite (close waveguide)</li>
+							</ul><br/>
+							<img src="trench_leaky_neff2_7.svg" alt="Figure" style="width: 45%;"><img src="trench_leaky_E2_7.svg" alt="Figure" style="width: 45%;">
+							<p style="visibility: hidden;">
+								$\Longrightarrow$ The modes computed with a PML must be sorted (based on the proportion of energy in the core, for example) so as to retain only the guided modes and the leaky modes.
+							</p>
+						</div>
+						<div class="fragment current-visible" data-fragment-index="6" style="width:80%;">
+							<ul>
+								<li><b>Modes contained within the continuum</b>, which is discretized because the PML is finite (close waveguide)</li>
+							</ul><br/>
+							<img src="trench_leaky_neff2_8.svg" alt="Figure" style="width: 45%;"><img src="trench_leaky_E2_8.svg" alt="Figure" style="width: 45%;">
+							<p style="visibility: hidden;">
+								$\Longrightarrow$ The modes computed with a PML must be sorted (based on the proportion of energy in the core, for example) so as to retain only the guided modes and the leaky modes.
+							</p>
+						</div>
+						<div class="fragment current-visible" data-fragment-index="7" style="width:80%;">
+							<ul>
+								<li><b>Modes contained within the continuum</b>, which is discretized because the PML is finite (close waveguide)</li>
+							</ul><br/>
+							<img src="trench_leaky_neff2_9.svg" alt="Figure" style="width: 45%;"><img src="trench_leaky_E2_9.svg" alt="Figure" style="width: 45%;">
+							<p style="visibility: hidden;">
+								$\Longrightarrow$ The modes computed with a PML must be sorted (based on the proportion of energy in the core, for example) so as to retain only the guided modes and the leaky modes.
+							</p>
+						</div>
+						<div class="fragment current-visible" data-fragment-index="8" style="width:80%;">
+							<ul>
+								<li><b>PML modes</b>, which are non physical modes resulting from reflections inside the PML</li>
+							</ul><br/>
+							<img src="trench_leaky_neff2_20.svg" alt="Figure" style="width: 45%;"><img src="trench_leaky_E2_20.svg" alt="Figure" style="width: 45%;">
+							<p style="visibility: hidden;">
+								$\Longrightarrow$ The modes computed with a PML must be sorted (based on the proportion of energy in the core, for example) so as to retain only the guided modes and the leaky modes.
+							</p>
+						</div>
+						<div class="fragment current-visible" data-fragment-index="9" style="width:80%;">
+							<ul>
+								<li><b>Leaky modes</b> revealed by the PML</li>
+							</ul><br/>
+							<img src="trench_leaky_neff2_10.svg" alt="Figure" style="width: 45%;"><img src="trench_leaky_E2_10.svg" alt="Figure" style="width: 45%;">
+							<p style="visibility: hidden;">
+								$\Longrightarrow$ The modes computed with a PML must be sorted (based on the proportion of energy in the core, for example) so as to retain only the guided modes and the leaky modes.
+							</p>
+						</div>
+						<div class="fragment current-visible" data-fragment-index="10" style="width:80%;">
+							<ul>
+								<li><b>Leaky modes</b> revealed by the PML</li>
+							</ul><br/>
+							<img src="trench_leaky_neff2_12.svg" alt="Figure" style="width: 45%;"><img src="trench_leaky_E2_12.svg" alt="Figure" style="width: 45%;">
+							<p style="visibility: hidden;">
+								$\Longrightarrow$ The modes computed with a PML must be sorted (based on the proportion of energy in the core, for example) so as to retain only the guided modes and the leaky modes.
+							</p>
+						</div>
+						<div class="fragment current-visible" data-fragment-index="11" style="width:80%;">
+							<ul>
+								<li><b>Leaky modes</b> revealed by the PML</li>
+							</ul><br/>
+							<img src="trench_leaky_neff2_14.svg" alt="Figure" style="width: 45%;"><img src="trench_leaky_E2_14.svg" alt="Figure" style="width: 45%;">
+							<p style="visibility: hidden;">
+								$\Longrightarrow$ The modes computed with a PML must be sorted (based on the proportion of energy in the core, for example) so as to keep only the guided modes and the leaky modes.
+							</p>
+						</div>
+						<div class="fragment current-visible" data-fragment-index="12" style="width:80%;">
+							<ul>
+								<li><b>Leaky modes</b> revealed by the PML</li>
+							</ul><br/>
+							<img src="trench_leaky_neff2_16.svg" alt="Figure" style="width: 45%;"><img src="trench_leaky_E2_16.svg" alt="Figure" style="width: 45%;">
+							<p style="visibility: hidden;">
+								$\Longrightarrow$ The modes computed with a PML must be sorted (based on the proportion of energy in the core, for example) so as to keep only the guided modes and the leaky modes.
+							</p>
+						</div>	
+						<div class="fragment current-visible" data-fragment-index="13" style="width:80%;">
+							<ul>
+								<li><b>Leaky modes</b> revealed by the PML</li>
+							</ul><br/>
+							<img src="trench_leaky_neff2_18.svg" alt="Figure" style="width: 45%;"><img src="trench_leaky_E2_18.svg" alt="Figure" style="width: 45%;">
+							<p>
+								$\Longrightarrow$ The modes computed with a PML must be sorted (based on the proportion of energy in the core, for example) so as to keep only the guided modes and the leaky modes.
+							</p>
+						</div>							
+					</div>
+				</section>
+				
+				<section data-title="Outline" style="text-align: left;padding-left: 100px;">
+				<h3 style="margin-bottom: 0;opacity: 0.4;"> Introduction with 2-D examples </h3>
+				<h3 style="margin-bottom: 0;opacity: 0.4;"> 1. Step-index fiber </h3>
+				<h3 style="margin-bottom: 0;opacity: 0.4;"> 2. Graded-index fiber </h3>
+				<h3 style="margin-bottom: 0;"> 3. Fiber with arbitrary index profile </h3>
+				<ul style="padding-left: 60px;">
+				<li> Scalar Modes </li>
+				<li> Vector Modes </li>
+				</ul>
+				<h3 style="margin-bottom: 0;opacity: 0.4;"> 4. Bent fiber </h3>
+				<h3 style="margin-bottom: 0;opacity: 0.4;"> 5. Twisted Fiber </h3>
+				<h3 style="margin-bottom: 0;opacity: 0.4;"> 6. Photonic Crystal Fiber </h3>
+				<h3 style="margin-bottom: 0;opacity: 0.4;"> 7. Photonic Bandgap Fiber </h3>
+				</section>
+				
+				<section data-title="Fiber with arbitrary index profile - scalar modes" style="text-align:left;">
+				<p>
+				Differential equation: $\Delta e+k_0^2n^2(x,y)e=\beta^2 e$<br/><br/>
+				<u>Weak formulation for guided modes</u> $\left(v\in V=\left\{v\in H^1(\Omega) \vert v=0 \text{ on } \partial\Omega \right\}\right)$:
+					$$-\int_{\Omega}\vec{\nabla}(e) \cdot \vec{\nabla}(v) d\Omega+\int_{\Omega}k_0^2n^2ev d\Omega=\beta^2 \int_{\Omega} ev d\Omega$$
+				<u>Weak formulation for leaky modes with a rectangular PML</u>:
+				$$-\int_{\Omega}\vec{\nabla}(\tilde{e}) \cdot (A \vec{\nabla}(v^*)) d\Omega+\int_{\Omega}k_0^2n^2\tilde{e}v^*S_xS_y d\Omega=\beta^2 \int_{\Omega} S_x S_y \tilde{e}v^* d\Omega\text{ with } A=\begin{pmatrix} \frac{S_y}{S_x} &  0 \\ 0 & \frac{S_x}{S_y} \end{pmatrix}$$
+				</p>
+				<p style="text-align:center;">
+					<img src="pml_rectangulaire.svg" alt="Figure" style="width: 50%;">
+				</p>
+				</section>
+				
+				<section data-title="Fiber with arbitrary index profile - vector modes" style="text-align:left;">
+				<p><u>Guided modes</u>:<br/>
+				$\vec{e}=\vec{e_t}+e_z\vec{u_z}$ and we can set $e'_z=\frac{1}{i\beta}e_z$ to obtain:
+				$$\left\{\begin{array}{ll} -\vec{\nabla}\times\left(\vec{\nabla}\times \vec{e_t}\right)+\vec{\nabla}(e'_z)+k_0^2n^2\vec{e_t}=\beta^2\vec{e_t} \\ \vec{\nabla}\cdot\left(\vec{\nabla}(e'_z)\right)+k_0^2n^2e'_z=\beta^2\vec{\nabla}\cdot\vec{e_t} \end{array}\right.$$
+				We choose test functions $\vec{v}\in V=\left\{(\vec{v_t},v_z)\in H(\text{curl};\Omega)\times H^1(\Omega) \vert \vec{v}=\vec{0} \text{ on } \partial\Omega \right\}$ and we obtain a generalized eigenvalue problem of the form $Au=\beta^2Bu$
+				
+				<br/><br/><u>Leaky modes</u>:<br/>
+				We have to replace $\frac{\partial}{\partial x}$ with $\frac{1}{s_x}\frac{\partial}{\partial x}$ and $\frac{\partial}{\partial y}$ with $\frac{1}{s_y}\frac{\partial}{\partial y}$ in Maxwell's equations in the case of rectangular PML.<br/>
+				And it's much more complicated in the case of a circular PML...<br/><br/>
+				$\Longrightarrow$ We will use transform optics
+				</p>
+				</section>
+				
+				<section data-title="Fiber with arbitrary index profile - vector modes" style="text-align:left;">
+					<p> <u>Transform optics</u>: in electromagnetism, when you change your coordinate system, we can keep the same equations but you have to replace your initial material properties ($\varepsilon$ and $\mu$) by equivalent material properties:
+					$$\varepsilon'=\frac{J\varepsilon J^{T}}{\text{det}(J)}\text{ and }\mu'=\frac{J\mu J^{T}}{\text{det}(J)}$$
+					where $J$ is the jacobian matrix of the coordinate transformation consisting of the partial derivatives of the new coordinates with respect to the original ones: $J=\frac{\partial(x',y',z')}{\partial(x,y,z)}$. <br/><br/>
+					
+					The fields are also transformed:
+					$$\left\{\begin{array}{ll} E'=J^{-T}E \\ D'=\frac{J}{\text{det}(J)}D \\ H'=J^{-T}H \\ B'=\frac{J}{\text{det}(J)}B\end{array}\right.$$
+					</p>
+
+				</section>
+				
+				<section data-title="Fiber with arbitrary index profile - vector modes" style="text-align:left;">
+					<p> Application to the rectangular PML:<br/><br/> 
+					In the $(\tilde{x},\tilde{y},z)$ coordinate system, we have to solve the Maxwell's equations with the permittivity $\varepsilon_r=n^2(x,y)I$ and the permittivity $\mu_r=I$ where $I$ is the identity matrix.
+					
+					<br/>If we want to compute the field in the real cartesian coordinate system, we have to use: $$\varepsilon_r'=n^2(x,y)T\text{ and }\mu_r'=T \text{ with }T=\frac{J J^T}{\text{det}(J)}$$
+					where $J=\frac{\partial(x,y,z)}{\partial(\tilde{x},\tilde{y},z)}=\left(\frac{\partial(\tilde{x},\tilde{y},z)}{\partial(x,y,z)}\right)^{-1}$
+					<br/><br/>Since $\tilde{x}=\int_0^x S_x(X)dX$ and $\tilde{y}=\int_0^y S_y(Y)dY$, $$J=\begin{pmatrix}
+						1/S_x   & 0 & 0\\
+						0 & 1/S_y & 0 \\
+						0 & 0 & 1\\
+						\end{pmatrix}\Longrightarrow \epsilon'=n^2(x,y)\begin{pmatrix}
+						S_y/S_x   & 0 & 0\\
+						0 & S_x/S_y & 0 \\
+						0 & 0 & 1\\
+						\end{pmatrix}\text{ and }\mu'=\begin{pmatrix}
+						S_y/S_x   & 0 & 0\\
+						0 & S_x/S_y & 0 \\
+						0 & 0 & 1\\
+						\end{pmatrix}$$
+					</p>
+				</section>
+				
+				<section data-title="Fiber with arbitrary index profile - vector modes" style="text-align:left;">
+					</p>$\Longrightarrow$ a PML is a fictive medium with anisotropic and complex permittivity and permeability<br/>
+					$\Longrightarrow$ to obtain the leaky and the guided modes, we can solve the Maxwell's equations with $\varepsilon'$ and $\mu'$ in a real cartesian coordinate system</p>
+					<p style="text-align:center;">
+						<img src="pml_rectangulaire2.svg" alt="Figure" style="width: 30%;">
+					</p>
+					<p>
+					$\Longrightarrow$ for a circular PML, $\varepsilon'$ and $\mu'$ are not diagonal<br/><br/>
+					When using $\varepsilon'$ and $\mu'$, the weak formulation of the Maxwell's equation gives a quadratic eigenvalue problem: $Au+\beta B u +\beta^2 C u=0$<br/>
+					This can be solved by setting $v=\begin{pmatrix} u \\ \beta u \end{pmatrix}$, which reduces the problem to a standard eigenvalue problem: $\begin{pmatrix} 0 & I \\ -A & -B \end{pmatrix}v=\beta\begin{pmatrix} I & 0 \\ 0 & C \end{pmatrix}v$
+					</p>
+				</section>
+
+				<section data-title="Outline" style="text-align: left;padding-left: 100px;">
+				<h3 style="margin-bottom: 0;opacity: 0.4;"> Introduction with 2-D examples </h3>
+				<h3 style="margin-bottom: 0;opacity: 0.4;"> 1. Step-index fiber </h3>
+				<h3 style="margin-bottom: 0;opacity: 0.4;"> 2. Graded-index fiber </h3>
+				<h3 style="margin-bottom: 0;opacity: 0.4;"> 3. Fiber with arbitrary index profile </h3>
+				<h3 style="margin-bottom: 0;"> 4. Bent fiber </h3>
+				<ul style="padding-left: 60px;">
+				<li> Scalar case </li>
+				<li> Vector case </li>
+				</ul>
+				<h3 style="margin-bottom: 0;opacity: 0.4;"> 5. Twisted Fiber </h3>
+				<h3 style="margin-bottom: 0;opacity: 0.4;"> 6. Photonic Crystal Fiber </h3>
+				<h3 style="margin-bottom: 0;opacity: 0.4;"> 7. Photonic Bandgap Fiber </h3>
+				</section>
+				
+				<section data-title="Bent fiber - Scalar case" style="text-align: left;">
+						<div style="text-align: center;">
+							<img src="fibre_courbee.svg" alt="Figure" style="width: 40%;">
+						</div>
+						<p><u>Geometrical approach</u>:</p>
+						<ul>
+							<li>the bending implies that the angle of incidence decreases at the core/cladding interface located on the outer curvature side (and increases on
+								the inner curvature side). These angles can no longer be sufficient to allow a total reflection $\Longrightarrow$ leak on the outer curvature side</li>
+							<li> The bending losses increase when the radius of curvature $R_c$ decreases (because $\theta_O$ decreases)</li>
+							<li> The bending losses increase with the order of the mode (because $\theta$ decreases)</li>
+						</ul>
+						
+					</section>
+					
+					<section data-title="Bent fiber - Scalar case" style="text-align: left;">
+						<div style="text-align: center;">
+							<img src="courbure1bis.svg" alt="Figure" style="width: 80%;">
+						</div>
+						<p><u>Scalar case</u>:</p>
+						<ul>
+							<li>The bent fiber can be modelized by a straight fiber but of modified index profile with a higher index on the outer side of the curvature (because the optical path is longer).</li>
+							<li> The refractive index profile of the equivalent straight fiber is $n'=n\left(1+\frac{x}{R_c}\right)$</li>
+						</ul>
+						
+					</section>
+				
+				<section data-title="Bent fiber - Scalar case" style="text-align: left;">
+						<div style="text-align: center;">
+							<img src="courbure3.svg" alt="Figure" style="width: 55%;">
+						</div>
+						<p>
+						$\Longrightarrow$ When the fiber is bent, there are no guided modes in the strict sense of the term: the guided modes of the straight fiber become leaky modes in the bent fiber.<br/><br/>						
+						<u>NB</u>: If the elasto-optical effect is taken into account, we obtain $n_B(x,y)=n_S(x,y)\left(1+(1+\chi)\frac{x}{R_c}\right)$ where $\chi=-0.22$ for silica.<br/>
+						The negative sign indicates that the refractive index of silica decreases when it is in extension.
+						<br/><br/>
+						<u>Note</u>: the turning point must lie within the integration domain and, preferably, outside the PML.
+						</p>
+					</section>
+
+				<section data-title="Bent fiber - Vector case" style="text-align: left;">
+						<div style="text-align: center;">
+							<img src="courbure2bis.svg" alt="Figure" style="width: 50%;">
+						</div>
+						<p><u>Transform optics</u>: The bent fiber is équivalent to a straight fiber but we have to replace $\varepsilon$ and $\mu$ with $\varepsilon'$ and $\mu'$<br/><br/>
+						$J^{-1}=\frac{\partial (x,y,z)}{\partial (x',y',z')}=\begin{pmatrix} \cos\left(\frac{z'}{R_c}\right) & 0 & -\frac{x+R_c}{R_c}\sin\left(\frac{z'}{R_c}\right) \\ 0 & 1 & 0 \\ \sin\left(\frac{z'}{R_c}\right) & 0 & \frac{x+R_c}{R_c}\cos\left(\frac{z'}{R_c}\right) \end{pmatrix}=\begin{pmatrix} \cos\left(\frac{z'}{R_c}\right) & 0 & -\sin\left(\frac{z'}{R_c}\right) \\ 0 & 1 & 0 \\ \sin\left(\frac{z'}{R_c}\right) & 0 & \cos\left(\frac{z'}{R_c}\right) \end{pmatrix}\begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & \frac{x+R_c}{R_c} \end{pmatrix}$
+						</p>
+					</section>
+					
+					<section data-title="Bent fiber - Vector case" style="text-align: left;">
+					<p style="text-align: center;">
+					$\varepsilon'=n^2\frac{JJ^T}{det(J)}=n^2\begin{pmatrix} 1+\frac{x}{R_c} & 0 & 0 \\ 0 & 1+\frac{x}{R_c} & 0 \\ 0 & 0 & \frac{1}{1+\frac{x}{R_c}} \end{pmatrix}$ and $\mu'=\frac{JJ^T}{det(J)}=\begin{pmatrix} 1+\frac{x}{R_c} & 0 & 0 \\ 0 & 1+\frac{x}{R_c} & 0 \\ 0 & 0 & \frac{1}{1+\frac{x}{R_c}} \end{pmatrix}$
+					</p>
+					<p>
+					<br/>
+					$\Longrightarrow$ A bent fiber can be modeled using a straight fiber whose permittivity and permeability are diagonal tensors.
+					<br/><br>
+					<u>NB</u>: if the field is scalar, $\vec{E}$ and $\vec{H}$ lie in the plane $(xOy)$ and the refractive index is $\sqrt{\varepsilon_{xx}\mu_{yy}}=n\left(1+\frac{x}{R_c}\right)$		
+					</p>
+					<div style="text-align: center;">
+							<img src="bent_fiber.png" alt="Figure" style="width: 70%;">
+						</div>
+					</section>
+					
+					<section data-title="Outline" style="text-align: left;padding-left: 100px;">
+						<h3 style="margin-bottom: 0;opacity: 0.4;"> Introduction with 2-D examples </h3>
+						<h3 style="margin-bottom: 0;opacity: 0.4;"> 1. Step-index fiber </h3>
+						<h3 style="margin-bottom: 0;opacity: 0.4;"> 2. Graded-index fiber </h3>
+						<h3 style="margin-bottom: 0;opacity: 0.4;"> 3. Fiber with arbitrary index profile </h3>
+						<h3 style="margin-bottom: 0;opacity: 0.4;"> 4. Bent fiber </h3>
+						<h3 style="margin-bottom: 0;"> 5. Twisted Fiber </h3>
+						<h3 style="margin-bottom: 0;opacity: 0.4;"> 6. Photonic Crystal Fiber </h3>
+						<h3 style="margin-bottom: 0;opacity: 0.4;"> 7. Photonic Bandgap Fiber </h3>
+					</section>
+
+					<section data-title="Twisted fiber" style="text-align: left;">
+						<div style="text-align: center;">
+							<img src="fibre_twistee2.png" alt="Figure" style="width: 32%;"><br/>
+							$R$: helix radius - $P$: helix pitch - $\alpha=\frac{2\pi}{P}$: twist rate
+						</div>
+						<p>
+						Geometric considerations:
+						<ul>
+							<li>Length of the helix between 0 and z: $L(z)=\sqrt{1+\left(\alpha R\right)^2}z$</li>
+							<li>Curvature radius of the helix : $R_c=R+\frac{1}{\alpha^2 R}$</li>
+							<li>In the laboratory frame $e_z\sim e^{\pm i\nu\theta}e^{i\beta z}$ $\Longrightarrow$ in a coordinate system that rotates around the fiber axis with the twist rate $\alpha$ (to obtain a constant RIP), $e_z \sim e^{\pm i \nu \left(\theta-\alpha z\right)}e^{i\beta z}$ then the effective index in this  system is $n_{\text{eff}}'=n_{\text{eff}}\pm \nu \frac{\lambda}{P}$</li>
+						</p>
+						$\Longrightarrow$ In a first approximation, for a helical-core fiber, twisting the fiber results in a multiplication of $\sqrt{1+\left(\alpha R\right)^2}$ of the effective index (with a lifting of mode degeneracy in the rotating coordinate sytem) and in losses that can be approximated by a bending radius $R_c$.
+					</section>
+					
+					<section data-title="Twisted fiber" style="text-align: left;">
+						<p>
+						<u>Transform optics</u>:<br>
+						We can obtain a straight fiber that is invariant under translation along the $z$ axis by using the helicoidal coordinate system $\left(u,v,w\right)$:
+						$$\left\{\begin{array}{ll} x=u\cos\left(\alpha w\right)+v\sin\left(\alpha w\right) \\ y=-u\sin\left(\alpha w\right)+v\cos\left(\alpha w\right) \\ z=w \end{array} \right.$$
+						$$J^{-1}=\begin{pmatrix} \cos\left(\alpha w\right) & \sin\left(\alpha w\right) & \alpha v \cos\left(\alpha w\right)-\alpha u \sin\left(\alpha w\right) \\ -\sin\left(\alpha w\right) & \cos\left(\alpha w\right) & -\alpha u \cos\left(\alpha w\right) -\alpha v \sin\left(\alpha w\right) \\ 0 & 0 & 1 \end{pmatrix}=\begin{pmatrix} \cos\left(\alpha w\right) & \sin\left(\alpha w\right) & 0 \\ -\sin\left(\alpha w\right) & \cos\left(\alpha w\right) & 0 \\ 0 & 0 & 1\end{pmatrix} \begin{pmatrix} 1 & 0 & \alpha v \\ 0 & 1 & -\alpha u \\ 0 & 0 & 1 \end{pmatrix}$$
+						Finally, in the helicoidal coordinate system:
+						$$\boxed{\varepsilon'=\varepsilon \begin{pmatrix} 1+\alpha^2v^2 & -\alpha^2 u v & -\alpha v \\ -\alpha^2 uv & 1+ \alpha^2u^2 & \alpha u \\ -\alpha v & \alpha u & 1 \end{pmatrix} \text{ and } \mu'=\begin{pmatrix} 1+\alpha^2v^2 & -\alpha^2 u v & -\alpha v \\ -\alpha^2 uv & 1+ \alpha^2u^2 & \alpha u \\ -\alpha v & \alpha u & 1 \end{pmatrix}}$$
+						</p>
+					</section>
+						
+					<section data-title="Twisted fiber" style="text-align: left;">
+						<p><!---<u>Note</u>:<br/>
+							For a helical-core fiber located at $(u=R,v=0)$, we can approximated $\epsilon'$ and $\mu'$ with:
+							$$\varepsilon'=\varepsilon \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1+ \alpha^2 R^2 & \alpha R \\ 0 & \alpha R & 1 \end{pmatrix} \text{ and } \mu'=\begin{pmatrix} 1 & 0 & 0 \\ 0 & 1+ \alpha^2 R^2 & \alpha R \\ 0 & \alpha R & 1 \end{pmatrix}$$
+							The term $\alpha R$ gives the lifting of degeracy and the diagonal terms give $n'=\sqrt{\epsilon'_{xx}\mu_{yy}}=n\sqrt{1+\left(\alpha R\right)^2}$<br/><br/>
+							--->
+							<u>Example</u>: Helical fiber with a parabolic index core $\Delta n=30\times 10^{-3}$, $D = 3.5$ µm, $P = 2$ mm at $\lambda=1 µm$<br/>
+						</p>	
+						<div style="text-align: center;">
+							<img src="fig10a_3.svg" alt="Figure" style="width: 40%;">
+						</div>
+					</section>
+					
+					<section data-title="Outline" style="text-align: left;padding-left: 100px;">
+						<h3 style="margin-bottom: 0;opacity: 0.4;"> Introduction with 2-D examples </h3>
+						<h3 style="margin-bottom: 0;opacity: 0.4;"> 1. Step-index fiber </h3>
+						<h3 style="margin-bottom: 0;opacity: 0.4;"> 2. Graded-index fiber </h3>
+						<h3 style="margin-bottom: 0;opacity: 0.4;"> 3. Fiber with arbitrary index profile </h3>
+						<h3 style="margin-bottom: 0;opacity: 0.4;"> 4. Bent fiber </h3>
+						<h3 style="margin-bottom: 0;opacity: 0.4;"> 5. Twisted Fiber </h3>
+						<h3 style="margin-bottom: 0;"> 6. Photonic Crystal Fiber </h3>
+						<h3 style="margin-bottom: 0;opacity: 0.4;"> 7. Photonic Bandgap Fiber </h3>
+					</section>
+
+					<section data-title="Photonic Crystal Fiber" style="text-align: left;">
+					<div style="text-align: center;">
+						<img src="pcf1bis.svg" alt="Figure" style="width: 20%;">
+						<img src="pcf2bis.svg" alt="Figure" style="width: 40%;" class="fragment fade-in" data-fragment-index="0">
+						<br/><br/>
+					</div>
+					<ul>
+						<li>Cladding: periodic lattice of pitch $\Lambda$ of low-refractive index inclusions (air holes) whose diameter is $D$</li>
+						<li>The core of the fiber is a defect in the cladding (lack of air holes)</li>
+						<li class="fragment fade-in" data-fragment-index="0">$n_{\text{FSM}}$ (Fundamental Space-filling Mode): effective index of the fundamental mode of the infinite and periodic structure constituting the cladding</li>
+						<li class="fragment fade-in" data-fragment-index="0">$n_{\text{FSM}} < n_{\text{core}}$: modified total internal reflection guidance</li>
+						<li class="fragment fade-in" data-fragment-index="0">The value of $n_{\text{FSM}}$ depends on the geometry of the cladding and the wavelength, even in the case of non-dispersive media.</li>
+						<li class="fragment fade-in" data-fragment-index="0">The core modes are leaky and their confinment losses decrease when the diameter and/or the number of air holes increase</li>
+					</ul>
+								
+					</section>
+					
+					<section data-title="Photonic Crystal Fiber" style="text-align: left;">
+						<p><b>How to compute $n_{\text{FSM}}$ ?</b><br>
+							$\Longrightarrow$ Bloch theorem: $\vec{e}(x,y)=\exp\left(i\vec{k}_t\cdot \vec{r}\right)\vec{u}(x,y)$	
+						</p>
+						<ul>
+							<li>$\vec{u}(x,y)$ has the same periodicity as the lattice</li>
+							<li>$\vec{k}_t$ is a vector of the Brillouin zone and is related to phase difference between an elementary lattice cell and its neighbors</li>
+						</ul>
+						<div class="r-stack" style="text-align: center;">
+							<img class="fragment fade-out" data-fragment-index="0"  src="reseau-triangulaire.svg" alt="Figure" style="width: 40%;">
+							<img class="fragment current-visible" data-fragment-index="0" src="reseau-triangulaire_G.svg" alt="Figure" style="width: 40%;">
+							<img class="fragment current-visible" data-fragment-index="1" src="reseau-triangulaire_M.svg" alt="Figure" style="width: 40%;">
+							<img class="fragment visible" data-fragment-index="2" src="reseau-triangulaire_K.svg" alt="Figure" style="width: 40%;">
+						</div>
+						<p class="fragment current-visible" data-fragment-index="3">
+						  $n_{\text{FSM}}$ corresponds to the fundamental mode, that is, the mode with the smallest transverse variations $\Longrightarrow$ computation at point $\Gamma$
+						</p>
+					</section>
+					
+					<section data-title="Photonic Crystal Fiber" style="text-align: left;">
+						<p>Use FEM applied to the unit cell with periodic boundary conditions</p>
+						<div style="text-align: center;">
+							<img src="nFSM2.svg" alt="Figure" style="width: 70%;">
+						</div>
+						<p><u>Note</u>: if the media are non-dispersive, there is a scale invariance: $n_{\text{FSM}}(h\lambda,hD,h\Lambda)=n_{\text{FSM}}(\lambda,D,\Lambda)$
+					</section>
+					
+					<section data-title="Photonic Crystal Fiber" style="text-align: left;">
+						<p>Core modes can be computed by using FEM on the whole structure with a PML</p>
+						<div class="r-stack" style="text-align: center;">
+							<img class="fragment fade-out" data-fragment-index="0"  src="PCF3.svg" alt="Figure" style="width: 45%;">
+							<img class="fragment current-visible" data-fragment-index="0" src="PCF5.svg" alt="Figure" style="width: 45%;">
+							<img class="fragment current" data-fragment-index="1" src="PCF4.svg" alt="Figure" style="width: 45%;">
+						</div>
+						<div style="text-align: center;">
+							<img class="fragment current" data-fragment-index="2" src="PCF_pertes.svg" alt="Figure" style="width: 20%;">
+						</div>
+					</section>
+					
+					<section data-title="Outline" style="text-align: left;padding-left: 100px;">
+						<h3 style="margin-bottom: 0;opacity: 0.4;"> Introduction with 2-D examples </h3>
+						<h3 style="margin-bottom: 0;opacity: 0.4;"> 1. Step-index fiber </h3>
+						<h3 style="margin-bottom: 0;opacity: 0.4;"> 2. Graded-index fiber </h3>
+						<h3 style="margin-bottom: 0;opacity: 0.4;"> 3. Fiber with arbitrary index profile </h3>
+						<h3 style="margin-bottom: 0;opacity: 0.4;"> 4. Bent fiber </h3>
+						<h3 style="margin-bottom: 0;opacity: 0.4;"> 5. Twisted Fiber </h3>
+						<h3 style="margin-bottom: 0;opacity: 0.4;"> 6. Photonic Crystal Fiber </h3>
+						<h3 style="margin-bottom: 0;"> 7. Photonic Bandgap Fiber </h3>
+					</section>
+
+					<section data-title="Photonic Bangap Fiber" style="text-align: left;">
+					<div style="text-align: center;">
+						<img src="PBG.svg" alt="Figure" style="width: 20%;">
+						<br/><br/>
+					</div>
+					<ul>
+						<li>Cladding: periodic lattice of pitch $\Lambda$ of high-refractive index inclusions (Ge-doped silica) whose diameter is $D$</li>
+						<li>The core of the fiber is a defect in the cladding (lack of inclusion)</li>
+						<li>$n_{\text{FSM}} > n_{\text{core}}$: Photonic bangap guidance</li>
+					</ul>
+					</section>	
+
+					<section data-title="Photonic Bangap Fiber" style="text-align: left;">
+					<p>Computation of the band diagram: FEM applied to the unit cell with periodic boundary conditions with a phase difference that depends on $\vec{k}_t$</p>
+						<div class="r-stack" style="text-align: center;">
+							<img class="fragment fade-out" data-fragment-index="0" src="PBG_band1.svg" alt="Figure" style="width: 40%;">
+							<img class="fragment current-visible" data-fragment-index="0" src="PBG_band2.svg" alt="Figure" style="width: 40%;">
+							<img class="fragment current-visible" data-fragment-index="1" src="PBG_band3.svg" alt="Figure" style="width: 40%;">
+							<img class="fragment current-visible" data-fragment-index="2" src="PBG_band4.svg" alt="Figure" style="width: 40%;">
+						</div>
+						<ul>
+							<li class="fragment visible" data-fragment-index="1">Authorized bands: light can propagate in the cladding and the light cannot be confined in the core</li>
+							<li class="fragment visible" data-fragment-index="2">Photonic bandgaps (forbidden bands): light cannot propagate in the cladding and can be confined in the core</li>
+						</ul>
+					</section>	
+					
+					<section data-title="Photonic Bangap Fiber" style="text-align: left;">
+					<p>Exemple of parobolic index inclusions:</p>
+						<div class="r-stack" style="text-align: center;">
+							<img class="fragment fade-out" data-fragment-index="0" src="PBG_para1.svg" alt="Figure" style="width: 40%;">
+							<img class="fragment current-visible" data-fragment-index="0" src="PBG_para2.svg" alt="Figure" style="width: 40%;">
+						</div>
+						<ul>
+							<li>Core modes are localized in photonic bandgaps and below the refractive index of the core</li>
+							<li>Photonics bandgaps correspond to transmission windows in the spectrum</li>
+							<li class="fragment visible" data-fragment-index="0">The transmission windows edges correspond to the cut-off wavelengths of the modes guided by a single inclusion</li>
+						</ul>
+					</section>	
+
+					<section data-title="Photonic Bangap Fiber" style="text-align: left;">		
+						<div class="r-stack" style="text-align: center;">
+							<img class="fragment fade-out" data-fragment-index="0" src="sbg_para3.svg" alt="Figure" style="width: 50%;">
+							<img class="fragment current-visible" data-fragment-index="0" src="sbg_para4.svg" alt="Figure" style="width: 50%;">
+							<img class="fragment current-visible" data-fragment-index="1" src="sbg_para5.svg" alt="Figure" style="width: 50%;">
+							<img class="fragment current-visible" data-fragment-index="2" src="sbg_Aeff.svg" alt="Figure" style="width: 50%;">
+							<img class="fragment current-visible" data-fragment-index="3" src="sbg_Aeff_2.svg" alt="Figure" style="width: 50%;">
+							<img class="fragment current-visible" data-fragment-index="4" src="sbg_Aeff_1.svg" alt="Figure" style="width: 50%;">
+							<img class="fragment current-visible" data-fragment-index="5" src="sbg_Aeff_3.svg" alt="Figure" style="width: 50%;">
+						</div>
+						<ul>
+							<li class="fragment visible" data-fragment-index="0">Zero dispersion wavelength in each photonic bandgap</li>
+							<li class="fragment visible" data-fragment-index="1">Strong increase in the confinment losses at the bandgap edges</li>
+							<li class="fragment visible" data-fragment-index="2">Strong decrease in the non-linear coefficient at the bandgap edges</li>
+						</ul>
+					</section>
 
 
 
@@ -710,21 +1289,19 @@ c_2 & a_2 & b_2 & \ddots & \vdots\\
 
 
 
-
-
-
-
-
-
-
-
-
-
-			<!-- -----------------------------------------------------------------FIN--------------------------------------------------------------- -->	
-				<section data-title="Uniform medium with refactive index n">
+			<!-- -----------------------------------------------------------------FIN--------------------------------------------------------------- -->
+				<section data-title="Conclusion" style="text-align: left;padding-left: 100px;">
+					<ul>
+						<li>Implementation of a PML for bent or twisted fibers</li>
+						<li>Birefringent fibers with stress applying parts (SAP)</li>
+						<li>Computation of a band diagram (PCF, PBG, etc.) $\Longrightarrow$ FEM with periodic bondary conditions</li>
+						<li>Tapered fibers</li>
+					</ul>
+				</section>
+				<!---<section data-title="Test plotly.js">
 					<h2>Graphique y = f(x)</h2>
 					<div id="monGraphique" style="width:800px; height:450px; margin:auto;"></div>
-				</section>
+				</section>--->
 			
 			
 			
@@ -753,6 +1330,7 @@ c_2 & a_2 & b_2 & \ddots & \vdots\\
 				maxScale: 2.0,
 				center: false,
 				disableLayout: false,
+				math: { katex: 'plugin/katex/katex.min.js'  },
 				plugins: [RevealMarkdown, RevealHighlight, RevealNotes,RevealMath.KaTeX],
 			});
 		</script>
@@ -774,7 +1352,7 @@ c_2 & a_2 & b_2 & \ddots & \vdots\\
 			Reveal.on("ready", updateHeader);
 			Reveal.on("slidechanged", updateHeader);
 		</script>
-		<!--<script>
+		<script>
 			function updateHeaderFooter() {
 				const indices = Reveal.getIndices();
 				const firstSlide = (indices.h === 0 && indices.v === 0);
@@ -784,7 +1362,7 @@ c_2 & a_2 & b_2 & \ddots & \vdots\\
 			}
 			Reveal.on("ready", updateHeaderFooter);
 			Reveal.on("slidechanged", updateHeaderFooter);
-		</script>-->
+		</script>
 		
 		<script>
 		Reveal.on('fragmentshown', event => {
@@ -809,7 +1387,7 @@ c_2 & a_2 & b_2 & \ddots & \vdots\\
 		
 		
 		
-		<script src="dist/plotly-3.6.0.min.js"></script>
+		<!---<script src="dist/plotly-3.6.0.min.js"></script>
 					<script>
     
     let data = null;
@@ -860,6 +1438,6 @@ c_2 & a_2 & b_2 & \ddots & \vdots\\
         initChart();
       }
     });
-  </script>
+  </script>--->
 	</body>
 </html>

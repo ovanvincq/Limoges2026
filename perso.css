@@ -84,6 +84,13 @@
   border-bottom: 1px solid #000 !important;
 }
 
+.encadre {
+    display: inline-block;
+    border: 2px solid #003366;
+    background: #00bbff;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
 
 
 

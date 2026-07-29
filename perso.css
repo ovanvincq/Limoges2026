@@ -92,6 +92,23 @@
     border-radius: 8px;
 }
 
+.left {
+    position: absolute;
+    left: 0%;
+    width: 38%;
+}
+
+.right {
+    position: absolute;
+    left: 40%;
+    width: 60%;
+}
+
+.rightright {
+    position: absolute;
+    left: 82%;
+    width: 18%;
+}
 
 
 

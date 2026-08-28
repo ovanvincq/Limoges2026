@@ -146,46 +146,51 @@
 				  
 				</section>
 				
-				<section data-title="Introduction - Uniform medium with refractive index n" style="text-align: left;">
-					A wave propagating along the z-axis can be decomposed on the basis $\underline{E}^{\theta,\pm}$ that are called <b>modes</b>.<br/><br/>
-					The EM field of a mode can be written as $\begin{pmatrix} \vec{\underline{E}}(x,y,z,t)\\\vec{\underline{H}}(x,y,z,t)\\\end{pmatrix}=\begin{pmatrix}\vec{\underline{e}}(x,y)\\\vec{\underline{h}}(x,y)\end{pmatrix}\exp\left(i\left(\beta z-\omega t\right)\right)$ and each mode is characterized by:<br/>
-					<ul>
-						<li>its <b>electric/magnetic field distribution</b> $\vec{\underline{e}}(x,y)/\vec{\underline{h}}(x,y)$ in the transverse plane</li>
-						<li>its <b>propagation constant</b> $\beta$ or by its <b>effective index</b> defined as: $\boxed{n_{\text{eff}}=\frac{\beta}{k_0}}$</li>
-					</ul><br/><br/>
-					For a 2D uniform medium:<br/>
-					<ul>
-						<li>$e(x,y)=\cos(k_0\sqrt{n^2-n_{\text{eff}}^2}x)$ or $e(x,y)=\sin(k_0\sqrt{n^2-n_{\text{eff}}^2}x)$</li>
-						<li> $n_{\text{eff}}=n\cos(\theta) \leq n$ and $\theta$ can take on any value
-					</ul>
-					<p class="fragment current-visible" data-fragment-index="0">
-					There are also <b>evanescent modes</b> for which $\beta$ and $n_{\text{eff}}$ are purely imaginary<br/>
-					</p>
-					<div class="r-stack" style="text-align: center;">
-						<img src="spectre_milieu_infini1.svg" alt="Figure" style="width: 50%;" class="fragment fade-out" data-fragment-index="0">
-						<img src="spectre_milieu_infini.svg" alt="Figure" style="width: 50%;" class="fragment current-visible" data-fragment-index="0">
+				<section data-title="Introduction - Uniform medium with refractive index n">
+					<div>
+						<video id="uniform_medium_video" muted data-autoplay loop playsinline tabindex="-1" width="70%">
+							<source src="uniform_medium_animation.mp4" type="video/mp4">
+						</video>
 					</div>
-				</section>
-				
-				<section data-title="Introduction - Uniform medium with refractive index n" style="text-align: left;">
 					<div class="r-stack">
-						<div style="width:100%; display:flex; align-items: center;justify-content: space-between;" class="fragment fade-out" data-fragment-index="0">
-							<p>
-							$$\Delta \underline{E} +k_0^2n^2 \underline {E} = 0$$
-							$$\left(\Delta_t + k_0^2n^2\right)\underline{e}=\beta^2\underline{e}$$
-							$\Longrightarrow \beta^2$ and $\underline{e}$ are respectively the eigenvalue and the eigenfunction of the differential operator $\Delta_t + k_0^2n^2$
+						<div class="fragment fade-out" data-fragment-index="0" id="fragment_plane_waves">
+							<p style="text-align: left;">
+								Wave vectors: $\vec{k_1}=k_t\vec{e_x}+\beta\vec{e_z}$ and $\vec{k_2}=-k_t\vec{e_x}+\beta\vec{e_z}$
 							</p>
-							<img src="mode_milieu_infini.svg" alt="Figure" style="width: 40%;">
+							<ul>
+								<li>Norm: $k_1=k_2=k=k_0 n=\frac{2\pi}{\lambda} n$</li>
+								<li>Components: $\beta=k\cos(\theta)$ and $k_t=k\sin(\theta)$</li>
+								<li>$\beta^2+k_t^2=k^2$</li>
+							</ul>
+							<p style="text-align: left;">
+								Plane waves
+							</p>
+							<ul>
+								<li>$\underline{E}_1(x,z,t)=E_0\exp\left(i\left(k_tx+\beta z-\omega t\right)\right)$</li>
+								<li>$\underline{E}_2(x,z,t)=E_0\exp\left(i\left(-k_tx+\beta z-\omega t\right)\right)$</li>
+							</ul>
 						</div>
-						<div style="text-align: center;" class="fragment current-visible" data-fragment-index="0">
-							<video data-autoplay loop playsinline tabindex="-1" width="100%">
-								<source src="mode_uniforme_medium.mp4" type="video/mp4">
-							</video>
+						<div class="fragment current-visible" data-fragment-index="0" id="fragment_sum">
+							<p style="text-align: left;">
+							When the two waves overlap:
+							$$\underline{E}^{\theta,+}(x,z,t)=\underline{E}_1(x,z,t)+\underline{E}_2(x,z,t)=2E_0\cos(k_tx)\exp\left(i\left(\beta z-\omega t\right)\right)$$
+							</p>
+							<ul>
+								<li>Propagation in the z-direction with the wave vector $\beta \vec{e_z}$</li>
+								<li>Stationary field in the x-direction, fringe spacing: $d=\frac{\lambda}{2n\sin(\theta)}$</li>
+							</ul>
 						</div>
-					</div>
-					<div style="text-align: center;">
-						<img src="spectre_milieu_infini.svg" alt="Figure" style="width: 60%;">
-					</div>
+						<div class="fragment" data-fragment-index="1" id="fragment_difference">
+							<p style="text-align: left;">
+							Resulting wave obtained by subtracting the two plane waves:
+							$$\underline{E}^{\theta,-}(x,z,t)=\underline{E}_1(x,z,t)-\underline{E}_2(x,z,t)=2iE_0\sin(k_tx)\exp\left(i\left(\beta z-\omega t\right)\right)$$
+							</p>
+							<ul>
+								<li>Propagation in the z-direction with the wave vector $\beta \vec{e_z}$</li>
+								<li>Stationary field in the x-direction, fringe spacing: $d=\frac{\lambda}{2n\sin(\theta)}$</li>
+							</ul>
+						</div>
+					</div>				  
 				</section>
 				
 				<section data-title="Introduction - Metallic waveguide" style="text-align: left;">
@@ -698,7 +703,7 @@
 						<li>The coupled equations is expressed in a linear first order differential equation: $\begin{pmatrix} \psi_e \\ \psi'_e \\ \psi_h \\ \psi'_h \end{pmatrix}' = A(r,\beta) \begin{pmatrix} \psi_e \\ \psi'_e \\ \psi_h \\ \psi'_h \end{pmatrix}$</li>
 						<li>To begin with, we use a thin layer between $r=0$ and $r=\epsilon\ll a$ with a constant refractive index: $\psi_e=J_{\nu}\left(\frac{Ur}{\epsilon}\right)$ and $\psi_h=\alpha J_{\nu}\left(\frac{Ur}{\epsilon}\right)$</li>
 						<li>A value of $n_{\text{eff}}$ is chosen and the system of differential equations is solved between $r=\epsilon$ and $r=a$ with a RK method for two values of $\alpha$ (generally 0 and 1).</li>
-						<li>By applying the interface conditions, we find a matching function that is zero if the value of neff corresponds to a mode</li>
+						<li>By applying the interface conditions, we find a matching function that is zero if the value of $n_{\text{eff}}$ corresponds to a mode</li>
 					</ul>
 					<!---<p>
 					<br/>Drawback: differential equations must be solved twice for each value of neff, so modal analysis can be slow, particularly for leaky modes 
@@ -1412,79 +1417,29 @@ c_2 & a_2 & b_2 & \ddots & \vdots\\
 		</script>
 		
 		<script>
-		Reveal.on('fragmentshown', event => {
-		  const video = document.getElementById("uniform_medium_video");
-		  const step = event.fragment.dataset.fragmentIndex;
-		  if (step === "1") {
-			video.src = "uniform_medium_animation2.mp4";
+			Reveal.on('fragmentshown', event => {
+			const video = document.getElementById('uniform_medium_video');
+			if (!video) return;
+			// Passage au fragment "difference"
+			if (event.fragment.id === 'fragment_difference') {
+			video.src = 'uniform_medium_animation2.mp4';
 			video.load();
 			video.play();
-		  }
-		});
-		Reveal.on('fragmenthidden', event => {
-		  const video = document.getElementById("uniform_medium_video");
-		  const step = event.fragment.dataset.fragmentIndex;
-		  if (step === "1") {
-			video.src = "uniform_medium_animation.mp4";
+			}
+			});
+
+			Reveal.on('fragmenthidden', event => {
+			const video = document.getElementById('uniform_medium_video');
+			if (!video) return;
+			// Retour depuis le fragment "difference"
+			if (event.fragment.id === 'fragment_difference') {
+			video.src = 'uniform_medium_animation.mp4';
 			video.load();
 			video.play();
-		  }
-		});
+			}
+			});
 		</script>
 		
-		
-		
-		<!---<script src="dist/plotly-3.6.0.min.js"></script>
-					<script>
-    
-    let data = null;
-    let chartInitialise = false;
 
-    // Chargement du fichier JSON
-    fetch('data.json')
-      .then(res => res.json())
-      .then(json => {
-        data = json;
-        // Si la slide du graphique est déjà visible au moment où les données arrivent
-        if (document.querySelector('.present #monGraphique')) {
-          initChart();
-        }
-      })
-      .catch(err => console.error('Erreur de chargement du JSON :', err));
-
-    function initChart() {
-      if (chartInitialise || !data) return;
-
-      const trace = {
-        x: data.x,
-        y: data.y,
-        type: 'scatter',
-        mode: 'lines+markers',
-        line: { color: 'rgb(75, 192, 192)' }
-      };
-
-      const layout = {
-        margin: { t: 20, r: 20, b: 40, l: 50 },
-        xaxis: { title: 'x' },
-        yaxis: { title: 'y' }
-      };
-
-      Plotly.newPlot('monGraphique', [trace], layout, { responsive: true });
-      chartInitialise = true;
-    }
-
-    Reveal.on('slidechanged', event => {
-      if (event.currentSlide.querySelector('#monGraphique')) {
-        initChart();
-        setTimeout(() => Plotly.Plots.resize('monGraphique'), 200);
-      }
-    });
-
-    Reveal.on('ready', event => {
-      if (event.currentSlide.querySelector('#monGraphique')) {
-        initChart();
-      }
-    });
-  </script>--->
 	</body>
 </html>

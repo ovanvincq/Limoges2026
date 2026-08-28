@@ -103,56 +103,6 @@
 						</video>
 					</div>
 					<div class="r-stack">
-						<div class="fragment fade-out" data-fragment-index="0" >
-							<p style="text-align: left;">
-								Wave vectors: $\vec{k_1}=k_t\vec{e_x}+\beta\vec{e_z}$ and $\vec{k_2}=-k_t\vec{e_x}+\beta\vec{e_z}$
-							</p>
-							<ul>
-								<li>Norm: $k_1=k_2=k=k_0 n=\frac{2\pi}{\lambda} n$</li>
-								<li>Components: $\beta=k\cos(\theta)$ and $k_t=k\sin(\theta)$</li>
-								<li>$\beta^2+k_t^2=k^2$</li>
-							</ul>
-							<p style="text-align: left;">
-								Plane waves
-							</p>
-							<ul>
-								<li>$\underline{E}_1(x,z,t)=E_0\exp\left(i\left(k_tx+\beta z-\omega t\right)\right)$</li>
-								<li>$\underline{E}_2(x,z,t)=E_0\exp\left(i\left(-k_tx+\beta z-\omega t\right)\right)$</li>
-							</ul>
-						</div>
-						<div class="fragment current-visible" data-fragment-index="0">
-							<p style="text-align: left;">
-							When the two waves overlap:
-							$$\underline{E}^{\theta,+}(x,z,t)=\underline{E}_1(x,z,t)+\underline{E}_2(x,z,t)=2E_0\cos(k_tx)\exp\left(i\left(\beta z-\omega t\right)\right)$$
-							</p>
-							<ul>
-								<li>Propagation in the z-direction with the wave vector $\beta \vec{e_z}$</li>
-								<li>Stationary field in the x-direction, fringe spacing: $d=\frac{\lambda}{2n\sin(\theta)}$</li>
-							</ul>
-						</div>
-						<div class="fragment" data-fragment-index="1">
-							<p style="text-align: left;">
-							Resulting wave obtained by subtracting the two plane waves:
-							$$\underline{E}^{\theta,-}(x,z,t)=\underline{E}_1(x,z,t)-\underline{E}_2(x,z,t)=2iE_0\sin(k_tx)\exp\left(i\left(\beta z-\omega t\right)\right)$$
-							</p>
-							<ul>
-								<li>Propagation in the z-direction with the wave vector $\beta \vec{e_z}$</li>
-								<li>Stationary field in the x-direction, fringe spacing: $d=\frac{\lambda}{2n\sin(\theta)}$</li>
-							</ul>
-						</div>
-					</div>
-					
-				
-				  
-				</section>
-				
-				<section data-title="Introduction - Uniform medium with refractive index n">
-					<div>
-						<video id="uniform_medium_video" muted data-autoplay loop playsinline tabindex="-1" width="70%">
-							<source src="uniform_medium_animation.mp4" type="video/mp4">
-						</video>
-					</div>
-					<div class="r-stack">
 						<div class="fragment fade-out" data-fragment-index="0" id="fragment_plane_waves">
 							<p style="text-align: left;">
 								Wave vectors: $\vec{k_1}=k_t\vec{e_x}+\beta\vec{e_z}$ and $\vec{k_2}=-k_t\vec{e_x}+\beta\vec{e_z}$
@@ -191,6 +141,50 @@
 							</ul>
 						</div>
 					</div>				  
+				</section>
+				
+
+				
+				<section data-title="Introduction - Uniform medium with refractive index n" style="text-align: left;">
+					A wave propagating along the z-axis can be decomposed on the basis $\underline{E}^{\theta,\pm}$ that are called <b>modes</b>.<br/><br/>
+					The EM field of a mode can be written as $\begin{pmatrix} \vec{\underline{E}}(x,y,z,t)\\\vec{\underline{H}}(x,y,z,t)\\\end{pmatrix}=\begin{pmatrix}\vec{\underline{e}}(x,y)\\\vec{\underline{h}}(x,y)\end{pmatrix}\exp\left(i\left(\beta z-\omega t\right)\right)$ and each mode is characterized by:<br/>
+					<ul>
+						<li>its <b>electric/magnetic field distribution</b> $\vec{\underline{e}}(x,y)/\vec{\underline{h}}(x,y)$ in the transverse plane</li>
+						<li>its <b>propagation constant</b> $\beta$ or by its <b>effective index</b> defined as: $\boxed{n_{\text{eff}}=\frac{\beta}{k_0}}$</li>
+					</ul><br/><br/>
+					For a 2D uniform medium:<br/>
+					<ul>
+						<li>$e(x,y)=\cos(k_0\sqrt{n^2-n_{\text{eff}}^2}x)$ or $e(x,y)=\sin(k_0\sqrt{n^2-n_{\text{eff}}^2}x)$</li>
+						<li> $n_{\text{eff}}=n\cos(\theta) \leq n$ and $\theta$ can take on any value
+					</ul>
+					<p class="fragment current-visible" data-fragment-index="0">
+					There are also <b>evanescent modes</b> for which $\beta$ and $n_{\text{eff}}$ are purely imaginary<br/>
+					</p>
+					<div class="r-stack" style="text-align: center;">
+						<img src="spectre_milieu_infini1.svg" alt="Figure" style="width: 50%;" class="fragment fade-out" data-fragment-index="0">
+						<img src="spectre_milieu_infini.svg" alt="Figure" style="width: 50%;" class="fragment current-visible" data-fragment-index="0">
+					</div>
+				</section>
+				
+				<section data-title="Introduction - Uniform medium with refractive index n" style="text-align: left;">
+					<div class="r-stack">
+						<div style="width:100%; display:flex; align-items: center;justify-content: space-between;" class="fragment fade-out" data-fragment-index="0">
+							<p>
+							$$\Delta \underline{E} +k_0^2n^2 \underline {E} = 0$$
+							$$\left(\Delta_t + k_0^2n^2\right)\underline{e}=\beta^2\underline{e}$$
+							$\Longrightarrow \beta^2$ and $\underline{e}$ are respectively the eigenvalue and the eigenfunction of the differential operator $\Delta_t + k_0^2n^2$
+							</p>
+							<img src="mode_milieu_infini.svg" alt="Figure" style="width: 40%;">
+						</div>
+						<div style="text-align: center;" class="fragment current-visible" data-fragment-index="0">
+							<video data-autoplay loop playsinline tabindex="-1" width="100%">
+								<source src="mode_uniforme_medium.mp4" type="video/mp4">
+							</video>
+						</div>
+					</div>
+					<div style="text-align: center;">
+						<img src="spectre_milieu_infini.svg" alt="Figure" style="width: 60%;">
+					</div>
 				</section>
 				
 				<section data-title="Introduction - Metallic waveguide" style="text-align: left;">
@@ -607,7 +601,7 @@
 					</div><br/><br/>
 					<ul>
 						<li>For a step-index fiber, the confinement losses of leaky modes are very high</li>
-						<li>$\text{Im}(n_{\text{eff}})=10^{-6}$ at $\lambda=1$ µm corresponds to $\alpha\simeq 8.6$ dB/m</li>
+						<li>$\text{Im}(n_{\text{eff}})=10^{-6}$ at $\lambda=1$ &micro;m corresponds to $\alpha\simeq 8.6$ dB/m</li>
 					</ul>
 				</section>
 
@@ -637,7 +631,7 @@
 						<img src="trench.svg" alt="Figure" style="width: 75%;">
 						<div class="r-stack" style="width: 100%;">
 							<div class="fragment fade-out" data-fragment-index="0" style="width: 100%;">
-								Example: mode LP<sub>02</sub>, $[n_1, n_2, n_3]=[1.44, 1.41, 1.43]$, $[a_1, a_2]=[4, 14]$ µm and $\lambda=1.6$ µm<br/>
+								Example: mode LP<sub>02</sub>, $[n_1, n_2, n_3]=[1.44, 1.41, 1.43]$, $[a_1, a_2]=[4, 14]$ &micro;m and $\lambda=1.6$ &micro;m<br/>
 								<img src="trench1_field.svg" alt="Figure" style="width: 30%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="trench2_field.svg" alt="Figure" style="width: 30%;">
 							</div>
 							<div class="fragment current-visible" data-fragment-index="0" style="width: 100%;">
@@ -824,7 +818,7 @@ c_2 & a_2 & b_2 & \ddots & \vdots\\
 			
 				<section data-title="Graded-index fiber - Leaky modes" style="text-align:left;">
 					<p style="text-align:center;">
-					Example: step-index fiber with a trench, PML located between 45 and 50 µm, scalar modes with $\ell=0$.<br>Four types of modes are obtained:</p>
+					Example: step-index fiber with a trench, PML located between 45 and 50 &micro;m, scalar modes with $\ell=0$.<br>Four types of modes are obtained:</p>
 					<div class="r-stack" style="width:100%;">
 						<div class="fragment fade-out" data-fragment-index="0" style="width:80%;">
 							<ul>
@@ -1172,7 +1166,7 @@ c_2 & a_2 & b_2 & \ddots & \vdots\\
 							$$\varepsilon'=\varepsilon \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1+ \alpha^2 R^2 & \alpha R \\ 0 & \alpha R & 1 \end{pmatrix} \text{ and } \mu'=\begin{pmatrix} 1 & 0 & 0 \\ 0 & 1+ \alpha^2 R^2 & \alpha R \\ 0 & \alpha R & 1 \end{pmatrix}$$
 							The term $\alpha R$ gives the lifting of degeracy and the diagonal terms give $n'=\sqrt{\epsilon'_{xx}\mu_{yy}}=n\sqrt{1+\left(\alpha R\right)^2}$<br/><br/>
 							--->
-							<u>Example</u>: Helical fiber with a parabolic index core $\Delta n=30\times 10^{-3}$, $D = 3.5$ µm, $P = 2$ mm at $\lambda=1 µm$<br/>
+							<u>Example</u>: Helical fiber with a parabolic index core $\Delta n=30\times 10^{-3}$, $D = 3.5$ &micro;m, $P = 2$ mm at $\lambda=1 &micro;m$<br/>
 						</p>	
 						<div style="text-align: center;">
 							<img src="fig10a_3.svg" alt="Figure" style="width: 40%;">
@@ -1331,19 +1325,31 @@ c_2 & a_2 & b_2 & \ddots & \vdots\\
 
 			<!-- -----------------------------------------------------------------FIN--------------------------------------------------------------- -->
 				<section data-title="Conclusion" style="text-align: left;padding-left: 100px;">
-					<p>What I didn't have time to talk about: </p>
-					<ul>
-						<li>Implementation of a PML for bent or twisted fibers</li>
-						<li>Birefringent fibers with stress applying parts (SAP)</li>
-						<li>Inhibited coupling guidance mechanism</li>
-						<li>Tapered fibers</li>
-					</ul>
+					<div style="position: absolute;left: 0%;width: 48%;">
+						<p>What I didn't have time to talk about: </p>
+						<ul>
+							<li>Implementation of a PML for bent or twisted fibers</li>
+							<li>Birefringent fibers with stress applying parts (SAP)</li>
+							<li>Inhibited coupling guidance mechanism</li>
+						</ul><br/><br/><br/><br/><br/>
+						<p class="fragment visible" data-fragment-index="0">The modal content of the fiber can be used to simulate the propagation of light in a fiber (bidirectional eigenmode expansion method) but there exist other methods:</p>
+						<ul class="fragment visible" data-fragment-index="0">
+							<li>Beam Propagation Method</li>
+							<li>FDTD or FETD</li>
+							<li>NLSE for short-pulse propagation, taking nonlinearity into account</li>
+							<li>etc.</li>
+						</ul>
+					</div>
+					<div style="position: absolute;left: 52%;width: 48%;">
+						<img src="nested2.jpg" alt="Figure" style="width: 62%;">
+						</ul><br/><br/>
+						<div class="fragment visible" data-fragment-index="0">
+							<img src="SC.svg" alt="Figure" style="width: 90%;">
+						</div>
+					</div>
+						
 				</section>
-				<!---<section data-title="Test plotly.js">
-					<h2>Graphique y = f(x)</h2>
-					<div id="monGraphique" style="width:800px; height:450px; margin:auto;"></div>
-				</section>--->
-			
+	
 			
 			
 			</div>		

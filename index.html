@@ -763,7 +763,7 @@ c_2 & a_2 & b_2 & \ddots & \vdots\\
 					$$-\int_0^R r\frac{\partial\psi}{\partial r}\frac{\partial v}{\partial r}dr+\left[r\frac{\partial\psi}{\partial r}v(r)\right]_0^R+\int_0^R\left(k_0n^2(r)r-\frac{\ell^2}{r}\right)\psi(r)v(r)dr=\beta^2\int_0^R r\psi(r)v(r)dr$$
 					Since v(R)=0, the boundary term is zero:
 					$$\boxed{-\int_0^R r\frac{\partial\psi}{\partial r}\frac{\partial v}{\partial r}dr+\int_0^R\left(k_0n^2(r)r-\frac{\ell^2}{r}\right)\psi(r)v(r)dr=\beta^2\int_0^R r\psi(r)v(r)dr}$$
-					Then we apply the finite element method: in each element, $\psi=\sum_j N_j u_j(r)$ and $v=u_i(r)$ where $u_i$ are the shape functions (generally Lagrange polynomials). This gives a generalized eigenvalue problem:
+					Then we apply the finite element method: in each element, $\psi=\sum_j u_j N_j(r)$ and $v=N_i(r)$ where $N_i$ are the shape functions (generally Lagrange polynomials). This gives a generalized eigenvalue problem:
 					$$Au=\beta^2Bu$$
 					</p>
 				</section>
